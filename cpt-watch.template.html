@@ -1,0 +1,338 @@
+<title>CPT Policy Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #F6F7F5;
+    --surface: #FFFFFF;
+    --ink: #1B1F23;
+    --ink-2: #3D454D;
+    --muted: #68727C;
+    --rule: #D9DDD8;
+    --rule-soft: #E8EBE6;
+    --accent: #2F5D8A;
+    --critical: #A63A2E;
+    --critical-soft: #F6E4E1;
+    --restricted: #B7791F;
+    --restricted-soft: #F7EBD6;
+    --clear: #3E7C59;
+    --clear-soft: #E1EFE6;
+    --unknown: #6B7A8C;
+    --unknown-soft: #E7EBF0;
+    --display: "Fraunces", Georgia, "Times New Roman", serif;
+    --body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15181C;
+      --surface: #1C2025;
+      --ink: #E4E7E2;
+      --ink-2: #C3C8C2;
+      --muted: #8B949D;
+      --rule: #333A42;
+      --rule-soft: #272D34;
+      --accent: #7FA9D6;
+      --critical: #E07A6E;
+      --critical-soft: #3A2320;
+      --restricted: #D9A24C;
+      --restricted-soft: #3A2E18;
+      --clear: #6FB58C;
+      --clear-soft: #1E3328;
+      --unknown: #9AA8B8;
+      --unknown-soft: #262C34;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15181C;
+    --surface: #1C2025;
+    --ink: #E4E7E2;
+    --ink-2: #C3C8C2;
+    --muted: #8B949D;
+    --rule: #333A42;
+    --rule-soft: #272D34;
+    --accent: #7FA9D6;
+    --critical: #E07A6E;
+    --critical-soft: #3A2320;
+    --restricted: #D9A24C;
+    --restricted-soft: #3A2E18;
+    --clear: #6FB58C;
+    --clear-soft: #1E3328;
+    --unknown: #9AA8B8;
+    --unknown-soft: #262C34;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .page { max-width: 940px; margin: 0 auto; padding: 44px 24px 72px; display: flex; flex-direction: column; gap: 36px; }
+
+  /* Masthead */
+  .mast { display: flex; flex-direction: column; gap: 10px; padding-bottom: 22px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--display); font-weight: 500; font-size: 40px; line-height: 1.05; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+  .fresh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; font-family: var(--mono); font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .fresh b { font-weight: 500; color: var(--ink); }
+  .fresh .age { color: var(--muted); }
+  .fresh .age.stale { color: var(--restricted); }
+  .fresh .age.old { color: var(--critical); }
+
+  /* Verdict */
+  .verdict { display: grid; grid-template-columns: 6px 1fr; gap: 18px; align-items: start; }
+  .verdict .bar { background: var(--accent); border-radius: 2px; align-self: stretch; }
+  .verdict .lbl { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .verdict p { margin: 0; font-size: 18px; line-height: 1.45; max-width: 68ch; }
+
+  /* Sections */
+  section { display: flex; flex-direction: column; gap: 14px; }
+  h2 { font-family: var(--display); font-weight: 500; font-size: 22px; margin: 0; line-height: 1.2; }
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .sec-head .note { font-size: 13px; color: var(--muted); max-width: 60ch; }
+
+  /* Tripwires */
+  .trips { display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--rule); }
+  .trip { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--rule-soft); align-items: baseline; }
+  .pill { display: inline-flex; align-items: center; gap: 7px; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 9px 3px 7px; border-radius: 999px; white-space: nowrap; }
+  .pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .pill.quiet { color: var(--clear); background: var(--clear-soft); }
+  .pill.tripped { color: var(--critical); background: var(--critical-soft); }
+  .pill.watch { color: var(--restricted); background: var(--restricted-soft); }
+  .trip .name { font-weight: 600; }
+  .trip .detail { color: var(--ink-2); font-size: 14px; margin-top: 2px; max-width: 72ch; }
+
+  /* Tiers */
+  .tier { display: grid; grid-template-columns: 4px 1fr; gap: 18px; }
+  .tier .stripe { border-radius: 2px; }
+  .tier.critical .stripe { background: var(--critical); }
+  .tier.restricted .stripe { background: var(--restricted); }
+  .tier.clear .stripe { background: var(--clear); }
+  .tier.unknown .stripe { background: var(--unknown); }
+  .tier h3 { margin: 0 0 4px; font-family: var(--body); font-weight: 600; font-size: 14px; letter-spacing: 0.01em; }
+  .tier.critical h3 { color: var(--critical); }
+  .tier.restricted h3 { color: var(--restricted); }
+  .tier.clear h3 { color: var(--clear); }
+  .tier.unknown h3 { color: var(--unknown); }
+  .tier .sub { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
+  .schools { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 6px 22px; margin: 0; padding: 0; list-style: none; }
+  .schools li { display: grid; grid-template-columns: auto 1fr; gap: 8px; align-items: baseline; padding: 5px 0; border-bottom: 1px solid var(--rule-soft); }
+  .schools .s { font-weight: 500; white-space: nowrap; }
+  .schools .n { color: var(--muted); font-size: 13px; line-height: 1.4; }
+  .count { font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* Watch list */
+  details { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+  summary { cursor: pointer; padding: 12px 0; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary .t { font-weight: 600; }
+  summary .hint { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+  details[open] summary .hint::after { content: " · collapse"; }
+  .watch { padding: 0 0 16px; display: grid; gap: 14px; }
+  .watch .grp .lbl { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  .watch .grp p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+
+  /* Runs */
+  .runs { display: grid; gap: 0; border-top: 1px solid var(--rule); }
+  .run { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--rule-soft); }
+  .run .d { font-family: var(--mono); font-size: 13px; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .run .body { color: var(--ink-2); font-size: 14px; max-width: 74ch; }
+  .run.latest .d { color: var(--accent); font-weight: 500; }
+
+  .context { font-size: 14px; color: var(--ink-2); max-width: 72ch; margin: 0; }
+  .foot { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; max-width: 72ch; }
+  .foot p { margin: 0 0 6px; }
+
+  .empty { padding: 28px; background: var(--surface); border: 1px dashed var(--rule); border-radius: 6px; color: var(--muted); font-size: 14px; }
+
+  @media (max-width: 560px) {
+    .page { padding: 32px 18px 56px; gap: 28px; }
+    h1 { font-size: 32px; }
+    .trip, .run { grid-template-columns: 1fr; gap: 6px; }
+    .schools { grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .fresh .age { transition: color .2s ease; }
+  }
+</style>
+
+<main class="page">
+  <header class="mast">
+    <div class="eyebrow">SEVP guidance BCM 2608-01 · 2608-02 — institutional responses</div>
+    <h1>CPT Policy Watch</h1>
+    <div class="fresh" id="fresh">
+      <span>Last updated <b id="upd">—</b></span>
+      <span class="age" id="age"></span>
+      <span id="by"></span>
+    </div>
+  </header>
+
+  <div class="verdict">
+    <div class="bar"></div>
+    <div>
+      <div class="lbl" id="vlbl">Latest run</div>
+      <p id="verdict">Waiting for the first recorded run.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2>Tripwires</h2>
+      <span class="note">The four signals that would change the picture. Quiet means checked and unchanged against baseline.</span>
+    </div>
+    <div class="trips" id="trips"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Where schools stand</h2>
+      <span class="note">Grouped by what a school did to authorisations it had already granted — the distinction that matters most.</span>
+    </div>
+    <div id="tiers" style="display:grid; gap:26px;"></div>
+  </section>
+
+  <details>
+    <summary><span class="t">Not yet checked</span><span class="hint" id="wcount"></span></summary>
+    <div class="watch" id="watch"></div>
+  </details>
+
+  <section>
+    <div class="sec-head">
+      <h2>Run log</h2>
+      <span class="note">One entry per run, newest first.</span>
+    </div>
+    <div class="runs" id="runs"></div>
+  </section>
+
+  <section>
+    <h2>Standing context</h2>
+    <p class="context" id="context"></p>
+  </section>
+
+  <footer class="foot">
+    <p>Updated automatically by a scheduled check that runs four times a day (about 02:40, 08:40, 14:40 and 20:40 Hong Kong time); all times on this page are Hong Kong time. Sources are university international-office pages, student newspapers, and the DHS SEVIS Help Hub, compared against recorded baselines.</p>
+    <p id="dbnote"></p>
+  </footer>
+</main>
+
+<script id="snapshot" type="application/json">__SNAPSHOT__</script>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  // Everything on this page is shown in Hong Kong time (UTC+8), whatever the viewer's own zone.
+  const HK = "Asia/Hong_Kong";
+  function fmtDate(iso) {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    if (isNaN(d)) return esc(iso);
+    return d.toLocaleString("en-GB", { timeZone: HK, year: "numeric", month: "short", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }) + " HKT";
+  }
+  function hkDay(iso) {
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    return d.toLocaleDateString("en-GB", { timeZone: HK, year: "numeric", month: "short", day: "2-digit" });
+  }
+  // Run entries are stored as "YYYY-MM-DD HH:MM UTC" by the research task; display them in HKT.
+  function fmtRunDate(txt) {
+    const m = /^(\d{4}-\d{2}-\d{2}) (\d{2}):(\d{2}) UTC$/.exec(String(txt || "").trim());
+    if (!m) return txt;
+    const d = new Date(m[1] + "T" + m[2] + ":" + m[3] + ":00Z");
+    if (isNaN(d)) return txt;
+    return d.toLocaleString("en-GB", { timeZone: HK, year: "numeric", month: "short", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }) + " HKT";
+  }
+  function ageOf(iso) {
+    const d = new Date(iso); if (isNaN(d)) return { text: "", cls: "" };
+    const h = (Date.now() - d.getTime()) / 36e5;
+    if (h < 1) return { text: "just now", cls: "" };
+    if (h < 30) return { text: Math.round(h) + " h ago", cls: "" };
+    const days = Math.floor(h / 24);
+    return { text: days + " d ago", cls: days >= 3 ? "old" : "stale" };
+  }
+
+  function render(s) {
+    $("upd").textContent = fmtDate(s.updatedAt);
+    const a = ageOf(s.updatedAt); $("age").textContent = a.text; $("age").className = "age " + a.cls;
+    $("by").textContent = s.updatedBy ? "· " + s.updatedBy : "";
+    $("vlbl").textContent = hkDay(s.updatedAt) ? "Run of " + hkDay(s.updatedAt) : (s.runDate ? "Run of " + s.runDate : "Latest run");
+    $("verdict").textContent = s.headline || "No summary recorded.";
+
+    const pillFor = (st) => st === "tripped" ? "tripped" : st === "watch" ? "watch" : "quiet";
+    const pillText = (st) => st === "tripped" ? "Tripped" : st === "watch" ? "Watching" : "Quiet";
+    $("trips").innerHTML = (s.tripwires || []).map(t => `
+      <div class="trip">
+        <span class="pill ${pillFor(t.status)}">${pillText(t.status)}</span>
+        <div><div class="name">${esc(t.name)}</div><div class="detail">${esc(t.detail)}</div></div>
+      </div>`).join("") || `<div class="empty">No tripwires recorded.</div>`;
+
+    $("tiers").innerHTML = (s.tiers || []).map(t => `
+      <div class="tier ${esc(t.severity || "unknown")}">
+        <div class="stripe"></div>
+        <div>
+          <h3>${esc(t.label)} <span class="count">· ${(t.schools||[]).length}</span></h3>
+          ${t.sub ? `<p class="sub">${esc(t.sub)}</p>` : ""}
+          <ul class="schools">${(t.schools || []).map(x => `<li><span class="s">${esc(x.name)}</span><span class="n">${esc(x.note || "")}</span></li>`).join("")}</ul>
+        </div>
+      </div>`).join("") || `<div class="empty">No schools recorded.</div>`;
+
+    const u = s.unchecked || {};
+    const groups = [["Liberal arts colleges", u.lac], ["National universities", u.national]].filter(g => g[1] && g[1].length);
+    $("wcount").textContent = groups.reduce((n, g) => n + g[1].length, 0) + " schools";
+    $("watch").innerHTML = groups.map(g => `<div class="grp"><div class="lbl">${esc(g[0])}</div><p>${g[1].map(esc).join(" · ")}</p></div>`).join("") || `<p class="context">Everything on the list has been checked at least once.</p>`;
+
+    const runs = (s.runs || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    $("runs").innerHTML = runs.map((r, i) => `
+      <div class="run ${i === 0 ? "latest" : ""}"><div class="d">${esc(fmtRunDate(r.date))}</div><div class="body">${esc(r.summary)}</div></div>`).join("") || `<div class="empty">No runs recorded yet.</div>`;
+
+    $("context").textContent = s.context || "";
+  }
+
+  (async function () {
+    let shownAt = "";
+    const show = (data) => {
+      if (!data || (data.updatedAt || "") < shownAt) return;
+      shownAt = data.updatedAt || "";
+      render(data);
+      $("dbnote").textContent = "";
+    };
+    // The sync bakes the latest snapshot into the page itself; that is the primary source.
+    try {
+      const baked = JSON.parse($("snapshot").textContent);
+      if (baked && baked.updatedAt) show(baked);
+    } catch (e) {}
+    let db = null;
+    try { db = await window.claude.use("db"); } catch (e) { db = null; }
+    if (!db) {
+      if (!shownAt) $("dbnote").textContent = "No snapshot is baked into this version and live data is not available in this view.";
+      return;
+    }
+    // Older snapshots also live in the artifact database; if one is newer than the baked copy, prefer it.
+    try {
+      db.collection("snapshots").orderBy("updatedAt", "desc").limit(1).onSnapshot(
+        (qs) => {
+          if (qs.empty) {
+            // Fall back to the legacy single document.
+            db.doc("state/current").get().then((snap) => {
+              if (snap.exists) show(snap.data());
+              else if (!shownAt) $("verdict").textContent = "No runs recorded yet — the first scheduled check will populate this page.";
+            }).catch(() => {});
+            return;
+          }
+          show(qs.docs[0].data());
+        },
+        (err) => { /* baked snapshot already shown; db is optional */ }
+      );
+    } catch (e) { /* baked snapshot already shown */ }
+  })();
+})();
+</script>

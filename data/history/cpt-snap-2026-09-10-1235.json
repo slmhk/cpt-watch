@@ -1,0 +1,416 @@
+{
+ "updatedAt": "2026-09-10T12:35:54Z",
+ "updatedBy": "dashboard sync",
+ "runDate": "2026-09-10",
+ "headline": "Hamilton College is newly confirmed restricted on its own page — it names both broadcast messages and pauses all off-campus CPT, co-ops and internships, paid or unpaid, with no statement on existing approvals. Grinnell, Notre Dame and Carnegie Mellon checked clear. Tripwires unchanged: DHS still promising draft guidance with no date, Tufts text unchanged, no new retroactive cancellations, Claremont McKenna still stale with no notice.",
+ "tripwires": [
+  {
+   "name": "DHS SEVIS Help Hub CPT page",
+   "status": "watch",
+   "detail": "Both DHS pages fetched 10 Sept 20:24 HKT: the main SEVIS Help Hub CPT page still 'Last updated: November 28, 2023', old standard; the second page, 'Curricular Practical Training Guidance', still says SEVP plans to release draft guidance clarifying previous CPT documents, no date. That draft appearing is the thing to watch."
+  },
+  {
+   "name": "Tufts I-Center CPT page",
+   "status": "quiet",
+   "detail": "Fetched 10 Sept 20:24 HKT: page still modified 8 Sept 2026, restriction text unchanged — 'unable to process CPT requests for non-required internships at this time.' A textual change is what would matter."
+  },
+  {
+   "name": "Federal Register rulemaking on CPT",
+   "status": "quiet",
+   "detail": "None found 10 Sept. Everything on CPT so far is guidance, not a rule; the only nearby item is the separate duration-of-status rule (effective 15 Sept), out of scope."
+  },
+  {
+   "name": "Retroactive cancellation spreading",
+   "status": "watch",
+   "detail": "Still only Davidson (15 Aug) and MIT. No third school has revoked already-approved CPT. If this reaches Tufts, it leads."
+  }
+ ],
+ "tiers": [
+  {
+   "key": "cancels",
+   "label": "Cancels already-approved CPT",
+   "severity": "critical",
+   "sub": "The most severe response: authorisations granted earlier were withdrawn.",
+   "schools": [
+    {
+     "name": "Davidson",
+     "note": "15 Aug — paused new CPT and cancelled approved Fall 2026 authorisations after consulting counsel"
+    },
+    {
+     "name": "MIT",
+     "note": "paused new, incl. Professional Practice Requirement internships; contacting already-approved Fall 2026 students about alternatives"
+    }
+   ]
+  },
+  {
+   "key": "honored",
+   "label": "Restricted — existing authorisations honoured",
+   "severity": "restricted",
+   "sub": "New non-required CPT stopped; what was already approved stands.",
+   "schools": [
+    {
+     "name": "Columbia",
+     "note": "required-of-all + cooperative agreement only; pre-24 Aug approvals kept"
+    },
+    {
+     "name": "Cornell",
+     "note": "required-for-graduation only; pre-24 Aug approvals honoured"
+    },
+    {
+     "name": "USC",
+     "note": "mandatory-only; existing honoured"
+    },
+    {
+     "name": "UC San Diego",
+     "note": "future processing suspended; existing fall authorisations honoured"
+    },
+    {
+     "name": "Santa Clara",
+     "note": "future processing suspended; existing fall authorisations honoured"
+    },
+    {
+     "name": "U Washington",
+     "note": "26 Aug — new non-required requests paused; existing CPT honoured"
+    },
+    {
+     "name": "U Rochester",
+     "note": "28 Aug — new non-required CPT paused, degree-required exception; already-approved CPT explicitly honoured"
+    },
+    {
+     "name": "UIUC",
+     "note": "24 Aug ISSS notice — CPT tied to an elective course can no longer be approved; only CPT mandatory for all students to graduate; previously approved CPT not affected (verified on the official ISSS announcements page)"
+    },
+    {
+     "name": "UC Davis",
+     "note": "2 Sept SISS notice, verified 8 Sept — new Course Credit CPT paused; Degree-Requirement CPT continues; students with an already-issued CPT I-20 may proceed with that opportunity"
+    },
+    {
+     "name": "U Michigan",
+     "note": "28 Aug, verified 8 Sept on the International Center site — CPT approved only where mandatory for all students in the degree programme; previously approved CPT may continue"
+    },
+    {
+     "name": "U Penn",
+     "note": "August halt, verified 9 Sept on global.upenn.edu — students with current CPT authorisation may continue through the dates and conditions on their I-20 unless ISSS says otherwise"
+    },
+    {
+     "name": "CU Boulder",
+     "note": "20 Aug, verified 9 Sept on the ISSS FAQ — students already authorised for Fall 2026 CPT may continue their internship"
+    },
+    {
+     "name": "Duke",
+     "note": "verified 10 Sept on visaservices.duke.edu — CPT must be integral to the curriculum, required of all students in the programme and under a cooperative agreement (guidance communicated 12 and 24 Aug); students currently on CPT need take no action and continue under their current form"
+    }
+   ]
+  },
+  {
+   "key": "unstated",
+   "label": "Restricted — posture on existing approvals not stated",
+   "severity": "restricted",
+   "sub": "Confirmed restricted; whether prior approvals survive is not public.",
+   "schools": [
+    {
+     "name": "Tufts",
+     "note": "no non-required CPT processed"
+    },
+    {
+     "name": "Stanford",
+     "note": "all non-degree-required CPT paused until further notice"
+    },
+    {
+     "name": "Princeton",
+     "note": "1 Sept campus email (Daily Princetonian) — CPT 'will likely no longer be approved for all undergraduate and most graduate students' for non-required internships, citing the risk to SEVP certification; PICS and RISE grant-funded internships exempt; treatment of already-approved CPT not stated"
+    },
+    {
+     "name": "Brown",
+     "note": "verified 10 Sept on the ISSS news post of 2 Sept — CPT requests approved only where the training is 'integral to an established curriculum and required for all students... for purposes of degree completion'; no broadcast-message citation; treatment of existing authorisations not addressed"
+    },
+    {
+     "name": "Purdue",
+     "note": "17 Aug — degree-required only"
+    },
+    {
+     "name": "Northwestern",
+     "note": "31 Aug — hold on CPT not required to graduate"
+    },
+    {
+     "name": "UC Berkeley",
+     "note": "Course Credit CPT paused 26 Aug after a second ICE compliance memo; degree-required CPT continues. Per the Daily Cal, the international office said resumption is 'unlikely in the near future' pending legal consultation — the only school so far framing its pause as potentially temporary; watched for actual resumption"
+    },
+    {
+     "name": "UCLA",
+     "note": "paused certain authorisations"
+    },
+    {
+     "name": "NYU",
+     "note": "restricted (SCMP, 2 Sept)"
+    },
+    {
+     "name": "Boston University",
+     "note": "ISSO posts of 17 and 28 Aug, verified 10 Sept — certain CPT approvals paused for review; new standard mirrors the broadcast language (essential to degree completion for all participants, never solely for employment); treatment of existing approvals not addressed"
+    },
+    {
+     "name": "Harvard",
+     "note": "per school — College, Law, Medical, GSD, GSAS halted; HBS, HKS, Ed, Divinity, Public Health continue"
+    },
+    {
+     "name": "UConn",
+     "note": "30 Aug, confirmed 9 Sept on the university's own international-office post — CPT only where the internship is required for all students; elective internship courses explicitly excluded; treatment of existing approvals not stated"
+    },
+    {
+     "name": "University of Maryland",
+     "note": "verified 8 Sept on the ISSS page — elective-internship CPT paused (UNIV099/ENCO099/BMGT099 courses named); treatment of existing approvals not stated"
+    },
+    {
+     "name": "University of Oregon",
+     "note": "verified 8 Sept on the ISSS page, which cites both broadcast messages — CPT must be integral to the curriculum and required for all students; treatment of existing approvals not stated"
+    },
+    {
+     "name": "Johns Hopkins",
+     "note": "verified 10 Sept on the university's own page — cites both broadcast messages; CPT only where required for the degree; treatment of existing approvals not stated"
+    },
+    {
+     "name": "Hamilton College",
+     "note": "verified 10 Sept on the college's own international-student-services CPT page — cites both broadcast messages by name and pauses ALL off-campus CPT, co-ops and internships, paid or unpaid; treatment of existing approvals not stated"
+    }
+   ]
+  },
+  {
+   "key": "acknowledged",
+   "label": "Acknowledged the guidance, no specifics",
+   "severity": "unknown",
+   "sub": "",
+   "schools": [
+    {
+     "name": "UNC",
+     "note": "25 Aug ISSS post references both broadcast messages; no detail on pause vs honour"
+    }
+   ]
+  },
+  {
+   "key": "leads",
+   "label": "Reported by students — not yet verified",
+   "severity": "unknown",
+   "sub": "Community reports (mainly 1point3acres). A lead, not a confirmation, until an official page backs it.",
+   "schools": []
+  },
+  {
+   "key": "clear",
+   "label": "No public restriction found",
+   "severity": "clear",
+   "sub": "Absence of a notice, not confirmation of no change.",
+   "schools": [
+    {
+     "name": "Dartmouth",
+     "note": "explicitly no planned changes; awaiting SEVP clarification"
+    },
+    {
+     "name": "U Chicago",
+     "note": "no notice on CPT page"
+    },
+    {
+     "name": "GW",
+     "note": "'evaluating'; declined to say whether applications are suspended"
+    },
+    {
+     "name": "Pomona",
+     "note": "checked 5 Sept — CPT page unchanged, no notice"
+    },
+    {
+     "name": "Williams",
+     "note": "checked 7 Sept — CPT page unchanged, no notice"
+    },
+    {
+     "name": "Amherst",
+     "note": "checked 7 Sept — CPT page unchanged, no notice"
+    },
+    {
+     "name": "Swarthmore",
+     "note": "checked 7 Sept — CPT page unchanged, no notice"
+    },
+    {
+     "name": "Wellesley",
+     "note": "checked 7 Sept — CPT page unchanged, no notice"
+    },
+    {
+     "name": "Georgetown",
+     "note": "re-checked 10 Sept — CPT FAQ still shows its 28 Aug edit but carries no restriction or broadcast-message language; considered stable, no longer flagged"
+    },
+    {
+     "name": "West Virginia",
+     "note": "checked 7 Sept — no restriction language"
+    },
+    {
+     "name": "Middlebury",
+     "note": "checked 8 Sept — CPT page shows the normal process and no notice, but the page footer says 'Updated on 08/24/2026'; flagged for a re-check like Georgetown"
+    },
+    {
+     "name": "Ohio State",
+     "note": "checked 9 Sept — CPT page carries only the standard SEVP definition, no reference to the August guidance, no pause or restriction language"
+    },
+    {
+     "name": "Bowdoin",
+     "note": "checked 10 Sept — employment page has no reference to the August guidance and no restriction language"
+    },
+    {
+     "name": "Carleton",
+     "note": "checked 10 Sept — no restriction language, but the page is dated 18 June 2026 and predates the guidance; flagged for re-check"
+    },
+    {
+     "name": "Harvey Mudd",
+     "note": "checked 10 Sept — no restriction language"
+    },
+    {
+     "name": "Caltech",
+     "note": "checked 10 Sept — no restriction or broadcast-message language"
+    },
+    {
+     "name": "Vanderbilt",
+     "note": "former student-report lead, resolved 10 Sept after four checks — the university's own ISSS CPT page states no programme requires immediate CPT participation and makes no reference to the August guidance; no restriction announced"
+    },
+    {
+     "name": "Barnard",
+     "note": "checked 10 Sept — no internship degree requirement; CPT runs through a 1-credit independent study; no reference to the August guidance, no restriction language"
+    },
+    {
+     "name": "Rice",
+     "note": "checked 10 Sept — OISS CPT page carries only the standard major-relatedness language, no reference to the August guidance"
+    },
+    {
+     "name": "Grinnell",
+     "note": "checked 10 Sept — admissions FAQ carries only the standard CPT description, no reference to the August guidance, no restriction language"
+    },
+    {
+     "name": "Notre Dame",
+     "note": "checked 10 Sept — ISSA page carries only the standard integral-to-curriculum language, no reference to the August guidance"
+    },
+    {
+     "name": "Carnegie Mellon",
+     "note": "checked 10 Sept — OIE page carries only the standard major-relatedness / degree-requirement language, no reference to the August guidance"
+    },
+    {
+     "name": "Claremont McKenna",
+     "note": "checked every run — re-checked 10 Sept 20:24 HKT: still the old permissive INT-course page (INT 98/99/198/199, GOV 30), no reference to the guidance, no notice, no last-updated date, four weeks on. Reads as a stale page, not a position; watching for a sudden restriction."
+    }
+   ]
+  },
+  {
+   "key": "unresolved",
+   "label": "Unresolved",
+   "severity": "unknown",
+   "sub": "",
+   "schools": [
+    {
+     "name": "Yale",
+     "note": "OISS CPT page last updated 26 Mar 2026 — predates the guidance. A Yale Daily News headline ('University institutes CPT employment authorization amid international students' internship struggles') suggests a development but the article blocks every fetch; law-firm and press outlets searched 10 Sept name no Yale specifics. Six runs unresolved."
+    }
+   ]
+  }
+ ],
+ "unchecked": {
+  "lac": [
+   "Smith",
+   "Vassar",
+   "Wesleyan",
+   "Washington & Lee",
+   "Colgate",
+   "University of Richmond",
+   "Bates",
+   "Colby",
+   "Haverford",
+   "Holy Cross",
+   "Macalester",
+   "Mount Holyoke",
+   "Bryn Mawr",
+   "Bucknell",
+   "Colorado College",
+   "Lafayette",
+   "Denison",
+   "Franklin & Marshall",
+   "Occidental",
+   "Pitzer",
+   "Scripps",
+   "Skidmore",
+   "Soka",
+   "Spelman",
+   "Trinity College (CT)",
+   "Trinity University (TX)",
+   "Union",
+   "Berea",
+   "Dickinson",
+   "Furman",
+   "Kenyon",
+   "Sewanee",
+   "Connecticut College",
+   "Hillsdale",
+   "St. Olaf",
+   "Wabash",
+   "Wheaton (IL)"
+  ],
+  "national": [
+   "Washington University in St. Louis",
+   "Emory",
+   "UVA",
+   "UT Austin",
+   "U Florida",
+   "Georgia Tech",
+   "UC Irvine",
+   "Boston College",
+   "Wisconsin",
+   "UC Santa Barbara",
+   "Rutgers–New Brunswick",
+   "Lehigh",
+   "Northeastern",
+   "UGA",
+   "Texas A&M",
+   "William & Mary",
+   "Case Western",
+   "Wake Forest",
+   "RPI",
+   "Tulane",
+   "Florida State"
+  ]
+ },
+ "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
+ "runs": [
+  {
+   "date": "2026-09-10 12:24 UTC",
+   "summary": "Hamilton College newly found restricted on its own page (cites both broadcast messages, pauses all off-campus CPT/co-ops/internships paid or unpaid, existing approvals unstated) — added to 'posture not stated'. Grinnell, Notre Dame and Carnegie Mellon cleared from the queue fronts. Brown's ISSS post quoted exactly (still no statement on existing authorisations). Yale searched again across law-firm and press outlets — nothing names Yale; still unresolved. 1point3acres: nothing newer than the known Berkeley thread. Tripwires unchanged, Claremont McKenna still stale, no new cancellations, no counter-trend, no rulemaking."
+  },
+  {
+   "date": "2026-09-10 06:20 UTC",
+   "summary": "Vanderbilt lead resolved on its own ISSS page (no programme requires immediate CPT participation, no reference to the guidance) — moved to 'no public restriction found'. Georgetown re-checked and unflagged. Barnard and Rice cleared from the front of the two queues. Student-newspaper sweep added no new schools (Princeton, Brown, Berkeley coverage adds nothing beyond what is recorded). 1point3acres: nothing newer than the known threads. Tripwires unchanged, Claremont McKenna still stale, no new cancellations, no counter-trend, no rulemaking."
+  },
+  {
+   "date": "2026-09-10 01:23 UTC",
+   "summary": "Johns Hopkins found restricted on its own page (cites both broadcast messages, degree-required only; existing approvals unstated). Carleton, Harvey Mudd and Caltech cleared; Carleton flagged for re-check as its page predates the guidance. Tripwires unchanged, no new cancellations, Claremont McKenna still stale. JHU's mention of the 15 Sept duration-of-status rule confirmed as the separate rule, out of scope."
+  },
+  {
+   "date": "2026-09-10 00:09 UTC",
+   "summary": "Duke confirmed restricted on its own page, existing CPT explicitly honoured — added to 'existing honoured'. Boston University's own ISSO posts confirm the pause; existing-approval treatment still unstated. Bowdoin checked, no restriction. DHS main page fetched cleanly (unchanged); draft-guidance page unchanged. Tufts text unchanged after its 8 Sept edit. No new cancellations, no counter-trend, Claremont McKenna still stale. Vanderbilt not retried."
+  },
+  {
+   "date": "2026-09-09 12:27 UTC",
+   "summary": "DHS 'CPT Guidance' page found: SEVP plans draft guidance clarifying CPT, no date — added as a tripwire. Tufts CPT page modified 8 Sept, text unchanged. Penn and CU Boulder verified on their own pages as honouring existing CPT — moved to 'existing honoured'. UConn detail confirmed, existing-approval treatment still unstated. Vanderbilt lead checked a third time, still ambiguous. No new cancellations, no counter-trend, Claremont McKenna still stale."
+  },
+  {
+   "date": "2026-09-09 00:10 UTC",
+   "summary": "Tripwires unchanged, no new cancellations. Princeton refined from the Daily Princetonian (1 Sept email; PICS/RISE exempt). Berkeley's 'unlikely to resume in the near future' language logged as the first resumption-watch candidate — not yet a counter-trend. Ohio State checked, no restriction. Yale Daily News still unfetchable; will try other outlets. Claremont McKenna still stale. Vanderbilt lead not retried."
+  },
+  {
+   "date": "2026-09-08 14:05 UTC",
+   "summary": "UC Davis lead confirmed on its own SISS page and Michigan's posture on existing approvals resolved — both to 'existing honoured'. Maryland and Oregon newly found and verified restricted (existing-approval treatment unstated). Tripwires unchanged, no new cancellations, Claremont McKenna still stale. Ohio State's CPT page located for next run; Vanderbilt and Yale not retried."
+  },
+  {
+   "date": "2026-09-08 00:12 UTC",
+   "summary": "No tripwire movement, no new cancellations, no counter-trend. UC Davis surfaced as a lead via the Daily Cal (course-credit CPT paused, 'similar policy' to Berkeley) — own pages not yet fetched. Middlebury checked: no restriction, but page edited 24 Aug, so flagged for re-check. Claremont McKenna searched again, still stale. Yale Daily News article still unreadable. 1point3acres index fetch failed twice; Chinese-term search found nothing newer than the known August thread."
+  },
+  {
+   "date": "2026-09-07",
+   "summary": "Four passes. No tripwire movement, no new cancellations. U Washington, U Rochester and UIUC confirmed with existing approvals honoured (UIUC verified on its official ISSS announcements page after an aggregator-based placement was corrected). Williams, Amherst, Swarthmore, Wellesley, Georgetown and West Virginia checked, no restriction. Vanderbilt lead still unconfirmed. Yale unresolved. Maryland surfaced as a new school to check."
+  },
+  {
+   "date": "2026-09-05 to 2026-09-06",
+   "summary": "No tripwire movement across two runs, no new cancellations, no counter-trend. Pomona cleared. UNC moved to 'acknowledged, no specifics'."
+  }
+ ]
+}

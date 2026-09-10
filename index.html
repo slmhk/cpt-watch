@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<title>CPT Policy Watch</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #F6F7F5;
+    --surface: #FFFFFF;
+    --ink: #1B1F23;
+    --ink-2: #3D454D;
+    --muted: #68727C;
+    --rule: #D9DDD8;
+    --rule-soft: #E8EBE6;
+    --accent: #2F5D8A;
+    --critical: #A63A2E;
+    --critical-soft: #F6E4E1;
+    --restricted: #B7791F;
+    --restricted-soft: #F7EBD6;
+    --clear: #3E7C59;
+    --clear-soft: #E1EFE6;
+    --unknown: #6B7A8C;
+    --unknown-soft: #E7EBF0;
+    --display: "Fraunces", Georgia, "Times New Roman", serif;
+    --body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15181C;
+      --surface: #1C2025;
+      --ink: #E4E7E2;
+      --ink-2: #C3C8C2;
+      --muted: #8B949D;
+      --rule: #333A42;
+      --rule-soft: #272D34;
+      --accent: #7FA9D6;
+      --critical: #E07A6E;
+      --critical-soft: #3A2320;
+      --restricted: #D9A24C;
+      --restricted-soft: #3A2E18;
+      --clear: #6FB58C;
+      --clear-soft: #1E3328;
+      --unknown: #9AA8B8;
+      --unknown-soft: #262C34;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15181C;
+    --surface: #1C2025;
+    --ink: #E4E7E2;
+    --ink-2: #C3C8C2;
+    --muted: #8B949D;
+    --rule: #333A42;
+    --rule-soft: #272D34;
+    --accent: #7FA9D6;
+    --critical: #E07A6E;
+    --critical-soft: #3A2320;
+    --restricted: #D9A24C;
+    --restricted-soft: #3A2E18;
+    --clear: #6FB58C;
+    --clear-soft: #1E3328;
+    --unknown: #9AA8B8;
+    --unknown-soft: #262C34;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .page { max-width: 940px; margin: 0 auto; padding: 44px 24px 72px; display: flex; flex-direction: column; gap: 36px; }
+
+  /* Masthead */
+  .mast { display: flex; flex-direction: column; gap: 10px; padding-bottom: 22px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--display); font-weight: 500; font-size: 40px; line-height: 1.05; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+  .fresh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; font-family: var(--mono); font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+  .fresh b { font-weight: 500; color: var(--ink); }
+  .fresh .age { color: var(--muted); }
+  .fresh .age.stale { color: var(--restricted); }
+  .fresh .age.old { color: var(--critical); }
+
+  /* Verdict */
+  .verdict { display: grid; grid-template-columns: 6px 1fr; gap: 18px; align-items: start; }
+  .verdict .bar { background: var(--accent); border-radius: 2px; align-self: stretch; }
+  .verdict .lbl { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .verdict p { margin: 0; font-size: 18px; line-height: 1.45; max-width: 68ch; }
+
+  /* Sections */
+  section { display: flex; flex-direction: column; gap: 14px; }
+  h2 { font-family: var(--display); font-weight: 500; font-size: 22px; margin: 0; line-height: 1.2; }
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .sec-head .note { font-size: 13px; color: var(--muted); max-width: 60ch; }
+
+  /* Tripwires */
+  .trips { display: grid; grid-template-columns: 1fr; border-top: 1px solid var(--rule); }
+  .trip { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--rule-soft); align-items: baseline; }
+  .pill { display: inline-flex; align-items: center; gap: 7px; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 9px 3px 7px; border-radius: 999px; white-space: nowrap; }
+  .pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+  .pill.quiet { color: var(--clear); background: var(--clear-soft); }
+  .pill.tripped { color: var(--critical); background: var(--critical-soft); }
+  .pill.watch { color: var(--restricted); background: var(--restricted-soft); }
+  .trip .name { font-weight: 600; }
+  .trip .detail { color: var(--ink-2); font-size: 14px; margin-top: 2px; max-width: 72ch; }
+
+  /* Tiers */
+  .tier { display: grid; grid-template-columns: 4px 1fr; gap: 18px; }
+  .tier .stripe { border-radius: 2px; }
+  .tier.critical .stripe { background: var(--critical); }
+  .tier.restricted .stripe { background: var(--restricted); }
+  .tier.clear .stripe { background: var(--clear); }
+  .tier.unknown .stripe { background: var(--unknown); }
+  .tier h3 { margin: 0 0 4px; font-family: var(--body); font-weight: 600; font-size: 14px; letter-spacing: 0.01em; }
+  .tier.critical h3 { color: var(--critical); }
+  .tier.restricted h3 { color: var(--restricted); }
+  .tier.clear h3 { color: var(--clear); }
+  .tier.unknown h3 { color: var(--unknown); }
+  .tier .sub { font-size: 13px; color: var(--muted); margin: 0 0 10px; }
+  .schools { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 6px 22px; margin: 0; padding: 0; list-style: none; }
+  .schools li { display: grid; grid-template-columns: auto 1fr; gap: 8px; align-items: baseline; padding: 5px 0; border-bottom: 1px solid var(--rule-soft); }
+  .schools .s { font-weight: 500; white-space: nowrap; }
+  .schools .n { color: var(--muted); font-size: 13px; line-height: 1.4; }
+  .count { font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* Watch list */
+  details { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+  summary { cursor: pointer; padding: 12px 0; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary .t { font-weight: 600; }
+  summary .hint { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+  details[open] summary .hint::after { content: " · collapse"; }
+  .watch { padding: 0 0 16px; display: grid; gap: 14px; }
+  .watch .grp .lbl { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+  .watch .grp p { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+
+  /* Runs */
+  .runs { display: grid; gap: 0; border-top: 1px solid var(--rule); }
+  .run { display: grid; grid-template-columns: 112px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--rule-soft); }
+  .run .d { font-family: var(--mono); font-size: 13px; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .run .body { color: var(--ink-2); font-size: 14px; max-width: 74ch; }
+  .run.latest .d { color: var(--accent); font-weight: 500; }
+
+  .context { font-size: 14px; color: var(--ink-2); max-width: 72ch; margin: 0; }
+  .foot { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; max-width: 72ch; }
+  .foot p { margin: 0 0 6px; }
+
+  .empty { padding: 28px; background: var(--surface); border: 1px dashed var(--rule); border-radius: 6px; color: var(--muted); font-size: 14px; }
+
+  @media (max-width: 560px) {
+    .page { padding: 32px 18px 56px; gap: 28px; }
+    h1 { font-size: 32px; }
+    .trip, .run { grid-template-columns: 1fr; gap: 6px; }
+    .schools { grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .fresh .age { transition: color .2s ease; }
+  }
+</style>
+
+<main class="page">
+  <header class="mast">
+    <div class="eyebrow">SEVP guidance BCM 2608-01 · 2608-02 — institutional responses</div>
+    <h1>CPT Policy Watch</h1>
+    <div class="fresh" id="fresh">
+      <span>Last updated <b id="upd">—</b></span>
+      <span class="age" id="age"></span>
+      <span id="by"></span>
+    </div>
+  </header>
+
+  <div class="verdict">
+    <div class="bar"></div>
+    <div>
+      <div class="lbl" id="vlbl">Latest run</div>
+      <p id="verdict">Waiting for the first recorded run.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2>Tripwires</h2>
+      <span class="note">The four signals that would change the picture. Quiet means checked and unchanged against baseline.</span>
+    </div>
+    <div class="trips" id="trips"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Where schools stand</h2>
+      <span class="note">Grouped by what a school did to authorisations it had already granted — the distinction that matters most.</span>
+    </div>
+    <div id="tiers" style="display:grid; gap:26px;"></div>
+  </section>
+
+  <details>
+    <summary><span class="t">Not yet checked</span><span class="hint" id="wcount"></span></summary>
+    <div class="watch" id="watch"></div>
+  </details>
+
+  <section>
+    <div class="sec-head">
+      <h2>Run log</h2>
+      <span class="note">One entry per run, newest first.</span>
+    </div>
+    <div class="runs" id="runs"></div>
+  </section>
+
+  <section>
+    <h2>Standing context</h2>
+    <p class="context" id="context"></p>
+  </section>
+
+  <footer class="foot">
+    <p>Updated automatically by a scheduled check that runs four times a day (about 02:40, 08:40, 14:40 and 20:40 Hong Kong time); all times on this page are Hong Kong time. Sources are university international-office pages, student newspapers, and the DHS SEVIS Help Hub, compared against recorded baselines.</p>
+    <p id="dbnote"></p>
+  </footer>
+</main>
+
+<script id="snapshot" type="application/json">{"updatedAt":"2026-09-10T15:16:35Z","updatedBy":"dashboard sync","runDate":"2026-09-10","headline":"George Washington has moved from 'no restriction found' to restricted: the GW Hatchet reports the international office paused non-required CPT from 2 Sept, citing both broadcast messages, with already-approved CPT continuing under current I-20 terms. Washington University in St. Louis is newly confirmed restricted on its own page (posture on existing approvals not stated). Emory, Smith and Vassar checked clear. Tripwires unchanged: DHS still promising draft guidance with no date, Tufts text unchanged, no new retroactive cancellations, Claremont McKenna still stale.","tripwires":[{"name":"DHS SEVIS Help Hub CPT page","status":"watch","detail":"Both DHS pages fetched 10 Sept 22:44 HKT: the main SEVIS Help Hub CPT page still 'Last updated: November 28, 2023', old standard; the second page, 'Curricular Practical Training Guidance', still says SEVP plans to release draft guidance clarifying previous CPT documents, no date. That draft appearing is the thing to watch."},{"name":"Tufts I-Center CPT page","status":"quiet","detail":"Fetched 10 Sept 22:44 HKT: page still modified 8 Sept 2026, restriction text unchanged — 'unable to process CPT requests for non-required internships at this time.' A textual change is what would matter."},{"name":"Federal Register rulemaking on CPT","status":"quiet","detail":"None found 10 Sept. Everything on CPT so far is guidance, not a rule; the only nearby item is the separate duration-of-status rule (effective 15 Sept), out of scope."},{"name":"Retroactive cancellation spreading","status":"watch","detail":"Still only Davidson (15 Aug) and MIT. No third school has revoked already-approved CPT. If this reaches Tufts, it leads."}],"tiers":[{"key":"cancels","label":"Cancels already-approved CPT","severity":"critical","sub":"The most severe response: authorisations granted earlier were withdrawn.","schools":[{"name":"Davidson","note":"15 Aug — paused new CPT and cancelled approved Fall 2026 authorisations after consulting counsel"},{"name":"MIT","note":"paused new, incl. Professional Practice Requirement internships; contacting already-approved Fall 2026 students about alternatives"}]},{"key":"honored","label":"Restricted — existing authorisations honoured","severity":"restricted","sub":"New non-required CPT stopped; what was already approved stands.","schools":[{"name":"Columbia","note":"required-of-all + cooperative agreement only; pre-24 Aug approvals kept"},{"name":"Cornell","note":"required-for-graduation only; pre-24 Aug approvals honoured"},{"name":"USC","note":"mandatory-only; existing honoured"},{"name":"UC San Diego","note":"future processing suspended; existing fall authorisations honoured"},{"name":"Santa Clara","note":"future processing suspended; existing fall authorisations honoured"},{"name":"U Washington","note":"26 Aug — new non-required requests paused; existing CPT honoured"},{"name":"U Rochester","note":"28 Aug — new non-required CPT paused, degree-required exception; already-approved CPT explicitly honoured"},{"name":"UIUC","note":"24 Aug ISSS notice — CPT tied to an elective course can no longer be approved; only CPT mandatory for all students to graduate; previously approved CPT not affected (verified on the official ISSS announcements page)"},{"name":"UC Davis","note":"2 Sept SISS notice, verified 8 Sept — new Course Credit CPT paused; Degree-Requirement CPT continues; students with an already-issued CPT I-20 may proceed with that opportunity"},{"name":"U Michigan","note":"28 Aug, verified 8 Sept on the International Center site — CPT approved only where mandatory for all students in the degree programme; previously approved CPT may continue"},{"name":"U Penn","note":"August halt, verified 9 Sept on global.upenn.edu — students with current CPT authorisation may continue through the dates and conditions on their I-20 unless ISSS says otherwise"},{"name":"CU Boulder","note":"20 Aug, verified 9 Sept on the ISSS FAQ — students already authorised for Fall 2026 CPT may continue their internship"},{"name":"Duke","note":"verified 10 Sept on visaservices.duke.edu — CPT must be integral to the curriculum, required of all students in the programme and under a cooperative agreement (guidance communicated 12 and 24 Aug); students currently on CPT need take no action and continue under their current form"},{"name":"George Washington","note":"2 Sept ISO notice, reported 10 Sept by the GW Hatchet — new non-required CPT paused, citing the 12 and 24 Aug SEVP messages; already-approved CPT continues under current I-20 terms (previously listed as 'evaluating')"}]},{"key":"unstated","label":"Restricted — posture on existing approvals not stated","severity":"restricted","sub":"Confirmed restricted; whether prior approvals survive is not public.","schools":[{"name":"Tufts","note":"no non-required CPT processed"},{"name":"Stanford","note":"all non-degree-required CPT paused until further notice"},{"name":"Princeton","note":"1 Sept campus email (Daily Princetonian) — CPT 'will likely no longer be approved for all undergraduate and most graduate students' for non-required internships, citing the risk to SEVP certification; PICS and RISE grant-funded internships exempt; treatment of already-approved CPT not stated"},{"name":"Brown","note":"verified 10 Sept on the ISSS news post of 2 Sept — CPT requests approved only where the training is 'integral to an established curriculum and required for all students... for purposes of degree completion'; no broadcast-message citation; treatment of existing authorisations not addressed"},{"name":"Purdue","note":"17 Aug — degree-required only"},{"name":"Northwestern","note":"31 Aug — hold on CPT not required to graduate"},{"name":"UC Berkeley","note":"Course Credit CPT paused 26 Aug after a second ICE compliance memo; degree-required CPT continues. Per the Daily Cal, the international office said resumption is 'unlikely in the near future' pending legal consultation — the only school so far framing its pause as potentially temporary; watched for actual resumption"},{"name":"UCLA","note":"paused certain authorisations"},{"name":"NYU","note":"restricted (SCMP, 2 Sept)"},{"name":"Boston University","note":"ISSO posts of 17 and 28 Aug, verified 10 Sept — certain CPT approvals paused for review; new standard mirrors the broadcast language (essential to degree completion for all participants, never solely for employment); treatment of existing approvals not addressed"},{"name":"Harvard","note":"per school — College, Law, Medical, GSD, GSAS halted; HBS, HKS, Ed, Divinity, Public Health continue"},{"name":"UConn","note":"30 Aug, confirmed 9 Sept on the university's own international-office post — CPT only where the internship is required for all students; elective internship courses explicitly excluded; treatment of existing approvals not stated"},{"name":"University of Maryland","note":"verified 8 Sept on the ISSS page — elective-internship CPT paused (UNIV099/ENCO099/BMGT099 courses named); treatment of existing approvals not stated"},{"name":"University of Oregon","note":"verified 8 Sept on the ISSS page, which cites both broadcast messages — CPT must be integral to the curriculum and required for all students; treatment of existing approvals not stated"},{"name":"Johns Hopkins","note":"verified 10 Sept on the university's own page — cites both broadcast messages; CPT only where required for the degree; treatment of existing approvals not stated"},{"name":"Hamilton College","note":"verified 10 Sept on the college's own international-student-services CPT page — cites both broadcast messages by name and pauses ALL off-campus CPT, co-ops and internships, paid or unpaid; treatment of existing approvals not stated"},{"name":"Washington University in St. Louis","note":"verified 10 Sept on a university page — cites both broadcast messages by URL and quotes the 'integral and required for all' standard; pause-versus-honour posture for existing approvals not stated"}]},{"key":"acknowledged","label":"Acknowledged the guidance, no specifics","severity":"unknown","sub":"","schools":[{"name":"UNC","note":"25 Aug ISSS post references both broadcast messages; no detail on pause vs honour"}]},{"key":"leads","label":"Reported by students — not yet verified","severity":"unknown","sub":"Community reports (mainly 1point3acres). A lead, not a confirmation, until an official page backs it.","schools":[]},{"key":"clear","label":"No public restriction found","severity":"clear","sub":"Absence of a notice, not confirmation of no change.","schools":[{"name":"Dartmouth","note":"explicitly no planned changes; awaiting SEVP clarification"},{"name":"U Chicago","note":"no notice on CPT page"},{"name":"Pomona","note":"checked 5 Sept — CPT page unchanged, no notice"},{"name":"Williams","note":"checked 7 Sept — CPT page unchanged, no notice"},{"name":"Amherst","note":"checked 7 Sept — CPT page unchanged, no notice"},{"name":"Swarthmore","note":"checked 7 Sept — CPT page unchanged, no notice"},{"name":"Wellesley","note":"checked 7 Sept — CPT page unchanged, no notice"},{"name":"Georgetown","note":"re-checked 10 Sept — CPT FAQ still shows its 28 Aug edit but carries no restriction or broadcast-message language; considered stable, no longer flagged"},{"name":"West Virginia","note":"checked 7 Sept — no restriction language"},{"name":"Middlebury","note":"checked 8 Sept — CPT page shows the normal process and no notice, but the page footer says 'Updated on 08/24/2026'; flagged for a re-check like Georgetown"},{"name":"Ohio State","note":"checked 9 Sept — CPT page carries only the standard SEVP definition, no reference to the August guidance, no pause or restriction language"},{"name":"Bowdoin","note":"checked 10 Sept — employment page has no reference to the August guidance and no restriction language"},{"name":"Carleton","note":"checked 10 Sept — no restriction language, but the page is dated 18 June 2026 and predates the guidance; flagged for re-check"},{"name":"Harvey Mudd","note":"checked 10 Sept — no restriction language"},{"name":"Caltech","note":"checked 10 Sept — no restriction or broadcast-message language"},{"name":"Vanderbilt","note":"former student-report lead, resolved 10 Sept after four checks — the university's own ISSS CPT page states no programme requires immediate CPT participation and makes no reference to the August guidance; no restriction announced"},{"name":"Barnard","note":"checked 10 Sept — no internship degree requirement; CPT runs through a 1-credit independent study; no reference to the August guidance, no restriction language"},{"name":"Rice","note":"checked 10 Sept — OISS CPT page carries only the standard major-relatedness language, no reference to the August guidance"},{"name":"Grinnell","note":"checked 10 Sept — admissions FAQ carries only the standard CPT description, no reference to the August guidance, no restriction language"},{"name":"Notre Dame","note":"checked 10 Sept — ISSA page carries only the standard integral-to-curriculum language, no reference to the August guidance"},{"name":"Carnegie Mellon","note":"checked 10 Sept — OIE page carries only the standard major-relatedness / degree-requirement language, no reference to the August guidance"},{"name":"Emory","note":"checked 10 Sept — ISSS page carries only the standard degree-requirement / enrolled-class / thesis eligibility language, no reference to the August guidance"},{"name":"Smith College","note":"checked 10 Sept — standard 'integral part of curricular opportunity' language only, no reference to the August guidance"},{"name":"Vassar","note":"checked 10 Sept — standard curriculum-connection language only, no reference to the August guidance"},{"name":"Claremont McKenna","note":"checked every run — re-checked 10 Sept 22:44 HKT: still the old permissive INT-course page (INT 98/99/198/199, GOV 30), no reference to the guidance, no notice, no last-updated date, four weeks on. Reads as a stale page, not a position; watching for a sudden restriction."}]},{"key":"unresolved","label":"Unresolved","severity":"unknown","sub":"","schools":[{"name":"Yale","note":"OISS CPT page last updated 26 Mar 2026 — predates the guidance. A Yale Daily News headline ('University institutes CPT employment authorization amid international students' internship struggles') suggests a development but the article blocks every fetch; law-firm and press outlets searched 10 Sept name no Yale specifics. Six runs unresolved."}]}],"unchecked":{"lac":["Wesleyan","Washington & Lee","Colgate","University of Richmond","Bates","Colby","Haverford","Holy Cross","Macalester","Mount Holyoke","Bryn Mawr","Bucknell","Colorado College","Lafayette","Denison","Franklin & Marshall","Occidental","Pitzer","Scripps","Skidmore","Soka","Spelman","Trinity College (CT)","Trinity University (TX)","Union","Berea","Dickinson","Furman","Kenyon","Sewanee","Connecticut College","Hillsdale","St. Olaf","Wabash","Wheaton (IL)"],"national":["UVA","UT Austin","U Florida","Georgia Tech","UC Irvine","Boston College","Wisconsin","UC Santa Barbara","Rutgers–New Brunswick","Lehigh","Northeastern","UGA","Texas A&M","William & Mary","Case Western","Wake Forest","RPI","Tulane","Florida State"]},"context":"No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.","runs":[{"date":"2026-09-10 14:44 UTC","summary":"Manually fired test run. George Washington moved from 'no restriction found' to 'existing honoured' — the GW Hatchet reports non-required CPT paused from 2 Sept citing both broadcast messages, already-approved CPT continues. Washington University in St. Louis newly found restricted on its own page (existing approvals unstated). Emory, Smith and Vassar cleared from the queue fronts. 1point3acres: nothing newer than the known Berkeley thread. Tripwires unchanged, Claremont McKenna still stale, no new cancellations, no counter-trend, no rulemaking."},{"date":"2026-09-10 12:24 UTC","summary":"Hamilton College newly found restricted on its own page (cites both broadcast messages, pauses all off-campus CPT/co-ops/internships paid or unpaid, existing approvals unstated) — added to 'posture not stated'. Grinnell, Notre Dame and Carnegie Mellon cleared from the queue fronts. Brown's ISSS post quoted exactly (still no statement on existing authorisations). Yale searched again across law-firm and press outlets — nothing names Yale; still unresolved. 1point3acres: nothing newer than the known Berkeley thread. Tripwires unchanged, Claremont McKenna still stale, no new cancellations, no counter-trend, no rulemaking."},{"date":"2026-09-10 06:20 UTC","summary":"Vanderbilt lead resolved on its own ISSS page (no programme requires immediate CPT participation, no reference to the guidance) — moved to 'no public restriction found'. Georgetown re-checked and unflagged. Barnard and Rice cleared from the front of the two queues. Student-newspaper sweep added no new schools (Princeton, Brown, Berkeley coverage adds nothing beyond what is recorded). 1point3acres: nothing newer than the known threads. Tripwires unchanged, Claremont McKenna still stale, no new cancellations, no counter-trend, no rulemaking."},{"date":"2026-09-10 01:23 UTC","summary":"Johns Hopkins found restricted on its own page (cites both broadcast messages, degree-required only; existing approvals unstated). Carleton, Harvey Mudd and Caltech cleared; Carleton flagged for re-check as its page predates the guidance. Tripwires unchanged, no new cancellations, Claremont McKenna still stale. JHU's mention of the 15 Sept duration-of-status rule confirmed as the separate rule, out of scope."},{"date":"2026-09-10 00:09 UTC","summary":"Duke confirmed restricted on its own page, existing CPT explicitly honoured — added to 'existing honoured'. Boston University's own ISSO posts confirm the pause; existing-approval treatment still unstated. Bowdoin checked, no restriction. DHS main page fetched cleanly (unchanged); draft-guidance page unchanged. Tufts text unchanged after its 8 Sept edit. No new cancellations, no counter-trend, Claremont McKenna still stale. Vanderbilt not retried."},{"date":"2026-09-09 12:27 UTC","summary":"DHS 'CPT Guidance' page found: SEVP plans draft guidance clarifying CPT, no date — added as a tripwire. Tufts CPT page modified 8 Sept, text unchanged. Penn and CU Boulder verified on their own pages as honouring existing CPT — moved to 'existing honoured'. UConn detail confirmed, existing-approval treatment still unstated. Vanderbilt lead checked a third time, still ambiguous. No new cancellations, no counter-trend, Claremont McKenna still stale."},{"date":"2026-09-09 00:10 UTC","summary":"Tripwires unchanged, no new cancellations. Princeton refined from the Daily Princetonian (1 Sept email; PICS/RISE exempt). Berkeley's 'unlikely to resume in the near future' language logged as the first resumption-watch candidate — not yet a counter-trend. Ohio State checked, no restriction. Yale Daily News still unfetchable; will try other outlets. Claremont McKenna still stale. Vanderbilt lead not retried."},{"date":"2026-09-08 14:05 UTC","summary":"UC Davis lead confirmed on its own SISS page and Michigan's posture on existing approvals resolved — both to 'existing honoured'. Maryland and Oregon newly found and verified restricted (existing-approval treatment unstated). Tripwires unchanged, no new cancellations, Claremont McKenna still stale. Ohio State's CPT page located for next run; Vanderbilt and Yale not retried."},{"date":"2026-09-08 00:12 UTC","summary":"No tripwire movement, no new cancellations, no counter-trend. UC Davis surfaced as a lead via the Daily Cal (course-credit CPT paused, 'similar policy' to Berkeley) — own pages not yet fetched. Middlebury checked: no restriction, but page edited 24 Aug, so flagged for re-check. Claremont McKenna searched again, still stale. Yale Daily News article still unreadable. 1point3acres index fetch failed twice; Chinese-term search found nothing newer than the known August thread."},{"date":"2026-09-07","summary":"Four passes. No tripwire movement, no new cancellations. U Washington, U Rochester and UIUC confirmed with existing approvals honoured (UIUC verified on its official ISSS announcements page after an aggregator-based placement was corrected). Williams, Amherst, Swarthmore, Wellesley, Georgetown and West Virginia checked, no restriction. Vanderbilt lead still unconfirmed. Yale unresolved. Maryland surfaced as a new school to check."}]}</script>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+  // Everything on this page is shown in Hong Kong time (UTC+8), whatever the viewer's own zone.
+  const HK = "Asia/Hong_Kong";
+  function fmtDate(iso) {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    if (isNaN(d)) return esc(iso);
+    return d.toLocaleString("en-GB", { timeZone: HK, year: "numeric", month: "short", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }) + " HKT";
+  }
+  function hkDay(iso) {
+    const d = new Date(iso);
+    if (isNaN(d)) return "";
+    return d.toLocaleDateString("en-GB", { timeZone: HK, year: "numeric", month: "short", day: "2-digit" });
+  }
+  // Run entries are stored as "YYYY-MM-DD HH:MM UTC" by the research task; display them in HKT.
+  function fmtRunDate(txt) {
+    const m = /^(\d{4}-\d{2}-\d{2}) (\d{2}):(\d{2}) UTC$/.exec(String(txt || "").trim());
+    if (!m) return txt;
+    const d = new Date(m[1] + "T" + m[2] + ":" + m[3] + ":00Z");
+    if (isNaN(d)) return txt;
+    return d.toLocaleString("en-GB", { timeZone: HK, year: "numeric", month: "short", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }) + " HKT";
+  }
+  function ageOf(iso) {
+    const d = new Date(iso); if (isNaN(d)) return { text: "", cls: "" };
+    const h = (Date.now() - d.getTime()) / 36e5;
+    if (h < 1) return { text: "just now", cls: "" };
+    if (h < 30) return { text: Math.round(h) + " h ago", cls: "" };
+    const days = Math.floor(h / 24);
+    return { text: days + " d ago", cls: days >= 3 ? "old" : "stale" };
+  }
+
+  function render(s) {
+    $("upd").textContent = fmtDate(s.updatedAt);
+    const a = ageOf(s.updatedAt); $("age").textContent = a.text; $("age").className = "age " + a.cls;
+    $("by").textContent = s.updatedBy ? "· " + s.updatedBy : "";
+    $("vlbl").textContent = hkDay(s.updatedAt) ? "Run of " + hkDay(s.updatedAt) : (s.runDate ? "Run of " + s.runDate : "Latest run");
+    $("verdict").textContent = s.headline || "No summary recorded.";
+
+    const pillFor = (st) => st === "tripped" ? "tripped" : st === "watch" ? "watch" : "quiet";
+    const pillText = (st) => st === "tripped" ? "Tripped" : st === "watch" ? "Watching" : "Quiet";
+    $("trips").innerHTML = (s.tripwires || []).map(t => `
+      <div class="trip">
+        <span class="pill ${pillFor(t.status)}">${pillText(t.status)}</span>
+        <div><div class="name">${esc(t.name)}</div><div class="detail">${esc(t.detail)}</div></div>
+      </div>`).join("") || `<div class="empty">No tripwires recorded.</div>`;
+
+    $("tiers").innerHTML = (s.tiers || []).map(t => `
+      <div class="tier ${esc(t.severity || "unknown")}">
+        <div class="stripe"></div>
+        <div>
+          <h3>${esc(t.label)} <span class="count">· ${(t.schools||[]).length}</span></h3>
+          ${t.sub ? `<p class="sub">${esc(t.sub)}</p>` : ""}
+          <ul class="schools">${(t.schools || []).map(x => `<li><span class="s">${esc(x.name)}</span><span class="n">${esc(x.note || "")}</span></li>`).join("")}</ul>
+        </div>
+      </div>`).join("") || `<div class="empty">No schools recorded.</div>`;
+
+    const u = s.unchecked || {};
+    const groups = [["Liberal arts colleges", u.lac], ["National universities", u.national]].filter(g => g[1] && g[1].length);
+    $("wcount").textContent = groups.reduce((n, g) => n + g[1].length, 0) + " schools";
+    $("watch").innerHTML = groups.map(g => `<div class="grp"><div class="lbl">${esc(g[0])}</div><p>${g[1].map(esc).join(" · ")}</p></div>`).join("") || `<p class="context">Everything on the list has been checked at least once.</p>`;
+
+    const runs = (s.runs || []).slice().sort((a, b) => String(b.date).localeCompare(String(a.date)));
+    $("runs").innerHTML = runs.map((r, i) => `
+      <div class="run ${i === 0 ? "latest" : ""}"><div class="d">${esc(fmtRunDate(r.date))}</div><div class="body">${esc(r.summary)}</div></div>`).join("") || `<div class="empty">No runs recorded yet.</div>`;
+
+    $("context").textContent = s.context || "";
+  }
+
+  (async function () {
+    let shownAt = "";
+    const show = (data) => {
+      if (!data || (data.updatedAt || "") < shownAt) return;
+      shownAt = data.updatedAt || "";
+      render(data);
+      $("dbnote").textContent = "";
+    };
+    // The sync bakes the latest snapshot into the page itself; that is the primary source.
+    try {
+      const baked = JSON.parse($("snapshot").textContent);
+      if (baked && baked.updatedAt) show(baked);
+    } catch (e) {}
+    let db = null;
+    try { db = await window.claude.use("db"); } catch (e) { db = null; }
+    if (!db) {
+      if (!shownAt) $("dbnote").textContent = "No snapshot is baked into this version and live data is not available in this view.";
+      return;
+    }
+    // Older snapshots also live in the artifact database; if one is newer than the baked copy, prefer it.
+    try {
+      db.collection("snapshots").orderBy("updatedAt", "desc").limit(1).onSnapshot(
+        (qs) => {
+          if (qs.empty) {
+            // Fall back to the legacy single document.
+            db.doc("state/current").get().then((snap) => {
+              if (snap.exists) show(snap.data());
+              else if (!shownAt) $("verdict").textContent = "No runs recorded yet — the first scheduled check will populate this page.";
+            }).catch(() => {});
+            return;
+          }
+          show(qs.docs[0].data());
+        },
+        (err) => { /* baked snapshot already shown; db is optional */ }
+      );
+    } catch (e) { /* baked snapshot already shown */ }
+  })();
+})();
+</script>
+
+</body>
+</html>

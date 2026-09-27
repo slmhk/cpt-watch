@@ -1,28 +1,28 @@
 {
- "updatedAt": "2026-09-27T06:17:41Z",
+ "updatedAt": "2026-09-27T12:16:19Z",
  "updatedBy": "scheduled run",
  "runDate": "2026-09-27",
- "headline": "William & Mary newly joins the restricted schools: its own Reves Center page now says CPT is processed only for degree-required training and 'all other CPT requests are currently paused,' with no word on students already authorised. Mount Holyoke's page now sits behind a campus login. Tripwires unchanged; no new cancellation or counter-trend.",
+ "headline": "Tulane newly restricts CPT: its own OISS page now says it is 'not approving CPT applications beyond Fall 2026,' with no word on students already authorised — the second school to move out of 'clear' today, after William & Mary. Tripwires unchanged; no new retroactive cancellation or counter-trend.",
  "tripwires": [
   {
    "name": "DHS SEVIS Help Hub CPT page",
    "status": "watch",
-   "detail": "Direct fetch succeeded again 27 Sept 14:17 HKT. Page still 'Last Updated: August 24, 2026'; same BCM 2608-01/2608-02 references and explicit confirmation DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
+   "detail": "Direct fetch succeeded again 27 Sept 20:16 HKT. Page still 'Last Updated: August 24, 2026'; same BCM 2608-01/2608-02 references and explicit confirmation DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
   },
   {
    "name": "Tufts I-Center CPT page",
    "status": "watch",
-   "detail": "Direct fetch succeeded again 27 Sept 14:17 HKT \u2014 page still carries the line 'due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time'; still nothing either way about students who already hold CPT authorisation. No change detected."
+   "detail": "Direct fetch succeeded again 27 Sept 20:16 HKT \u2014 page still carries the line 'due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time'; still nothing either way about students who already hold CPT authorisation. No change detected."
   },
   {
    "name": "Federal Register rulemaking on CPT",
    "status": "quiet",
-   "detail": "Checked 27 Sept 14:17 HKT \u2014 no NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended, still reads as it did before 12 Aug. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+   "detail": "Checked 27 Sept 20:16 HKT \u2014 no NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended, still reads as it did before 12 Aug. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
   },
   {
    "name": "Retroactive cancellation spreading",
    "status": "watch",
-   "detail": "Checked 27 Sept 14:17 HKT via newspaper, .edu and 1point3acres sweeps (zhihu also checked, due this run). Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
+   "detail": "Checked 27 Sept 20:16 HKT via newspaper, .edu and 1point3acres sweeps (zhihu not due this run). Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
   }
  ],
  "tiers": [
@@ -269,6 +269,10 @@
      "note": "newly restricted, found 27 Sept on the Reves Center ISSP's own CPT page (wm.edu) \u2014 'ISSP will only process CPT requests where practical training is a requirement of a degree program... All other CPT requests are currently paused'; no BCM cited, no date given; existing-approval treatment not addressed; moved out of 'clear'"
     },
     {
+     "name": "Tulane",
+     "note": "newly restricted, found 27 Sept on OISS's own CPT page (oiss.tulane.edu), confirmed by direct curl of the raw page \u2014 new line: 'Currently, we are not approving CPT applications beyond Fall 2026'; no BCM cited; standard required/non-required eligibility framework otherwise unchanged; existing-approval treatment not addressed; moved out of 'clear'"
+    },
+    {
      "name": "Vanderbilt",
      "note": "newly restricted, verified 23 Sept on ISSS's own dated post (vanderbilt.edu/isss, 15 Sept) \u2014 'ISSS will only be able to authorize CPT for practical training that is required for all students in the same degree program'; elective internships no longer qualify; existing-approval treatment not addressed; moved out of 'clear'"
     },
@@ -357,7 +361,7 @@
     },
     {
      "name": "Carleton",
-     "note": "verified 11 Sept by direct fetch \u2014 no restriction or broadcast-message language; page dated 18 June 2026 (predates the guidance), a stale clear worth periodic re-check but flag resolved for now"
+     "note": "re-verified 27 Sept by direct fetch \u2014 no restriction or broadcast-message language; page dated 18 June 2026 (predates the guidance), a stale clear worth periodic re-check but flag resolved for now"
     },
     {
      "name": "Harvey Mudd",
@@ -433,15 +437,11 @@
     },
     {
      "name": "Bryn Mawr",
-     "note": "verified 14 Sept \u2014 Impact Center's own international-student-guide CPT page (brynmawr.edu) describes only the standard eligibility and application process, no reference to the August guidance"
+     "note": "re-verified 27 Sept \u2014 Impact Center's own international-student-guide CPT page (brynmawr.edu) describes only the standard eligibility and application process, no reference to the August guidance"
     },
     {
      "name": "Wake Forest",
-     "note": "verified 14 Sept \u2014 Center for Immigration Services and Support's own CPT page (iss.wfu.edu) describes only the standard eligibility and certification-course process, no reference to the August guidance"
-    },
-    {
-     "name": "Tulane",
-     "note": "verified 14 Sept on the Office of International Students & Scholars' own CPT page (oiss.tulane.edu) \u2014 describes only the standard CPT process; carries a longstanding caveat about possible future scrutiny but no reference to the August guidance or any pause"
+     "note": "re-verified 27 Sept \u2014 Center for Immigration Services and Support's own CPT page (iss.wfu.edu) describes only the standard eligibility and certification-course process, no reference to the August guidance"
     },
     {
      "name": "Pitzer",
@@ -569,6 +569,10 @@
  "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk \u2014 past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
  "runs": [
   {
+   "date": "2026-09-27 12:16 UTC",
+   "summary": "Tulane moved from clear to restricted: its own OISS page (oiss.tulane.edu), confirmed by a raw curl of the page, now reads 'Currently, we are not approving CPT applications beyond Fall 2026' — a new line alongside its longstanding process description; no guidance citation given; existing-approval treatment not addressed. Carleton, Bryn Mawr and Wake Forest (oldest-unrefreshed clear rows) re-verified unchanged. DHS, Tufts tripwires unchanged; no NPRM. Claremont McKenna, newspaper and .edu sweeps surfaced nothing new. No new cancellations, no counter-trend."
+  },
+  {
    "date": "2026-09-27 06:17 UTC",
    "summary": "William & Mary moved from clear to restricted: its own Reves Center ISSP page now says CPT is processed only where a degree program requires it, all other requests currently paused; no guidance citation or date given; existing-approval treatment not addressed. Mount Holyoke's CPT page now redirects through a SAML campus login, breaking direct verification (tier unchanged, re-check via search snippet next rotation). Macalester and Case Western Reserve re-verified unchanged. DHS, Tufts tripwires unchanged; no NPRM. Claremont McKenna, newspaper, .edu, 1point3acres and zhihu sweeps surfaced nothing new. No new cancellations, no counter-trend."
   },
@@ -603,10 +607,6 @@
   {
    "date": "2026-09-25 06:19 UTC",
    "summary": "No school changed tier. Not the 00:00 UTC run, so parked-backlog schools were not retried; both ranked queues remain empty, so the four deep-checks drew from tiered rotation: California State University, Long Beach, Boston College, Washington & Lee and Colgate all re-verified unchanged. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, nothing new. Newspaper and .edu sweeps surfaced only already-tracked stories; 1point3acres and zhihu (due this run) both searched, nothing naming a new institutional policy change. No new cancellations, no counter-trend, no tripwire movement."
-  },
-  {
-   "date": "2026-09-25 00:15 UTC",
-   "summary": "Berea College resolved from unresolved to clear: its official course catalog (not the dead-ended CIE web pages) carries the CPT policy text, standard eligibility language only, no guidance reference. The 00:00 UTC parked-backlog retry (Hillsdale, Berea College, Haverford, Bucknell) found the other three still blocked (durable 403/portal-redirect/no-public-page) \u2014 all stay parked. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna, newspaper and .edu sweeps, and 1point3acres all searched, nothing new; zhihu not due. No new cancellations, no counter-trend, no tripwire movement."
   }
  ]
 }

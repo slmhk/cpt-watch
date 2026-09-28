@@ -1,28 +1,28 @@
 {
- "updatedAt": "2026-09-27T18:15:05Z",
+ "updatedAt": "2026-09-28T00:15:30Z",
  "updatedBy": "scheduled run",
- "runDate": "2026-09-27",
- "headline": "No school changed tier this run; tripwires unchanged. No new retroactive cancellation or counter-trend. Most recent moves remain William & Mary and Tulane, both newly restricted earlier today.",
+ "runDate": "2026-09-28",
+ "headline": "No school changed tier this run; tripwires unchanged. No new retroactive cancellation or counter-trend. Most recent moves remain William & Mary and Tulane, both newly restricted 27 Sept.",
  "tripwires": [
   {
    "name": "DHS SEVIS Help Hub CPT page",
    "status": "watch",
-   "detail": "Direct fetch succeeded again 28 Sept 02:15 HKT. Page still 'Last Updated: August 24, 2026'; same BCM 2608-01/2608-02 references and explicit confirmation DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
+   "detail": "Direct fetch succeeded again 28 Sept 08:15 HKT. Page still 'Last Updated: August 24, 2026'; same BCM 2608-01/2608-02 references and explicit confirmation DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
   },
   {
    "name": "Tufts I-Center CPT page",
    "status": "watch",
-   "detail": "Direct fetch succeeded again 28 Sept 02:15 HKT \u2014 page still carries the line 'due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time'; still nothing either way about students who already hold CPT authorisation. No change detected."
+   "detail": "Direct fetch succeeded again 28 Sept 08:15 HKT \u2014 page still carries the line 'due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time'; still nothing either way about students who already hold CPT authorisation. No change detected."
   },
   {
    "name": "Federal Register rulemaking on CPT",
    "status": "quiet",
-   "detail": "Checked 28 Sept 02:15 HKT \u2014 no NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended, still reads as it did before 12 Aug. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+   "detail": "Checked 28 Sept 08:15 HKT \u2014 no NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended, still reads as it did before 12 Aug. DHS's Unified Agenda still targets a broader Practical Training proposed rule for Feb 2027, not sooner. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
   },
   {
    "name": "Retroactive cancellation spreading",
    "status": "watch",
-   "detail": "Checked 28 Sept 02:15 HKT via newspaper, .edu, 1point3acres and zhihu sweeps (all searched this run). Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
+   "detail": "Checked 28 Sept 08:15 HKT via newspaper, .edu and 1point3acres sweeps (zhihu not due this run). Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
   }
  ],
  "tiers": [
@@ -489,7 +489,7 @@
     },
     {
      "name": "Claremont McKenna",
-     "note": "checked every run \u2014 28 Sept 02:15 HKT: search (cmc.edu, tsl.news) surfaced only the same permissive how-to-apply page, nothing new; no fetch spent this run."
+     "note": "checked every run \u2014 28 Sept 08:15 HKT: search (cmc.edu, tsl.news) surfaced only the same permissive how-to-apply page, nothing new; no fetch spent this run."
     }
    ]
   },
@@ -569,6 +569,10 @@
  "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk \u2014 past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
  "runs": [
   {
+   "date": "2026-09-28 00:15 UTC",
+   "summary": "No school changed tier. The 00:00 UTC parked-backlog retry covered Hillsdale, Haverford, Bucknell and Colorado College — all four remain unreadable (no ISSS/CPT page found, or a durable 403), still parked. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Federal Register confirmed no CPT-specific NPRM; DHS's own agenda still targets a broader rule for Feb 2027. Claremont McKenna, newspaper, .edu and 1point3acres sweeps surfaced nothing new. No new cancellations, no counter-trend, no tripwire movement."
+  },
+  {
    "date": "2026-09-27 18:15 UTC",
    "summary": "No school changed tier. Both ranked queues remain empty, so the four deep-checks drew from the oldest-unrefreshed 'unstated' rows (all dated 23 Sept): Georgetown, Vanderbilt, Stony Brook and Sewanee all re-verified unchanged, dates refreshed. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged; Federal Register confirmed no CPT-specific NPRM. Claremont McKenna searched, nothing new, no fetch spent. Newspaper, .edu, 1point3acres and zhihu sweeps (all due this run) surfaced only already-tracked items. Directly confirmed a recurring WebSearch AI-summary hallucination (a fabricated 'September 28, 2026' CPT pause, previously seen for Oregon) is not present on isss.uoregon.edu's actual page — third time this false line has surfaced; Oregon's own page unchanged. No new cancellations, no counter-trend, no tripwire movement."
   },
@@ -603,10 +607,6 @@
   {
    "date": "2026-09-25 18:15 UTC",
    "summary": "No school changed tier. Rotation re-checks (UT Austin, West Virginia, Dartmouth, Williams) unchanged; Dartmouth/Williams verified via search snippet, pages durably blocked. DHS, Tufts tripwires unchanged. A WebSearch AI summary again falsely claimed an Oregon 'Sept 28' pause \u2014 second run this hallucination has surfaced; Oregon's own page shows nothing. No cancellations, no counter-trend."
-  },
-  {
-   "date": "2026-09-25 12:24 UTC",
-   "summary": "No school changed tier. Both queues remain empty, so the four deep-checks drew from tiered rotation: University of Oregon, Hamilton College (oldest-unrefreshed 'unstated' rows) and University of Florida, University of Richmond (oldest-unrefreshed 'clear' rows) all re-verified unchanged. Not the 00:00 UTC run, so parked-backlog schools were not retried. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, nothing new. Newspaper, .edu and 1point3acres sweeps surfaced only already-tracked stories; zhihu not due (last checked this same day). No new cancellations, no counter-trend, no tripwire movement."
   }
  ]
 }

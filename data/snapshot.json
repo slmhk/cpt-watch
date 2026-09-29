@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-28T18:15:52Z",
+  "updatedAt": "2026-09-29T00:16:10Z",
   "updatedBy": "scheduled run",
-  "runDate": "2026-09-28",
-  "headline": "No school changed tier this run. Dickinson, Furman, Kenyon and Connecticut College all re-verified clear on their own pages. Tripwires unchanged; no new cancellation, resumption or counter-trend.",
+  "runDate": "2026-09-29",
+  "headline": "No school changed tier this run. Lafayette, Denison, Franklin & Marshall and Scripps were re-tried from the parked backlog and remain unreadable. Tripwires unchanged; no new cancellation, resumption or counter-trend.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 29 Sept 02:16 HKT. Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
+      "detail": "Direct fetch succeeded again 29 Sept 08:16 HKT. Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 29 Sept 02:16 HKT — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 29 Sept 08:16 HKT — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 29 Sept 02:16 HKT — no NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended. DHS's Unified Agenda still targets a broader Practical Training proposed rule for Feb 2027, not sooner. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+      "detail": "Checked 29 Sept 08:16 HKT — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended. A separate DHS/ICE \"Optional Practical Training Fees\" proposed rule finished OMB/OIRA review 11 Sept, but that targets OPT fees, not CPT — not a CPT tripwire event. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "watch",
-      "detail": "Checked 29 Sept 02:16 HKT via newspaper, .edu, 1point3acres and zhihu sweeps. Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
+      "detail": "Checked 29 Sept 08:16 HKT via newspaper, .edu, 1point3acres and zhihu sweeps. Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
     }
   ],
   "tiers": [
@@ -529,19 +529,19 @@
         },
         {
           "name": "Lafayette",
-          "note": "parked; re-tried 23 Sept 08:14 HKT — intercultural.lafayette.edu and gateway.lafayette.edu/channels/international-students/ still carry no CPT policy text, only a staff-contact name for a CPT workshop; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 29 Sept 08:16 HKT — a catalog/smartcatalogiq search found no CPT-specific page; intercultural.lafayette.edu and gateway.lafayette.edu still carry no CPT policy text; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Denison",
-          "note": "parked; re-tried 23 Sept 08:14 HKT — denison.edu/campus/international-students/career-support-for-international-students still lists CPT only as a heading with no policy detail; my.iss.denison.edu remains the only substantive source and stays DNS-unreachable; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 29 Sept 08:16 HKT — catalog.denison.edu carries no CPT-specific page; the only substantive source remains the DNS-unreachable my.iss.denison.edu portal; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Franklin & Marshall",
-          "note": "parked; re-tried 23 Sept 08:14 HKT — fandm.edu/campus-services/international-student-services/ still carries no CPT-specific text; inside.fandm.edu remains DNS-unreachable; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 29 Sept 08:16 HKT — catalog.fandm.edu searched directly, no CPT-specific content found; inside.fandm.edu remains DNS-unreachable; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Scripps",
-          "note": "parked; re-tried 27 Sept 08:14 HKT — public Scripps pages still cover general career/international-student services only, no CPT-specific policy text; real ISSS content still sits behind the CAS-walled inside.scrippscollege.edu portal; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 29 Sept 08:16 HKT — a newly-tried catalog.scrippscollege.edu (Modern Campus Catalog) only surfaces academic catalogs from 2007-2013 with no CPT content; real ISSS content still sits behind the CAS-walled inside.scrippscollege.edu portal; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Spelman",
@@ -568,6 +568,10 @@
   },
   "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
+    {
+      "date": "2026-09-29 00:15 UTC",
+      "summary": "No school changed tier. The 00:00 UTC parked-backlog retry covered Lafayette, Denison, Franklin & Marshall and Scripps — all four remain unreadable (no CPT-specific page found on any newly-tried catalog/smartcatalogiq site), still parked. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Federal Register: no CPT-specific NPRM; noted a separate DHS/ICE OPT-fees proposed rule finished OMB review 11 Sept, but that's OPT fees, not CPT, so not a tripwire event. Claremont McKenna, newspaper, .edu, 1point3acres and zhihu sweeps surfaced nothing new. No new cancellations, no counter-trend, no tripwire movement."
+    },
     {
       "date": "2026-09-28 18:15 UTC",
       "summary": "No school changed tier. Both ranked queues remain empty, so the four deep-checks drew from the oldest-unrefreshed 'clear' rows (tied at 16 Sept): Dickinson, Furman, Kenyon and Connecticut College all re-verified unchanged, dates refreshed. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Federal Register confirmed no CPT-specific NPRM. Claremont McKenna, newspaper, .edu, 1point3acres and zhihu sweeps surfaced nothing new — the .edu sweep resurfaced the known 'September 28, 2026' Oregon hallucination line, not written up (see sources.md). No new cancellations, no counter-trend, no tripwire movement."
@@ -603,10 +607,6 @@
     {
       "date": "2026-09-26 18:17 UTC",
       "summary": "No school changed tier. UC Santa Barbara's clear-tier reversal was independently re-confirmed via a second direct fetch — still no August-guidance language. Northeastern, University of Georgia and Holy Cross (oldest-unrefreshed 'clear' rows) re-verified unchanged. DHS, Tufts tripwires unchanged; no NPRM published. Claremont McKenna searched, nothing new. No new cancellations, no tripwire movement."
-    },
-    {
-      "date": "2026-09-26 12:19 UTC",
-      "summary": "UC Santa Barbara moved 'unstated' to 'clear': its own OISS page, fetched and grepped directly (main page, FAQ and news feed), no longer carries the 'paused since Aug 17' line tracked since 22 Sept and now describes only the standard internship-course process with no guidance reference — unconfirmed elsewhere, so treated as a lead-grade reversal rather than a settled counter-trend, flagged for a close re-check. UC Irvine's page moved the other way: it dropped the 'Course Credit CPT suspended' framing entirely and now only defines Degree-Required and Thesis/Dissertation CPT categories (tier unchanged, still unstated). Penn State and Middlebury re-verified unchanged. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, nothing new. Newspaper, .edu and 1point3acres sweeps surfaced only already-tracked items; zhihu not due. No new retroactive cancellations."
     }
   ]
 }

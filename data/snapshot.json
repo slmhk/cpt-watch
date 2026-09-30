@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-09-30T06:18:00Z",
+  "updatedAt": "2026-09-30T12:19:50Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-09-30",
-  "headline": "No school changed tier this run; tripwires unchanged, no new cancellation, resumption or counter-trend. Both queues remain empty, so the four deep-checks re-verified Brown, Purdue, Northwestern and Harvard on rotation — all unchanged.",
+  "headline": "Carnegie Mellon newly confirmed restricted: its own OIE broadcast-message page (dated 27 Aug) says CPT is authorized only as ‘a graduate requirement for all students in the program,’ pushing elective-internship students toward OPT instead; existing-approval treatment not addressed. Tripwires unchanged, no new cancellation, resumption or counter-trend.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 30 Sept 14:18 HKT. Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
+      "detail": "Direct fetch succeeded again 30 Sept 20:19 HKT. Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; DSOs can only shorten (not retroactively cancel) CPT after its start date. Guidance page: still says SEVP plans to release draft guidance, no date. No change detected."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 30 Sept 14:18 HKT — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 30 Sept 20:19 HKT — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 30 Sept 14:18 HKT — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own position remains that CPT has not been banned and the regulation stands. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+      "detail": "Checked 30 Sept 20:19 HKT — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own position remains that CPT has not been banned and the regulation stands. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "watch",
-      "detail": "Checked 30 Sept 14:18 HKT via newspaper, .edu and 1point3acres sweeps (zhihu not due). Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
+      "detail": "Checked 30 Sept 20:19 HKT via newspaper, .edu and 1point3acres sweeps (zhihu also checked this run). Still only Davidson (15 Aug), MIT and Skidmore interrupt already-granted CPT. No new reports. Watching closely."
     }
   ],
   "tiers": [
@@ -234,7 +234,7 @@
         },
         {
           "name": "University of Pittsburgh",
-          "note": "re-verified 23 Sept on OIS's own dated announcement page (ois.pitt.edu/august-26-2026-new-cpt-guidance-dhs, distinct from the general CPT info page) — 'OIS has paused processing any CPT requests until we know what we are able to approve,' citing the August 2026 DHS guidance while consulting university counsel and the provost; treatment of existing approvals not addressed"
+          "note": "re-verified 30 Sept on OIS's own dated announcement page (ois.pitt.edu/august-26-2026-new-cpt-guidance-dhs, distinct from the general CPT info page) — 'OIS has paused processing any CPT requests until we know what we are able to approve,' citing the August 2026 DHS guidance while consulting university counsel and the provost; treatment of existing approvals not addressed"
         },
         {
           "name": "Stony Brook",
@@ -291,6 +291,10 @@
         {
           "name": "Bentley University",
           "note": "newly found 29 Sept via the .edu sweep on CISS's own CPT page (bentley.edu) — CPT applications paused since 18 Sept while policies are reviewed; no BCM cited; existing-approval treatment not addressed"
+        },
+        {
+          "name": "Carnegie Mellon",
+          "note": "newly restricted, found 30 Sept on OIE's own broadcast-message page (cmu.edu/oie) dated 27 Aug — CPT authorized only when 'a graduate requirement for all students in the program'; existing-approval treatment not addressed; moved out of 'clear'"
         }
       ]
     },
@@ -385,15 +389,11 @@
         },
         {
           "name": "Rice",
-          "note": "re-checked 24 Sept — OISS CPT page carries only the standard major-relatedness language, no reference to the August guidance"
+          "note": "re-checked 30 Sept — OISS CPT page carries only the standard major-relatedness language, no reference to the August guidance"
         },
         {
           "name": "Notre Dame",
-          "note": "re-checked 24 Sept — ISSA page carries only the standard integral-to-curriculum language, no reference to the August guidance"
-        },
-        {
-          "name": "Carnegie Mellon",
-          "note": "re-checked 24 Sept — OIE page carries only the standard major-relatedness / degree-requirement language, no reference to the August guidance"
+          "note": "re-checked 30 Sept via WebSearch snippet (issa.nd.edu's CPT sub-page 404's on direct fetch) — standard integral-to-curriculum language only, no reference to the August guidance"
         },
         {
           "name": "Emory",
@@ -573,6 +573,10 @@
   "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-09-30 12:18 UTC",
+      "summary": "Carnegie Mellon newly confirmed restricted, moved out of 'clear': its own OIE broadcast-message page (dated 27 Aug) limits CPT to 'a graduate requirement for all students in the program,' directing elective-internship students to OPT instead; existing-approval treatment not addressed. Pittsburgh, Rice and Notre Dame re-verified unchanged. Tripwires unchanged; no new cancellation, resumption or counter-trend."
+    },
+    {
       "date": "2026-09-30 06:18 UTC",
       "summary": "No school changed tier. Both ranked queues remain empty, so the four deep-checks drew from the oldest-unrefreshed 'unstated' rows (tied at 23 Sept): Brown, Purdue, Northwestern and Harvard all re-verified unchanged, dates refreshed. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Federal Register: no CPT-specific NPRM. Not the 00:00 UTC run, so the parked backlog was not retried; zhihu not due. Claremont McKenna, newspaper, .edu and 1point3acres sweeps surfaced nothing new. No new cancellations, no counter-trend, no tripwire movement."
     },
@@ -607,10 +611,6 @@
     {
       "date": "2026-09-28 06:32 UTC",
       "summary": "Pitzer's own CPT page newly references the August 2026 SEVP guidance (previously silent), directing students to consult advisors — moved from 'clear' to 'acknowledged'. No pause or existing-approval language yet. Mount Holyoke, Soka and Trinity College (CT) re-verified unchanged. No new cancellations, no counter-trend, tripwires unchanged."
-    },
-    {
-      "date": "2026-09-28 00:15 UTC",
-      "summary": "No school changed tier. The 00:00 UTC parked-backlog retry covered Hillsdale, Haverford, Bucknell and Colorado College — all four remain unreadable (no ISSS/CPT page found, or a durable 403), still parked. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Federal Register confirmed no CPT-specific NPRM; DHS's own agenda still targets a broader rule for Feb 2027. Claremont McKenna, newspaper, .edu and 1point3acres sweeps surfaced nothing new. No new cancellations, no counter-trend, no tripwire movement."
     }
   ]
 }

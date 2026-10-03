@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-10-03T06:15:36Z",
+  "updatedAt": "2026-10-03T12:16:35Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-10-03",
-  "headline": "University at Albany and University at Buffalo newly confirmed restricted: Albany's own page explicitly says already-authorised Fall 2026 CPT continues as planned, Buffalo is silent on existing approvals. Tripwires unchanged; Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
+  "headline": "University of Minnesota newly confirmed restricted: ISSS is pausing CPT applications while it reviews the new federal guidance; whether already-authorised CPT survives is not stated. Tripwires unchanged; Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 3 Oct 06:15 UTC (14:15 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; cancellation section still only states DSOs can cancel CPT before its start date — no guidance on retroactive cancellation after a start date. No change to the page itself."
+      "detail": "Direct fetch succeeded again 3 Oct 12:16 UTC (20:16 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No change to the page itself."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 3 Oct 06:15 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 3 Oct 12:16 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 3 Oct 06:15 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+      "detail": "Checked 3 Oct 12:16 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 3 Oct 06:15 UTC — no new cancellation found this run. TRIPPED 1 Oct — University of South Florida confirmed via its own student newspaper, The Oracle (29 Sept): OIS revoked a master's student's CPT a week after she began an approved BayCare internship (authorised 12 Aug, started working 24 Aug), citing the internship was not required for her degree. First new school to join Davidson, MIT and Skidmore in interrupting already-granted CPT."
+      "detail": "Still tripped, re-checked 3 Oct 12:16 UTC — no new cancellation found this run. TRIPPED 1 Oct — University of South Florida confirmed via its own student newspaper, The Oracle (29 Sept): OIS revoked a master's student's CPT a week after she began an approved BayCare internship (authorised 12 Aug, started working 24 Aug), citing the internship was not required for her degree. First new school to join Davidson, MIT and Skidmore in interrupting already-granted CPT."
     }
   ],
   "tiers": [
@@ -278,19 +278,23 @@
         },
         {
           "name": "William & Mary",
-          "note": "newly restricted, found 27 Sept on the Reves Center ISSP's own CPT page (wm.edu) — 'ISSP will only process CPT requests where practical training is a requirement of a degree program... All other CPT requests are currently paused'; no BCM cited, no date given; existing-approval treatment not addressed; moved out of 'clear'"
+          "note": "re-verified 3 Oct on the Reves Center ISSP's own CPT page (wm.edu) — unchanged: 'ISSP will only process CPT requests where practical training is a requirement of a degree program... All other CPT requests are currently paused'; existing-approval treatment not addressed"
         },
         {
           "name": "Tulane",
-          "note": "newly restricted, found 27 Sept on OISS's own CPT page (oiss.tulane.edu), confirmed by direct curl of the raw page — new line: 'Currently, we are not approving CPT applications beyond Fall 2026'; no BCM cited; standard required/non-required eligibility framework otherwise unchanged; existing-approval treatment not addressed; moved out of 'clear'"
+          "note": "re-verified 3 Oct on OISS's own CPT page (oiss.tulane.edu) — unchanged: 'Currently, we are not approving CPT applications beyond Fall 2026' (stated twice on the page); existing-approval treatment not addressed"
         },
         {
           "name": "Vanderbilt",
-          "note": "re-verified 27 Sept on ISSS's own dated post (vanderbilt.edu/isss, 15 Sept) — unchanged: CPT authorised only where required for all students in the same degree program; elective internships no longer qualify; existing-approval treatment not addressed"
+          "note": "re-verified 3 Oct on ISSS's own dated post (vanderbilt.edu/isss, 15 Sept) — unchanged: CPT authorised only where required for all students in the same degree program; elective internships no longer qualify; existing-approval treatment not addressed"
         },
         {
           "name": "Georgetown",
-          "note": "re-verified 27 Sept on its own Immigration Policy & Regulatory Updates page (internationalservices.georgetown.edu/immigration-updates/) — unchanged: quotes BCM 2608-02, limits CPT to training “integral and required... for all students in the degree program”; OGS contacted Fall 2026 CPT-authorised students to discuss options; existing-approval treatment still not explicitly stated"
+          "note": "re-verified 3 Oct on its own Immigration Policy & Regulatory Updates page (internationalservices.georgetown.edu/immigration-updates/) — unchanged: OGS contacted Fall 2026 CPT-authorised students to discuss options; existing-approval treatment still not explicitly stated"
+        },
+        {
+          "name": "University of Minnesota",
+          "note": "newly found 3 Oct via the .edu sweep, on ISSS's own CPT page (isss.umn.edu) — 'ISSS is pausing CPT applications while we further review the new federal guidance and develop related information for our University community'; students needing required CPT told to contact ISSS; no BCM cited by number; existing-approval treatment not addressed"
         },
         {
           "name": "Grinnell",
@@ -585,6 +589,10 @@
   "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-10-03 12:16 UTC",
+      "summary": "University of Minnesota newly confirmed restricted via the .edu sweep: ISSS is pausing CPT applications while reviewing the new federal guidance; existing-approval treatment not stated. William & Mary, Tulane, Vanderbilt and Georgetown re-verified unchanged (all still 'unstated'). DHS, Tufts and Federal Register tripwires unchanged. No new cancellations, no counter-trend."
+    },
+    {
       "date": "2026-10-03 06:15 UTC",
       "summary": "No school changed tier; tripwires unchanged. Not the 00:00 UTC run, so the parked backlog was not retried. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed rows: Middlebury (oldest 'clear', 26 Sept) and Stony Brook, Sewanee, Occidental (tied-oldest 'unstated', 27 Sept), all re-verified unchanged on their own pages. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper and .edu sweeps surfaced only already-tracked stories and pages. 1point3acres searched with the standard Chinese terms, same old thread set, nothing naming a new institutional policy change. Zhihu not due this run. No new cancellations, no counter-trend, no tripwire movement."
     },
@@ -619,10 +627,6 @@
     {
       "date": "2026-10-01 06:18 UTC",
       "summary": "No school changed tier. Not the 00:00 UTC run, so the parked backlog was not retried. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed rows: Emory (oldest 'clear' row, 24 Sept) and Boston University, UConn, UC Berkeley (tied-oldest 'unstated' rows, 25 Sept). Emory: its ISSS CPT page now redirects to a login wall on direct fetch (new finding, added to sources.md) — verified instead via WebSearch snippet, standard eligibility language only, still clear. Boston University, UConn and UC Berkeley all re-verified unchanged on their own pages. DHS SEVIS Help Hub and CPT Guidance page re-fetched directly, unchanged. Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, nothing new, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper, .edu and 1point3acres sweeps surfaced nothing not already tracked; zhihu not due this run. No new cancellations, no counter-trend, no tripwire movement."
-    },
-    {
-      "date": "2026-10-01 00:17 UTC",
-      "summary": "Carleton moved out of 'clear': its own student newspaper, the Carletonian (25 Sept), reports CPT paused for new non-required internships since the 24 Aug SEVP guidance; students with previously approved CPT should still complete the course requirement, so existing authorisations continue — added to 'honored'. This is the 00:00 UTC parked-backlog window; retried Haverford, Bucknell, Colorado College and Lafayette (a newly-surfaced coloradocollege.edu overview page still has no CPT content) — all four remain unreadable/no public page, still parked. DHS Help Hub, DHS Guidance page and Tufts re-fetched directly, unchanged. Federal Register: no CPT-specific NPRM. Claremont McKenna searched, nothing new. Newspaper, .edu, 1point3acres and zhihu sweeps run; the one zhihu hit naming a 'Greater New York' CPT school is the already-tracked Saint Peter's University SEVP decertification (out of scope, a different story from this guidance). No new retroactive cancellations, no counter-trend, no tripwire movement."
     }
   ]
 }

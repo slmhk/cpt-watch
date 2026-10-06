@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-06T00:15:48Z",
+  "updatedAt": "2026-10-06T06:19:07Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-10-06",
-  "headline": "UT Southwestern Medical Center newly confirmed to have paused CPT not required of all students in a program, effective 27 Aug; existing-approval treatment not stated. No other school changed tier; tripwires unchanged. Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
+  "headline": "No school changed tier this run; tripwires unchanged. Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 6 Oct 00:15 UTC (08:15 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No change to the page itself."
+      "detail": "Direct fetch succeeded again 6 Oct 06:19 UTC (14:19 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No change to the page itself."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 6 Oct 00:15 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 6 Oct 06:19 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 6 Oct 00:15 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+      "detail": "Checked 6 Oct 06:19 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
@@ -401,19 +401,19 @@
         },
         {
           "name": "Ohio State",
-          "note": "re-checked 29 Sept — OIA's own CPT page still carries only the standard SEVP definition, no reference to the August guidance, no restriction language; footer now also notes a Sept 14 federal injunction on the unrelated duration-of-status rule, not a CPT development"
+          "note": "re-checked 6 Oct — OIA's own CPT page still carries only the standard SEVP definition, no reference to the August guidance, no restriction language; footer still notes the unrelated duration-of-status injunction, not a CPT development"
         },
         {
           "name": "Bowdoin",
-          "note": "re-checked 29 Sept via the redirected International Student Employment page (bowdoin.edu/identity-culture/...) — still no reference to the August guidance and no restriction language"
+          "note": "re-checked 6 Oct via the International Student Employment page (bowdoin.edu/identity-culture/...) — still no reference to the August guidance and no restriction language"
         },
         {
           "name": "Harvey Mudd",
-          "note": "re-checked 29 Sept on its own International Students page — CPT described as required for the major or where credit is granted; no reference to the August guidance"
+          "note": "re-checked 6 Oct on its own International Students page — CPT described as required for the major or where credit is granted; no reference to the August guidance"
         },
         {
           "name": "Caltech",
-          "note": "re-checked 29 Sept — International Offices' own F-1 employment page (international.caltech.edu) still has no restriction or broadcast-message language"
+          "note": "re-checked 6 Oct — International Offices' own F-1 employment page (international.caltech.edu) still has no restriction or broadcast-message language"
         },
         {
           "name": "Barnard",
@@ -521,7 +521,7 @@
         },
         {
           "name": "Claremont McKenna",
-          "note": "checked every run — 6 Oct 08:15 HKT: search (cmc.edu, tsl.news) surfaced only the same permissive how-to-apply page, nothing new; no fetch spent this run."
+          "note": "checked every run — 6 Oct 14:19 HKT: search (cmc.edu, tsl.news) surfaced only the same permissive how-to-apply page, nothing new; no fetch spent this run."
         }
       ]
     },
@@ -601,6 +601,10 @@
   "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-10-06 06:19 UTC",
+      "summary": "No school changed tier; tripwires unchanged. Not the 00:00 UTC run, so the parked backlog was not retried. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed 'clear' rows (tied at 29 Sept): Ohio State, Bowdoin, Harvey Mudd and Caltech, all re-verified unchanged on their own pages. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper and .edu sweeps surfaced only already-tracked stories and pages. 1point3acres searched with the standard Chinese terms, only old unrelated personal-case threads. Zhihu searched this run (due per the every-2-3-run cadence), same known headlines, nothing new. No new cancellations, no counter-trend."
+    },
+    {
       "date": "2026-10-06 00:15 UTC",
       "summary": "UT Southwestern Medical Center newly confirmed restricted via the .edu sweep: OIA will not approve new CPT not required of every student in the program, effective 27 Aug; existing-approval treatment not addressed. This is the 00:00 UTC parked-backlog window; retried Colorado College, Haverford, Bucknell and Lafayette — all four remain unreadable/no CPT policy text found, still parked. DHS, Tufts and Claremont McKenna unchanged; no new cancellations, no counter-trend."
     },
@@ -635,10 +639,6 @@
     {
       "date": "2026-10-04 00:14 UTC",
       "summary": "No school changed tier; tripwires unchanged. This is the 00:00 UTC parked-backlog window; retried Bucknell, Colorado College, Lafayette and Denison — all four remain unreadable/no public CPT page, still parked. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Newspaper, .edu, 1point3acres and zhihu sweeps surfaced only already-tracked stories. No new cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-10-03 18:14 UTC",
-      "summary": "University of Arizona newly confirmed restricted via the .edu sweep: ISS suspended CPT requests not required for a student's program, effective 24 Aug, citing BCM 2608-02; existing-approval treatment not addressed. Tufts, Lehigh, RPI, Florida State and Bentley re-verified unchanged (all still 'unstated'). DHS, Tufts and Federal Register tripwires unchanged. No new cancellations, no counter-trend."
     }
   ]
 }

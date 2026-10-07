@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-10-07T12:24:28Z",
+  "updatedAt": "2026-10-07T18:17:02Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-10-07",
-  "headline": "First CPT-specific lawsuit: a coalition of higher-education groups tied to Harvard (AAU, the Presidents' Alliance, NAFSA, and AICUM) sued DHS in federal court in Massachusetts on 5 Oct, calling the August 12/24 CPT guidance 'procedurally invalid' and 'impermissibly retroactive,' and filed an emergency motion the same night seeking to block enforcement while the case proceeds; it asks the court to restore the pre-guidance CPT standard. The suit doesn't itself change any school's posture yet. University of Texas at Dallas newly confirmed restricted (new non-required CPT no longer approved; existing-approval treatment not addressed). Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
+  "headline": "First CPT-specific lawsuit, still pending: a coalition of higher-education groups tied to Harvard (AAU, the Presidents' Alliance, NAFSA, and AICUM) sued DHS in federal court in Massachusetts on 5 Oct, calling the August 12/24 CPT guidance 'procedurally invalid' and 'impermissibly retroactive,' with an emergency motion filed the same night seeking to block enforcement while the case proceeds; no ruling yet as of 7 Oct. The suit doesn't itself change any school's posture. University of Texas at Dallas newly confirmed restricted (new non-required CPT no longer approved; existing-approval treatment not addressed). Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 7 Oct 12:24 UTC (7 Oct 20:24 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No change to the page itself."
+      "detail": "Direct fetch succeeded again 7 Oct 18:17 UTC (8 Oct 02:17 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No mention of the 5 Oct lawsuit. No change to the page itself."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 7 Oct 12:24 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 7 Oct 18:17 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 7 Oct 12:24 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given, no mention of the new lawsuit. CPT remains guidance (12/24 Aug broadcast messages), not a rule — litigation challenging that guidance is now active (see headline) but is a court case, not rulemaking."
+      "detail": "Checked 7 Oct 18:17 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given, no mention of the new lawsuit. CPT remains guidance (12/24 Aug broadcast messages), not a rule — litigation challenging that guidance is now active (see headline) but is a court case, not rulemaking. No ruling yet found on the 5 Oct lawsuit's emergency injunction motion."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 7 Oct 12:24 UTC — no school newly moved into 'cancels' this run. Closest watch item remains Harvard Law School, per the Harvard Crimson (5 Oct): ended CPT for all 13 externship clinics (previously only some) and is individually advising students already enrolled in those clinics about alternatives — concerning but not an explicit stop-work/revocation statement, so Harvard stays 'unstated.' Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 7 Oct 18:17 UTC — no school newly moved into 'cancels' this run. Closest watch item remains Harvard Law School, per the Harvard Crimson (5 Oct): ended CPT for all 13 externship clinics (previously only some) and is individually advising students already enrolled in those clinics about alternatives — concerning but not an explicit stop-work/revocation statement, so Harvard stays 'unstated.' Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -234,7 +234,7 @@
         },
         {
           "name": "Boston College",
-          "note": "re-verified 1 Oct on OISS's own page (bc.edu) — unchanged: pause on CPT for off-campus activities not required of all students in the degree programme remains in effect, still cites the 24 Aug SEVP guidance; existing-approval treatment not stated"
+          "note": "re-verified 7 Oct on OISS's own page (bc.edu) — unchanged: pause on CPT for off-campus activities not required of all students in the degree programme remains in effect, still cites the 24 Aug SEVP guidance; existing-approval treatment not stated"
         },
         {
           "name": "Lehigh",
@@ -274,7 +274,7 @@
         },
         {
           "name": "California State University, Long Beach",
-          "note": "re-verified 1 Oct on the Center for International Education's own CPT page (csulb.edu) — unchanged: effective 24 Aug, citing the SEVP guidance by date, CIE will not process CPT requests for non-mandatory coursework (elective credit, optional internship courses, general work experience excluded); existing-approval treatment not addressed"
+          "note": "re-verified 7 Oct on the Center for International Education's own CPT page (csulb.edu) — unchanged: effective 24 Aug, citing the SEVP guidance by date, CIE will not process CPT requests for non-mandatory coursework (elective credit, optional internship courses, general work experience excluded); existing-approval treatment not addressed"
         },
         {
           "name": "Occidental",
@@ -449,11 +449,11 @@
         },
         {
           "name": "Colgate",
-          "note": "re-checked 1 Oct — own maintaining-F-1-status page carries only standard CPT description, no reference to the August guidance"
+          "note": "re-checked 7 Oct — own maintaining-F-1-status page carries only standard CPT description, no reference to the August guidance"
         },
         {
           "name": "University of Florida",
-          "note": "re-checked 1 Oct — UF International Center's own ISS CPT page carries only standard 'integral part of the curriculum' language, no reference to the August guidance"
+          "note": "re-checked 7 Oct — UF International Center's own ISS CPT page carries only standard 'integral part of the curriculum' language, no reference to the August guidance"
         },
         {
           "name": "University of Richmond",
@@ -533,7 +533,7 @@
         },
         {
           "name": "Claremont McKenna",
-          "note": "checked every run — 7 Oct 20:24 HKT: search (cmc.edu, tsl.news) surfaced only the same permissive how-to-apply page, nothing new; no fetch spent this run."
+          "note": "checked every run — 8 Oct 02:17 HKT: search (cmc.edu, tsl.news) surfaced only the same permissive how-to-apply page, nothing new; no fetch spent this run."
         }
       ]
     },
@@ -613,6 +613,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case pending, no ruling yet. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-10-07 18:17 UTC",
+      "summary": "No school changed tier; tripwires unchanged. Both ranked queues remain empty; not the 00:00 UTC run, so the parked backlog was not retried. Four deep-checks drew from the oldest-unrefreshed rows (tied 1 Oct): Boston College and California State University, Long Beach ('unstated'), Colgate and University of Florida ('clear'), all re-verified unchanged on their own pages. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged; neither DHS page mentions the 5 Oct lawsuit. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM; a targeted search for a ruling on the 5 Oct CPT lawsuit's emergency injunction motion found none yet (search results instead concerned the separate, already-resolved September D/S rule injunction). Newspaper and .edu sweeps surfaced only already-tracked stories and pages. 1point3acres searched with the standard Chinese terms, only old unrelated personal-case threads. Zhihu searched this run (due per the every-2-3-run cadence, last searched 06:24 UTC), same known headlines, nothing new. No new cancellations, no counter-trend, no other tripwire movement."
+    },
+    {
       "date": "2026-10-07 12:24 UTC",
       "summary": "No school changed tier; tripwires unchanged. Both ranked queues remain empty; not the 00:00 UTC run, so the parked backlog was not retried. Four deep-checks drew from the oldest-unrefreshed rows (tied 1 Oct): Boston University and UC Berkeley ('unstated'), Vassar and Washington & Lee ('clear'), all re-verified unchanged on their own pages. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged; neither DHS page mentions the 5 Oct lawsuit. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper and .edu sweeps surfaced only already-tracked stories and pages. 1point3acres searched with the standard Chinese terms, only old unrelated personal-case threads. Zhihu not due this run (searched last run, 06:24 UTC). No new cancellations, no counter-trend, no other tripwire movement."
     },
@@ -647,10 +651,6 @@
     {
       "date": "2026-10-05 12:28 UTC",
       "summary": "No school changed tier; tripwires unchanged. Not the 00:00 UTC run, so the parked backlog was not retried. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed rows: Furman, Kenyon, Connecticut College (clear, tied-oldest at 28 Sept) and Stanford (unstated, tied-oldest at 29 Sept), all re-verified unchanged on their own pages. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper and .edu sweeps surfaced only already-tracked stories and pages. 1point3acres searched with the standard Chinese terms, same old thread set. Zhihu searched this run (due per the every-2-3-run cadence, last searched 00:19 UTC), same known headlines, nothing new. No new cancellations, no counter-trend, no tripwire movement."
-    },
-    {
-      "date": "2026-10-05 06:25 UTC",
-      "summary": "No school changed tier; tripwires unchanged. Not the 00:00 UTC run, so the parked backlog was not retried. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed 'clear' rows (tied at 28 Sept): Mount Holyoke, Soka, Trinity College (CT) and Dickinson, all re-verified unchanged (Mount Holyoke via WebSearch snippet, still SAML-blocked to direct fetch). DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper and .edu sweeps surfaced only already-tracked stories and pages; 1point3acres searched with the standard Chinese terms, same old thread set. Zhihu not due this run. No new cancellations, no counter-trend, no tripwire movement."
     }
   ]
 }

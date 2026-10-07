@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-10-06T18:18:27Z",
+  "updatedAt": "2026-10-07T00:17:40Z",
   "updatedBy": "scheduled run",
-  "runDate": "2026-10-06",
+  "runDate": "2026-10-07",
   "headline": "Harvard Law School has expanded its CPT cutoff to all 13 externship clinics (previously only some), and says it is individually advising students already enrolled in those clinics about alternatives — the most direct look yet at a major program handling students mid-placement, though it stops short of an explicit stop-work order, so Harvard stays in the posture-not-stated tier. No school moved tier this run; Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 6 Oct 18:18 UTC (7 Oct 02:18 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No change to the page itself."
+      "detail": "Direct fetch succeeded again 7 Oct 00:17 UTC (7 Oct 08:17 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same BCM 2608-01/2608-02 references; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No change to the page itself."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 6 Oct 18:18 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 7 Oct 00:17 UTC — the \"due to recent updates to guidelines, the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 6 Oct 18:18 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
+      "detail": "Checked 7 Oct 00:17 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given. CPT remains guidance (12/24 Aug broadcast messages), not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 6 Oct 18:18 UTC — no school newly moved into 'cancels' this run. Closest watch item: Harvard Law School, per the Harvard Crimson (5 Oct), ended CPT for all 13 externship clinics (previously only some) and is individually advising students already enrolled in those clinics about alternatives — concerning but not an explicit stop-work/revocation statement, so Harvard stays 'unstated.' Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 7 Oct 00:17 UTC — no school newly moved into 'cancels' this run. Closest watch item remains Harvard Law School, per the Harvard Crimson (5 Oct): ended CPT for all 13 externship clinics (previously only some) and is individually advising students already enrolled in those clinics about alternatives — concerning but not an explicit stop-work/revocation statement, so Harvard stays 'unstated.' Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -609,6 +609,10 @@
   "context": "No CPT-specific litigation. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-10-07 00:17 UTC",
+      "summary": "No school changed tier; tripwires unchanged. 00:00 UTC parked-backlog window: retried the four least-recently-retried of the ten parked schools — Hillsdale, Denison, Franklin & Marshall and Scripps. All four remain unreadable/no CPT policy text found; two newly-tried pages (F&M's current-student/f1status, Scripps' current-international-students) fetched cleanly but named only OPT or a bare 'CPT' heading, no policy detail. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. No new cancellations, no counter-trend, no other tripwire movement."
+    },
+    {
       "date": "2026-10-06 18:18 UTC",
       "summary": "Harvard Law's own Oct 5 story (via the Crimson): CPT now ended for all 13 externship clinics, not just some, with already-enrolled students individually advised on alternatives — the clearest sign yet of pressure on already-placed students at an elite school, though not an explicit stop-work order, so Harvard stays 'unstated.' No school changed tier; tripwires unchanged."
     },
@@ -643,10 +647,6 @@
     {
       "date": "2026-10-04 18:14 UTC",
       "summary": "No school changed tier; tripwires unchanged. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed rows, all tied at 27 Sept: Case Western Reserve, Bryn Mawr, Wake Forest and UC Santa Barbara, all re-verified unchanged on their own pages. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper, .edu and 1point3acres sweeps surfaced only already-tracked stories and pages; zhihu not due this run. No new cancellations, no counter-trend, no tripwire movement."
-    },
-    {
-      "date": "2026-10-04 12:15 UTC",
-      "summary": "No school changed tier; tripwires unchanged. Both ranked queues remain empty; the four deep-checks drew from the oldest-unrefreshed 'unstated' rows: Bentley, Carnegie Mellon, Grinnell and Smith College, all re-verified unchanged on their own pages — existing-approval treatment still not addressed at any. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. Federal Register/general search confirmed no CPT-specific NPRM. Newspaper, .edu, 1point3acres and zhihu sweeps surfaced only already-tracked stories and pages. No new cancellations, no counter-trend, no tripwire movement."
     }
   ]
 }

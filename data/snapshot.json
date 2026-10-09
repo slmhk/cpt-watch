@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T00:16:36Z",
+  "updatedAt": "2026-10-09T06:26:00Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-10-09",
   "headline": "No school changed tier this run. Davidson, MIT, Skidmore and the University of South Florida remain the only schools confirmed to have interrupted already-granted CPT; the 5 Oct CPT lawsuit against DHS (AAU, Presidents' Alliance, NAFSA, AICUM v. DHS/ICE/DOJ) remains pending, no ruling yet.",
@@ -7,22 +7,22 @@
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 9 Oct 00:16 UTC (08:16 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same two broadcast-message citations; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No mention of the 5 Oct lawsuit. No change to the page itself."
+      "detail": "Direct fetch succeeded again 9 Oct 06:26 UTC (14:26 HKT). Page unchanged, still \"Last Updated: August 24, 2026,\" same two broadcast-message citations; cancellation section still only states a DSO can cancel CPT before its start date and, after the start date, can only edit the authorisation to shorten the end date — not cancel it outright. No mention of the 5 Oct lawsuit. No change to the page itself."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 9 Oct 00:16 UTC — the \"the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
+      "detail": "Direct fetch succeeded again 9 Oct 06:26 UTC — the \"the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "quiet",
-      "detail": "Checked 9 Oct 00:16 UTC — no CPT-specific NPRM published, underlying CPT regulation (8 CFR 214.2(f)(10)(i)) not amended; DHS's own CPT-guidance tripwire page still says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given, no mention of the lawsuit. CPT remains guidance (12/24 Aug broadcast messages), not a rule. No new search result on a ruling for the 5 Oct lawsuit's injunction motion; case remains pending."
+      "detail": "Checked 9 Oct 06:26 UTC, direct fetch of DHS's own CPT-guidance tripwire page confirmed — still only says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given, no mention of the lawsuit or the August broadcast messages. CPT remains guidance (12/24 Aug broadcast messages), not a rule. No new search result on a ruling for the 5 Oct lawsuit's injunction motion; case remains pending."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 9 Oct 00:16 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 9 Oct 06:26 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -290,15 +290,15 @@
         },
         {
           "name": "Vanderbilt",
-          "note": "re-verified 3 Oct on ISSS's own dated post (vanderbilt.edu/isss, 15 Sept) — unchanged: CPT authorised only where required for all students in the same degree program; elective internships no longer qualify; existing-approval treatment not addressed"
+          "note": "re-verified 9 Oct on ISSS's own dated post (vanderbilt.edu/isss, 15 Sept) — unchanged: CPT authorised only where required for all students in the same degree program; elective internships no longer qualify; existing-approval treatment not addressed"
         },
         {
           "name": "Georgetown",
-          "note": "re-verified 3 Oct on its own Immigration Policy & Regulatory Updates page (internationalservices.georgetown.edu/immigration-updates/) — unchanged: OGS contacted Fall 2026 CPT-authorised students to discuss options; existing-approval treatment still not explicitly stated"
+          "note": "re-verified 9 Oct on its own Immigration Policy & Regulatory Updates page (internationalservices.georgetown.edu/immigration-updates/) — unchanged: 9 Sept entry on BCM 2608-02, OGS contacted Fall 2026 CPT-authorised students to discuss options; existing-approval treatment still not explicitly stated"
         },
         {
           "name": "University of Minnesota",
-          "note": "newly found 3 Oct via the .edu sweep, on ISSS's own CPT page (isss.umn.edu) — 'ISSS is pausing CPT applications while we further review the new federal guidance and develop related information for our University community'; students needing required CPT told to contact ISSS; no BCM cited by number; existing-approval treatment not addressed"
+          "note": "re-verified 9 Oct on the same ISSS page (isss.umn.edu) — unchanged: 'ISSS is pausing CPT applications while we further review the new federal guidance and develop related information for our University community'; students needing required CPT told to contact ISSS; no BCM cited by number; existing-approval treatment not addressed"
         },
         {
           "name": "Grinnell",
@@ -533,7 +533,7 @@
         },
         {
           "name": "Berea College",
-          "note": "re-verified 2 Oct on its official course catalog policy page (berea.smartcatalogiq.com/.../curricular-practical-training-cpt/), not the dead-ended CIE web pages — standard eligibility/authorization process only, no reference to the August guidance"
+          "note": "re-verified 9 Oct on the catalog's current path (berea.smartcatalogiq.com/en/current/tools/policies-and-procedures/international-students-f-1-status/curricular-practical-training-cpt/, URL has moved since 2 Oct), not the dead-ended CIE web pages — standard eligibility/authorization process only, no reference to the August guidance"
         },
         {
           "name": "UC Santa Barbara",
@@ -621,6 +621,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-10-09 06:26 UTC",
+      "summary": "No school changed tier; tripwires unchanged. Not the 00:00 UTC run, so the parked backlog was not retried. Rotation drew from the oldest-unrefreshed 'unstated' and 'clear' rows (tied 3 Oct/2 Oct): Georgetown, Vanderbilt and University of Minnesota re-verified directly, still restricted with existing-approval treatment unaddressed; Berea College re-verified directly (its catalog CPT page has moved to a new URL path), still clear. DHS SEVIS Help Hub and its CPT-guidance tripwire page, plus Tufts, re-fetched directly: all unchanged, no mention of the 5 Oct lawsuit, no date for the promised draft guidance. Claremont McKenna searched, same permissive page, no fetch spent. 1point3acres and zhihu searched, nothing new. Newspaper and .edu sweeps surfaced only already-tracked stories and pages. No ruling yet on the 5 Oct CPT lawsuit's injunction motion. No new cancellations, no counter-trend."
+    },
+    {
       "date": "2026-10-09 00:16 UTC",
       "summary": "No school changed tier; tripwires unchanged. 00:00 UTC parked-backlog window: retried Spelman, Union College, Lafayette and Denison — all four still have no readable public CPT policy text, stayed parked. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged, no mention of the 5 Oct lawsuit. Claremont McKenna searched, same permissive page. No new cancellations, no counter-trend."
     },
@@ -655,10 +659,6 @@
     {
       "date": "2026-10-07 00:17 UTC",
       "summary": "No school changed tier; tripwires unchanged. 00:00 UTC parked-backlog window: retried the four least-recently-retried of the ten parked schools — Hillsdale, Denison, Franklin & Marshall and Scripps. All four remain unreadable/no CPT policy text found; two newly-tried pages (F&M's current-student/f1status, Scripps' current-international-students) fetched cleanly but named only OPT or a bare 'CPT' heading, no policy detail. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts re-fetched directly, unchanged. Claremont McKenna searched, same permissive page, no fetch spent. No new cancellations, no counter-trend, no other tripwire movement."
-    },
-    {
-      "date": "2026-10-06 18:18 UTC",
-      "summary": "Harvard Law's own Oct 5 story (via the Crimson): CPT now ended for all 13 externship clinics, not just some, with already-enrolled students individually advised on alternatives — the clearest sign yet of pressure on already-placed students at an elite school, though not an explicit stop-work order, so Harvard stays 'unstated.' No school changed tier; tripwires unchanged."
     }
   ]
 }

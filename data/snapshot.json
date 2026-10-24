@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-10-24T06:09:36Z",
+  "updatedAt": "2026-10-24T12:11:58Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-10-24",
-  "headline": "No school changed tier this run. DHS, Tufts and DHS's CPT-guidance tripwires were re-confirmed unchanged by direct fetch, and the pending CPT lawsuit (AAU v. DHS, 6 Nov hearing) still has no ruling. Claremont McKenna unchanged. Davidson, MIT, Skidmore and the University of South Florida remain the only confirmed interruptions of already-approved CPT.",
+  "headline": "Two schools moved to the honored tier: Bentley University and the University at Buffalo both confirm, on their own pages, that already-authorized Fall 2026 CPT holders may continue under their current I-20 terms. Bentley also stands out for a counter-trend workaround — it is adding a mandatory internship requirement to its Business Administration major and a new 'Professional Experience' requirement to every master's program, specifically so international students can still qualify for CPT under the stricter standard. DHS, Tufts and DHS's CPT-guidance tripwires unchanged; the CPT lawsuit (AAU v. DHS, 6 Nov hearing) still has no ruling. Claremont McKenna unchanged.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 24 Oct 06:09 UTC. Page unchanged, still \"Last updated: August 24, 2026\"; cancellation section still only permits cancelling CPT before its start date and, after the start date, only editing the authorisation to shorten the end date — not cancel it outright. No mention of the lawsuit. No change to the page itself."
+      "detail": "Direct fetch succeeded again 24 Oct 12:11 UTC. Page unchanged, still \"Last updated: August 24, 2026\"; cancellation section still only permits cancelling CPT before its start date and, after the start date, only editing the authorisation to shorten the end date — not cancel it outright. No mention of the lawsuit. No change to the page itself."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Direct fetch succeeded again 24 Oct 06:09 UTC — the \"the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation, beyond the standing rule that any training extending into a new term needs a fresh CPT application. No change detected."
+      "detail": "Direct fetch succeeded again 24 Oct 12:11 UTC — the \"the I-Center is unable to process CPT requests for non-required internships at this time\" sentence is still present, unchanged; still nothing either way about students who already hold CPT authorisation, beyond the standing rule that any training extending into a new term needs a fresh CPT application. No change detected."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "Checked 24 Oct 06:09 UTC — DHS's own CPT-guidance tripwire page re-confirmed via direct fetch, unchanged: still only says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given, no mention of the lawsuit, and now explicitly flags its own content 'may be outdated.' A fresh lawsuit-status search found only secondary summaries restating the already-tracked 6 Nov hearing date; no confirmation the government actually filed its response by the reported 19 Oct deadline, and no ruling, order, or injunction on the pending lawsuit. CPT remains guidance, not a rule."
+      "detail": "Checked 24 Oct 12:11 UTC — DHS's own CPT-guidance tripwire page re-confirmed via direct fetch, unchanged: still only says SEVP 'plans to release draft guidance' clarifying prior CPT documents, no date given, no mention of the lawsuit, still flags its own content 'may be outdated.' A fresh lawsuit-status search found only secondary summaries (AAU's own motion filing, NAFSA's case page, a law-firm case note) restating the already-tracked 6 Nov hearing date; no confirmation of a government response filing, and no ruling, order, or injunction on the pending lawsuit. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 24 Oct 06:09 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 24 Oct 12:11 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -171,6 +171,14 @@
         {
           "name": "Stony Brook",
           "note": "moved from unstated 22 Oct on VIS's own 'Important Update Regarding CPT' page (stonybrook.edu/visa) — already-authorised students told to continue per the employer, location and dates on their current I-20; new/pending requests reviewed under the stricter required-for-degree standard"
+        },
+        {
+          "name": "Bentley University",
+          "note": "moved from unstated 24 Oct on CISS's own 'Immigration News and Updates' page (bentley.edu) — new CPT applications paused since 18 Sept while reviewing the Aug 2026 SEVP messages, but already-authorised students 'may continue their training' under their current I-20 terms; notably, Bentley is also adding a mandatory internship requirement to the Business Administration major and a new 'Professional Experience' requirement to every master's program specifically so international students can still qualify for CPT — a workaround, flagged on the retroactive-cancellation/counter-trend watch"
+        },
+        {
+          "name": "University at Buffalo",
+          "note": "moved from unstated 24 Oct on ISS's own CPT policy-change FAQ page (buffalo.edu) — citing both Aug 2026 SEVP broadcast messages by date, new CPT limited to programs required for all students, but already-authorised Fall 2026 CPT holders 'may continue their approved training as planned'"
         }
       ]
     },
@@ -314,19 +322,11 @@
         },
         {
           "name": "Smith College",
-          "note": "re-verified 17 Oct directly on its own CPT page — unchanged: “CPT will not be available to undergraduate students... until further notice,” pointing to OPT as an alternative; grad/SSW students unaffected; no guidance cited by name; existing-approval treatment not addressed"
-        },
-        {
-          "name": "Bentley University",
-          "note": "re-verified 17 Oct directly on CISS's own CPT page (bentley.edu) — unchanged: CPT applications paused since 18 Sept while policies are reviewed; no BCM cited; existing-approval treatment not addressed"
+          "note": "re-verified 24 Oct directly on its own CPT page — unchanged: “CPT will not be available to undergraduate students... until further notice,” pointing to OPT as an alternative; grad/SSW students unaffected; no guidance cited by name; existing-approval treatment not addressed"
         },
         {
           "name": "Carnegie Mellon",
-          "note": "re-verified 17 Oct directly on OIE's own CPT page (cmu.edu/oie) — unchanged: CPT limited to work that is an integral, degree-required part of the curriculum, required internships/practicums 'necessary to all students... to complete the program'; existing-approval treatment not addressed"
-        },
-        {
-          "name": "University at Buffalo",
-          "note": "re-verified 17 Oct directly on ISS's own CPT page — unchanged: 'the University at Buffalo can only process CPT if it is required for degree completion,' citing unspecified 'recent SEVP broadcast messages'; existing-approval treatment not addressed"
+          "note": "re-verified 24 Oct directly on OIE's own dated notice (cmu.edu/oie/news-and-events/2025-2026/august/cpt-broadcast-message.html, posted 14 Aug, reposted 27 Aug) — unchanged: citing the 24 Aug SEVP message, CPT authorised only where an internship is a graduation requirement for all students; elective-internship programs must use pre-completion OPT instead; existing-approval treatment not addressed"
         },
         {
           "name": "University of Arizona",
@@ -637,6 +637,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions is set for 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-10-24 12:11 UTC",
+      "summary": "Bentley University and University at Buffalo both moved from 'unstated' to 'honored': each confirms, on its own page, that already-authorised Fall 2026 CPT holders may continue under their current I-20. Bentley is also adding a mandatory internship requirement to its Business Administration major and a new 'Professional Experience' requirement to every master's program, explicitly so international students can still qualify for CPT — a notable counter-trend workaround. DHS, Tufts and Federal Register tripwires unchanged on direct fetch; the CPT lawsuit (AAU v. DHS) remains unruled, 6 Nov hearing. Claremont McKenna unchanged. Rotation also re-verified Smith College ('clear') and Carnegie Mellon ('unstated'), unchanged. No cancellations."
+    },
+    {
       "date": "2026-10-24 06:09 UTC",
       "summary": "No school changed tier; tripwires unchanged. DHS, Tufts and DHS's CPT-guidance tripwires re-confirmed unchanged by direct fetch; the CPT lawsuit (AAU v. DHS, 6 Nov hearing) remains unruled, with no confirmation the government's reported 19 Oct response deadline was met. Claremont McKenna unchanged. Rotation re-verified Yale, University of Arizona and Northwestern (all 'unstated'), unchanged. No cancellations, no counter-trend."
     },
@@ -671,10 +675,6 @@
     {
       "date": "2026-10-22 06:12 UTC",
       "summary": "No school changed tier. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit remains at the same stage (6 Nov hearing, 3pm per the docket), no ruling. Claremont McKenna unchanged. Rotation re-verified Lehigh, RPI and Florida State (all 'unstated', via search snippet) and University of Richmond ('clear', still 503'ing to direct fetch), all unchanged. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-10-22 00:09 UTC",
-      "summary": "No school changed tier. DHS and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit remains at the same stage, 6 Nov hearing date now also sourced to the plaintiffs' own motion filing (aau.edu), no ruling. Claremont McKenna unchanged. 00:00 UTC parked-backlog window: Franklin & Marshall, Spelman, Trinity University (TX) and Union College all retried, all four stayed parked, nothing new found. No cancellations, no counter-trend."
     }
   ]
 }

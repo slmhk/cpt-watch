@@ -1,0 +1,700 @@
+{
+ "updatedAt": "2026-10-31T06:11:27Z",
+ "updatedBy": "scheduled run",
+ "runDate": "2026-10-31",
+ "headline": "No school changed tier this run. DHS SEVIS Help Hub and DHS CPT Guidance pages, and the Tufts tripwire, unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged.",
+ "tripwires": [
+  {
+   "name": "DHS SEVIS Help Hub CPT page",
+   "status": "watch",
+   "detail": "Re-confirmed 31 Oct 06:11 UTC via direct fetch — unchanged, \"Last updated: August 24, 2026\"; still points DSOs to the August 2026 broadcast messages, the DSO-liability reminder and the SEVP fraud tipline, still no mention of the lawsuit, no new language on already-authorised students."
+  },
+  {
+   "name": "Tufts I-Center CPT page",
+   "status": "watch",
+   "detail": "Re-confirmed 31 Oct 06:11 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+  },
+  {
+   "name": "Federal Register rulemaking on CPT",
+   "status": "watch",
+   "detail": "Checked 31 Oct 06:11 UTC — DHS's own CPT-guidance tripwire page still only says SEVP \"plans to release draft guidance,\" no date; no CPT-specific Federal Register rulemaking found (a 7 Oct DHS proposed rule on OPT fees is a separate, out-of-scope matter); the pending AAU v. DHS lawsuit (No. 1:26-cv-14520, D. Mass.) remains at the same stage, 6 Nov 2026 hearing, no ruling. CPT remains guidance, not a rule."
+  },
+  {
+   "name": "Retroactive cancellation spreading",
+   "status": "tripped",
+   "detail": "Still tripped, re-checked 31 Oct 06:11 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+  }
+ ],
+ "tiers": [
+  {
+   "key": "cancels",
+   "label": "Already-approved CPT stopped or withdrawn",
+   "severity": "critical",
+   "sub": "The most severe response: students who already held an authorisation were told to stop work, or had it withdrawn.",
+   "schools": [
+    {
+     "name": "Davidson",
+     "note": "15 Aug — paused new CPT and cancelled approved Fall 2026 authorisations after consulting counsel"
+    },
+    {
+     "name": "MIT",
+     "note": "paused new, incl. Professional Practice Requirement internships; contacting already-approved Fall 2026 students about alternatives"
+    },
+    {
+     "name": "Skidmore",
+     "note": "verified 15 Sept on Skidmore's own visa-employment page — CPT paused since the 12 Aug guidance, and students whose CPT was already authorised are told to stop work and await individual review, not continue. Not described as permanent."
+    },
+    {
+     "name": "University of South Florida",
+     "note": "verified 29 Sept via its own paper, The Oracle — OIS revoked a student's already-approved, already-started CPT (approved 12 Aug, began working 24 Aug) a week later as not required for her degree; OIS's Sept update confirms stricter review."
+    }
+   ]
+  },
+  {
+   "key": "honored",
+   "label": "Restricted — existing authorisations honoured",
+   "severity": "restricted",
+   "sub": "New non-required CPT stopped; what was already approved stands.",
+   "schools": [
+    {
+     "name": "Columbia",
+     "note": "required-of-all + cooperative agreement only; pre-24 Aug approvals kept"
+    },
+    {
+     "name": "Cornell",
+     "note": "re-verified 25 Sept directly on Cornell's own F-1 CPT page (international.globallearning.cornell.edu) — 'we are not rescinding CPT already issued,' since those cases were approved on guidance known at the time; a 31 Aug ISSO alert narrows new CPT to curriculum-embedded, required-of-all-students, formal-agreement internships"
+    },
+    {
+     "name": "USC",
+     "note": "mandatory-only; existing honoured"
+    },
+    {
+     "name": "UC San Diego",
+     "note": "future processing suspended; existing fall authorisations honoured"
+    },
+    {
+     "name": "Santa Clara",
+     "note": "future processing suspended; existing fall authorisations honoured"
+    },
+    {
+     "name": "U Washington",
+     "note": "verified 26 Sept on ISS's own 'Update on CPT Policy' page (iss.washington.edu) — 'students who already have authorized CPT should continue to follow the employer, location, dates, and other conditions listed on their current Form I-20'; new non-required requests paused"
+    },
+    {
+     "name": "U Rochester",
+     "note": "28 Aug — new non-required CPT paused, degree-required exception; already-approved CPT explicitly honoured"
+    },
+    {
+     "name": "UIUC",
+     "note": "24 Aug ISSS notice — CPT tied to an elective course can no longer be approved; only CPT mandatory for all students to graduate; previously approved CPT not affected (verified on the official ISSS announcements page)"
+    },
+    {
+     "name": "UC Davis",
+     "note": "2 Sept SISS notice, verified 8 Sept — new Course Credit CPT paused; Degree-Requirement CPT continues; students with an already-issued CPT I-20 may proceed with that opportunity"
+    },
+    {
+     "name": "U Michigan",
+     "note": "28 Aug, verified 8 Sept on the International Center site — CPT approved only where mandatory for all students in the degree programme; previously approved CPT may continue"
+    },
+    {
+     "name": "U Penn",
+     "note": "August halt, verified 9 Sept; per the Daily Pennsylvanian (10 Sept) ISSS resumed processing CPT meeting the mandatory-for-all/cooperative-agreement standard; current CPT authorisation continues through I-20 dates unless ISSS says otherwise"
+    },
+    {
+     "name": "CU Boulder",
+     "note": "20 Aug, verified 9 Sept on the ISSS FAQ — students already authorised for Fall 2026 CPT may continue their internship"
+    },
+    {
+     "name": "Duke",
+     "note": "verified 10 Sept on visaservices.duke.edu — CPT must be integral to the curriculum, required of all students in the programme and under a cooperative agreement (guidance communicated 12 and 24 Aug); students currently on CPT need take no action and continue under their current form"
+    },
+    {
+     "name": "George Washington",
+     "note": "2 Sept ISO notice, reported 10 Sept by the GW Hatchet — new non-required CPT paused, citing the 12 and 24 Aug SEVP messages; already-approved CPT continues under current I-20 terms (previously listed as 'evaluating')"
+    },
+    {
+     "name": "Wesleyan",
+     "note": "verified 11 Sept on the OISA CPT page — indefinite pause on new CPT issuance for F-1 undergraduates since 4 Sept, citing both broadcast messages; elective-internship-course route no longer qualifies; previously authorised CPT remains valid"
+    },
+    {
+     "name": "Virginia Tech",
+     "note": "verified 11 Sept on the Cranwell International Center's own page — new CPT authorisations paused while evaluating BCM 2608-01/2608-02; only programmes where training is required and integral for all students will be processed; students already holding CPT authorisation unaffected"
+    },
+    {
+     "name": "U Wisconsin–Madison",
+     "note": "verified 12 Sept on ISS's own 8/25/26 (updated 8/28) CPT update page — authorised only where required for all students in the programme, incl. thesis/dissertation-required grad programmes; explicit FAQ: CPT approved before 24 Aug will NOT be retroactively rescinded; alternative offered is pre-completion OPT"
+    },
+    {
+     "name": "Rutgers–New Brunswick",
+     "note": "3 Sept alert on Rutgers Global's own alerts page (not the generic main CPT page) — CPT authorised only where mandatory for all students to graduate, or for grad thesis/dissertation work needing resources unavailable at Rutgers; previously approved CPT may continue"
+    },
+    {
+     "name": "NYU",
+     "note": "verified 17 Sept on NYU's own CPT page (updated 8 Sept) — new CPT authorised only where an explicit, mandatory degree requirement for all students; students already holding approved Fall 2026 CPT told their authorisation 'remains valid' under the existing I-20 and they may continue working"
+    },
+    {
+     "name": "University of Maryland",
+     "note": "verified 18 Sept on Maryland Global's own page — new CPT paused unless required for all students in the program/course/thesis (24 Aug broadcast message); already-authorised CPT continues per current I-20 terms"
+    },
+    {
+     "name": "Texas A&M",
+     "note": "resolved 19 Sept — global.tamu.edu's own Global Engagement CPT page, unreadable for five straight runs, is live again: cites both 12 and 24 Aug broadcast messages, requires the practice be integral, required of all students in the program and under a cooperative agreement; explicitly states CPT submitted or authorised on or before 24 Aug 'remain[s] unaffected' — moved out of 'unresolved' straight to honoured"
+    },
+    {
+     "name": "UCLA",
+     "note": "moved from unstated 22 Sept, per the Daily Bruin (UCLA's own student paper) — the Dashew Center's Sept 8 suspension of CPT-application review exempts applications approved before 12 Aug (and degree-required work); one student was blocked from extending an existing internship, cutoff unclear for that case"
+    },
+    {
+     "name": "Carleton",
+     "note": "moved from 'clear' 1 Oct, verified on Carleton's own newspaper, the Carletonian (25 Sept) — CPT paused for new non-required internships post-24 Aug guidance; previously approved CPT holders should complete the course requirement — existing authorizations continue"
+    },
+    {
+     "name": "University at Albany (SUNY)",
+     "note": "newly found 3 Oct via the .edu sweep, on ISSS's own CPT-authorization page — citing both 12 and 24 Aug SEVP broadcasts, non-required CPT suspended, but 'students who have already received CPT authorization for Fall 2026 may continue participating in the training covered by their existing authorization as planned'"
+    },
+    {
+     "name": "Penn State",
+     "note": "moved from unstated 8 Oct — the main Global page still says 'pausing optional CPT approvals,' but the College of Engineering's own CPT page (career.engr.psu.edu) states students with CPT approved before 12 Aug for a fall 2026 internship 'may still complete that internship' even though new optional CPT is no longer eligible"
+    },
+    {
+     "name": "Iowa State",
+     "note": "newly found 14 Oct via the .edu sweep, on ISSO's own CPT-policy page (isso.dso.iastate.edu/resources/cptpolicy) — citing the 24 Aug SEVP broadcast, pausing authorization of new non-required-for-all CPT immediately; 'previously approved CPT will remain authorized through the current end date'"
+    },
+    {
+     "name": "University of Utah",
+     "note": "newly found 13 Oct via the .edu sweep, on ISSS's own dated post (isss.utah.edu/news/posts/2026/cpt-broadcast-message-update.php, 3 Sept) — citing the 12/24 Aug SEVP broadcasts, new non-required CPT paused effective immediately; students who already hold authorized CPT told to 'continue to follow the employer, location, dates, and other conditions listed on your current Form I-20'"
+    },
+    {
+     "name": "Arizona State University",
+     "note": "newly found 17 Oct via the .edu sweep, on ISSC's own CPT page (issc.asu.edu/f-1j-1-students/employment/f1-cpt) — citing SEVP guidance (BCM 2608-02), new/pending CPT requests under review against the required-of-all-students standard, not an outright pause; for Fall 2026, 'your current CPT authorization remains valid' and students may continue under the employer, location and dates on their I-20"
+    },
+    {
+     "name": "Stony Brook",
+     "note": "moved from unstated 22 Oct on VIS's own 'Important Update Regarding CPT' page (stonybrook.edu/visa) — already-authorised students told to continue per the employer, location and dates on their current I-20; new/pending requests reviewed under the stricter required-for-degree standard"
+    },
+    {
+     "name": "Bentley University",
+     "note": "moved from unstated 24 Oct on CISS's own 'Immigration News and Updates' page (bentley.edu) — new CPT applications paused since 18 Sept while reviewing the Aug 2026 SEVP messages, but already-authorised students 'may continue their training' under their current I-20 terms; notably, Bentley is also adding a mandatory internship requirement to the Business Administration major and a new 'Professional Experience' requirement to every master's program specifically so international students can still qualify for CPT — a workaround, flagged on the retroactive-cancellation/counter-trend watch"
+    },
+    {
+     "name": "University at Buffalo",
+     "note": "moved from unstated 24 Oct on ISS's own CPT policy-change FAQ page (buffalo.edu) — citing both Aug 2026 SEVP broadcast messages by date, new CPT limited to programs required for all students, but already-authorised Fall 2026 CPT holders 'may continue their approved training as planned'"
+    },
+    {
+     "name": "UC Irvine",
+     "note": "moved from unstated 27 Oct on UCI's own Immigration Policy Updates timeline (ic.uci.edu/resources-2/immigration-policy-updates) — when the pause began 17 Aug, the page stated students 'currently participating in CPT are not affected'; that pause itself ended 22 Sept, replaced by a narrower required-for-all-students/thesis/cooperative-agreement standard for new requests; nothing posted since revokes the already-granted-CPT protection"
+    }
+   ]
+  },
+  {
+   "key": "unstated",
+   "label": "Restricted — posture on existing approvals not stated",
+   "severity": "restricted",
+   "sub": "Confirmed restricted; whether prior approvals survive is not public.",
+   "schools": [
+    {
+     "name": "Tufts",
+     "note": "re-confirmed 31 Oct via direct fetch of its own I-Center CPT page — unchanged: non-required CPT not processed; page says nothing either way about students who already hold CPT authorisation"
+    },
+    {
+     "name": "University of Texas at Dallas",
+     "note": "re-verified 26 Oct directly on ISSO's own CPT page (isso.utdallas.edu) — unchanged: citing the Aug 2026 SEVP broadcast messages, CPT approved only for internship courses specified as required in the student's degree catalog, no case-by-case exceptions; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Stanford",
+     "note": "re-verified 28 Oct directly on Bechtel International Center's own page — unchanged: CPT paused, until further notice, for all applications not required for degree completion; existing-approval treatment not addressed (page only notes that CPT edit requests can be submitted for dates not yet expired)"
+    },
+    {
+     "name": "Princeton",
+     "note": "re-verified 28 Oct — Davis International Center's own immigration/current-students page still 403's to direct WebFetch; re-confirmed via search snippet instead, same two-programme restriction (MPA, Master's in Finance), PICS/RISE exempt; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Brown",
+     "note": "re-verified 25 Oct via WebSearch snippet of ISSS's own dedicated CPT update page (isss.brown.edu/news/2026-09-02/cpt-update) — unchanged: 'only able to process and approve requests where a practical training experience is integral to an established curriculum and required for all students in the program'; pending requests get individual DSO contact; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Purdue",
+     "note": "re-verified 28 Oct on ISS's own CPT page (purdue.edu/gpp/iss) — unchanged: CPT authorised only when required by the student's primary degree; no August-guidance citation; treatment of existing approvals not stated"
+    },
+    {
+     "name": "Northwestern",
+     "note": "re-verified 26 Oct via a fresh Daily Northwestern article (26 Oct) — OISS \"no longer approve[s]\" CPT for experiential-learning internships outside a required program (Medill, SESP exceptions still run); students expecting no CPT approval told to register full-time to keep F-1 status; treatment of existing approvals still not addressed"
+    },
+    {
+     "name": "UC Berkeley",
+     "note": "Course Credit CPT paused 26 Aug; degree-required CPT continues. Re-verified 26 Oct directly on Berkeley International Office's own CPT page (internationaloffice.berkeley.edu/students/employment/cpt) — 'BIO has suspended, until further notice, all applications for Course Credit CPT'; no resumption, existing-approval treatment not addressed"
+    },
+    {
+     "name": "Boston University",
+     "note": "re-verified 26 Oct directly on ISSO's own 28 Aug post (bu.edu/isso) — unchanged: 'ISSO is temporarily pausing CPT processing for internships that are not required for all students in a particular program', continuing to approve requests clearly required for program completion; treatment of existing approvals not addressed"
+    },
+    {
+     "name": "Boston College",
+     "note": "re-verified 26 Oct directly on OISS's own Current Students page (bc.edu) — unchanged: a pause on CPT approvals for off-campus activities not required of all students in a degree programme remains in effect, citing the 24 Aug SEVP guidance; existing-approval treatment not stated"
+    },
+    {
+     "name": "Harvard",
+     "note": "re-verified 26 Oct — HIO's own page (hio.harvard.edu/employment-training/curricular-practical-training) still 403's; per the Crimson's 3 Sept report HIO now authorises CPT only where it is a formal degree requirement, varying by school (College, Law, Medical, GSD, GSAS halted; HBS, HKS, Ed, Divinity, Public Health continuing); existing-approval treatment still not stated"
+    },
+    {
+     "name": "UConn",
+     "note": "re-verified 27 Oct directly on ISSS's own 30 Aug announcement page (international.global.uconn.edu/2026/08/30/immigration-changes-regarding-internships/) — unchanged: CPT authorised only where required of all students in the degree program; elective internships not processed; existing-approval treatment still not stated"
+    },
+    {
+     "name": "University of Oregon",
+     "note": "re-verified 27 Oct directly on ISSS's own CPT page (isss.uoregon.edu) — unchanged: authorised only where integral to curriculum and required for all students, or integral to a required thesis/dissertation (12 & 24 Aug messages); existing-approval treatment still not stated"
+    },
+    {
+     "name": "Johns Hopkins",
+     "note": "re-verified 26 Oct — ois.jhu.edu still 403's to direct WebFetch (unchanged, durable Cloudflare block); a fresh search snippet is more explicit than before: \"under new federal guidance, CPT is now restricted\" — OIS will only authorise new or pending CPT requests required for degree completion; treatment of already-held CPT authorisation still not stated"
+    },
+    {
+     "name": "Hamilton College",
+     "note": "re-verified 26 Oct directly on the college's own international-student-services CPT page — unchanged: pauses all new CPT authorisations for Fall 2026 effective 24 Aug, citing BCM 2608-01/2608-02; pause is framed as covering 'new' authorisations, but existing-approval treatment still not explicitly stated"
+    },
+    {
+     "name": "Washington University in St. Louis",
+     "note": "re-verified 26 Oct directly on OISS's own page (oiss.washu.edu/curricular-practical-training/) — unchanged: cites the Aug SEVP guidance, quotes the 'integral and required part of an established curriculum' standard for all students; existing-approval treatment not stated"
+    },
+    {
+     "name": "UT Austin",
+     "note": "re-verified 26 Oct directly on Texas Global's own CPT page — unchanged: 'CPT may only be authorized when...a mandatory graduation requirement for all students in the specific degree program'; treatment of existing approvals not stated"
+    },
+    {
+     "name": "Lehigh",
+     "note": "re-verified 27 Oct directly on OISS's own CPT page (global.lehigh.edu) — unchanged: pause on CPT tied solely to an optional internship/experiential-learning course while reviewing recent SEVP guidance (no BCM number cited); degree-required CPT continues; treatment of existing approvals not stated"
+    },
+    {
+     "name": "RPI",
+     "note": "re-verified 27 Oct directly on ISSS's own employment page (isss.rpi.edu/resources/employment-us) — unchanged: same Spring 2027 restriction to Discovery Semester co-ops/CCPD-approved internships or programmes with an explicit graduation internship/work requirement; no SEVP guidance cited by name; treatment of current Fall 2026 approvals not addressed"
+    },
+    {
+     "name": "Florida State",
+     "note": "re-verified 27 Oct directly on the Center for Global Engagement's own CPT page (cge.fsu.edu) — unchanged: quotes the 12 Aug DHS broadcast message's required-for-all-students standard (no BCM number cited); CGE 'will no longer approve training opportunities that are not required of every student'; treatment of existing approvals not addressed"
+    },
+    {
+     "name": "University of Pittsburgh",
+     "note": "re-verified 30 Oct via WebSearch snippet of OIS's own CPT page (ois.pitt.edu; direct WebFetch 503'd twice this run, a durable failure since 24 Oct) — unchanged: OIS has paused CPT processing while working out a path forward with University Counsel and the Provost's office, citing the August 2026 DHS guidance; treatment of existing approvals not addressed"
+    },
+    {
+     "name": "Sewanee (University of the South)",
+     "note": "re-verified 28 Oct on the Office of Global Citizenship's own practical-training page (new.sewanee.edu) — unchanged: quotes SEVP guidance that CPT should only be authorized when required for all students and the program cannot be completed without it; pausing authorization of new CPT requests not required for all students; treatment of existing approvals not addressed"
+    },
+    {
+     "name": "St. Olaf",
+     "note": "re-checked 26 Oct — own CPT page (wp.stolaf.edu) 404'd to direct fetch again, a further straight failure; re-verified instead via WebSearch snippet, same content as before: CPT limited to programs where a practicum is required for graduation, naming Education, Social Studies Education, Music Education, Social Work and Nursing; treatment of existing approvals not addressed"
+    },
+    {
+     "name": "San Francisco State",
+     "note": "re-verified 27 Oct directly on oip.sfsu.edu/cpt — unchanged: effective 24 Aug, citing BCM 2608-02, pausing course-credit CPT while degree-required CPT continues; treatment of existing approvals not addressed"
+    },
+    {
+     "name": "California State University, Long Beach",
+     "note": "re-verified 27 Oct on the Center for International Education's own CPT page (csulb.edu) — unchanged: effective 24 Aug, citing the SEVP guidance by date, CIE will not process CPT requests for non-mandatory coursework (elective credit, optional internship courses, general work experience excluded); existing-approval treatment not addressed"
+    },
+    {
+     "name": "Occidental",
+     "note": "re-verified 28 Oct directly on the Work & Internships page (oxy.edu) — unchanged: \"off campus practical training is paused\" while IPO ensures DHS guidance is met, a separate internships section also pauses off-campus individual internships; existing-approval treatment not addressed"
+    },
+    {
+     "name": "William & Mary",
+     "note": "re-verified 28 Oct on the Reves Center ISSP's own CPT page (wm.edu) — unchanged: \"ISSP will only process CPT requests where practical training is a requirement of a degree program... All other CPT requests are currently paused\"; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Vanderbilt",
+     "note": "re-verified 28 Oct directly on ISSS's own dated post (vanderbilt.edu/isss, 15 Sept) — unchanged: CPT authorised only where required for all students in the same degree program; elective internships no longer qualify; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Georgetown",
+     "note": "re-verified 28 Oct — Immigration Policy & Regulatory Updates page (internationalservices.georgetown.edu/immigration-updates/) unchanged, still only the 9 Sept entry (OGS contacted Fall 2026 CPT-authorised students to discuss options); main CPT page still reads 'Now processing Fall 2026 CPT requests' and 'Accepting Spring 2027 CPT requests starting November 9' — processing resumed under the required-for-all standard; existing-approval treatment still not explicitly stated"
+    },
+    {
+     "name": "University of Minnesota",
+     "note": "re-verified 28 Oct on ISSS's own CPT page (isss.umn.edu/fstudents/employment/cpt) — unchanged: 'ISSS is pausing CPT applications while we further review the new federal guidance'; page lists students 'currently in their CPT period' as an intended audience but does not say what they may do during the pause; existing-approval treatment still not addressed"
+    },
+    {
+     "name": "Grinnell",
+     "note": "re-verified 28 Oct directly on career.grinnell.edu's own page — unchanged: blanket pause on all CPT authorization (broader than most peers, not just non-required), citing two SEVP Broadcast messages; no effective date given; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Smith College",
+     "note": "re-verified 30 Oct via WebSearch snippet of its own CPT page (direct fetch 503'd twice this run, a durable failure since 24 Oct) — unchanged: \"CPT will not be available to undergraduate students... until further notice,\" pointing to OPT as an alternative; grad/SSW students unaffected; no guidance cited by name; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Carnegie Mellon",
+     "note": "re-verified 30 Oct directly on OIE's own dated notice (cmu.edu/oie/news-and-events/2025-2026/august/cpt-broadcast-message.html) — unchanged: citing the 24 Aug SEVP message, CPT authorised only where an internship is a graduation requirement for all students; elective-internship programs must use pre-completion OPT instead; existing-approval treatment not addressed"
+    },
+    {
+     "name": "University of Arizona",
+     "note": "re-verified 30 Oct directly on ISS's own CPT page (international.arizona.edu) — unchanged: 'effective August 24, 2026 ... ISS is suspending the processing of CPT requests that are not required for a student's program of study'; existing-approval treatment not addressed — a WebSearch AI summary fabricated a 'stays valid through its current end date' sentence for a third time (also 17 Oct, 24 Oct); direct fetch again confirms no such language exists anywhere on the page"
+    },
+    {
+     "name": "Illinois Institute of Technology",
+     "note": "re-verified 30 Oct directly on its own Global Services CPT page (iit.edu/global-services) — unchanged: citing the 12 and 24 Aug SEVP guidance, CPT application processing paused for degree programs without a mandatory practical-training component; existing-approval treatment not addressed"
+    },
+    {
+     "name": "UT Southwestern Medical Center",
+     "note": "re-verified 30 Oct via WebSearch snippet of OIA's own CPT-guidances page (utsouthwestern.edu; direct fetch 503'd twice this run) — unchanged: effective 27 Aug, will not approve new CPT unless explicitly required of every student in the degree program ('if a student can complete the degree and graduate without participating in the proposed practical training experience, federal guidance indicates that OIA may not authorize CPT'); existing-approval treatment not addressed"
+    },
+    {
+     "name": "UNLV",
+     "note": "re-verified 30 Oct directly on UNLV's own CPT-guidance announcement page (unlv.edu/announcement/unlv-global/update-ds-rules-and-curricular-practical-training-cpt-guidance) — unchanged: cites the 12 and 24 Aug SEVP guidance by date (not BCM number), DSOs 'may authorize CPT only when the practical training is a required component of the academic program,' elective courses do not establish eligibility; existing-approval treatment not addressed"
+    },
+    {
+     "name": "University of Washington Tacoma",
+     "note": "re-verified 26 Oct via WebSearch snippet of ISSS's own CPT page (tacoma.uw.edu/oga/isss-cpt; direct fetch 503'd again this run) — unchanged, distinct from the Seattle campus (already 'honored'): pausing CPT requests not required as part of an established curriculum in the student's major; existing-approval treatment not addressed"
+    },
+    {
+     "name": "University of South Carolina",
+     "note": "re-verified 27 Oct via WebSearch snippet of ISS's own CPT page (sc.edu) — unchanged: an alert box applies a general required-for-all-students/core-to-degree standard to CPT itself; existing-approval treatment still not addressed"
+    },
+    {
+     "name": "West Virginia",
+     "note": "re-verified 27 Oct via WebSearch snippet of ISSS's own CPT page (isss.wvu.edu) — unchanged: citing August 2026 SEVP broadcast messages, CPT cannot be authorised unless required of all students in the program; elective courses not required of every student do not qualify; existing-approval treatment still not addressed"
+    },
+    {
+     "name": "University of Oklahoma",
+     "note": "re-verified 27 Oct by direct fetch of the exact canonical ISS page (ou.edu/globalengagement/iss/curricular-practical-training, updated 16 Oct), resolving the prior run's URL mismatch — unchanged: citing both Aug broadcast messages by date, paused all CPT requests made on or after 24 Aug; existing-approval treatment not addressed; page separately confirms the same 6 Nov 2026 hearing date tracked elsewhere (see Federal Register tripwire)"
+    },
+    {
+     "name": "Colorado College",
+     "note": "re-verified 27 Oct via WebSearch snippet of the Social Action Institute page (coloradocollege.edu; direct fetch of the ISSS Employment index 503'd again this run) — unchanged: CPT 'currently authorized only when' an internship is required for the student's major; most CC F-1 students ineligible since most majors don't require one; no citation of the August guidance by name; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Yale",
+     "note": "re-verified 28 Oct directly on OISS's own news page (oiss.yale.edu/news/cpt-update-sevp-broadcast-messages-and-pending-litigation, dated 7 Oct) — unchanged: OISS has processed CPT only under the required-of-all-students standard since 24 Aug, monitoring the pending AAU v. DHS litigation; existing-approval treatment still not addressed"
+    },
+    {
+     "name": "Florida International University",
+     "note": "re-verified 31 Oct — the 27 Aug director's-message announcement page (isss.fiu.edu/announcements) still carries the restriction (24 Aug SEVP guidance cited, CPT barred for elective/optional coursework); ISSS's own main CPT page, fetched directly this run, covers only standard eligibility and doesn't mention the guidance either way; page says nothing about students who already hold CPT authorization"
+    },
+    {
+     "name": "University of La Verne",
+     "note": "re-verified 31 Oct via WebSearch snippet of ISSA's own CPT-update page (laverne.edu/issa; direct fetch 403'd this run) — unchanged: citing SEVP Broadcast Message 2608-02 (24 Aug 2026), CPT authorized only when the training is a required component of the degree under a cooperative agreement; existing-approval treatment not addressed"
+    },
+    {
+     "name": "California State University, Fullerton",
+     "note": "re-verified 31 Oct via WebSearch snippet of ISS's own CPT page (international.fullerton.edu; direct fetch 503'd again this run, a durable failure since 25 Oct) — unchanged: citing DHS's new CPT guidance, temporarily pausing CPT authorizations for non-mandatory coursework; degree-required CPT continues as normal; existing-approval treatment not addressed"
+    },
+    {
+     "name": "Illinois State University",
+     "note": "newly found 29 Oct via the .edu sweep, on ISSS's own CPT page (isss.illinoisstate.edu/employment/f-1-curricular-practical-training/) — citing both 12 and 24 Aug SEVP broadcasts by filename, CPT not authorized unless required of all students in the program and under a cooperative agreement with the employer; notes the 5 Oct lawsuit and says the page will be updated as that develops; existing-approval treatment not addressed"
+    },
+    {
+     "name": "University of Alabama",
+     "note": "newly found 30 Oct via the .edu sweep, verified via WebSearch snippet of the Capstone International Center's own pages (international.ua.edu; immigration-updates page 503'd to direct fetch) — citing SEVP broadcast messages 2608-01/2608-02, effective 31 Aug, CPT limited to training that is core/essential to the curriculum (the degree could not be completed without it); elective or employment-arranged training does not qualify; existing-approval treatment not addressed"
+    }
+   ]
+  },
+  {
+   "key": "acknowledged",
+   "label": "Acknowledged the guidance, no specifics",
+   "severity": "unknown",
+   "sub": "",
+   "schools": [
+    {
+     "name": "UNC",
+     "note": "re-checked 18 Sept directly on ISSS's own 25 Aug post — references both broadcast messages by date but gives no detail on pause vs honour, and nothing on existing approvals"
+    },
+    {
+     "name": "Georgia Tech",
+     "note": "verified 11 Sept on OIE's own CPT page — cites both broadcast messages, no current pause stated; spring 2027 eligibility to 'align with guidance' once OIE's review concludes"
+    },
+    {
+     "name": "Pitzer",
+     "note": "newly acknowledges the guidance 28 Sept: its own CPT page (pitzer.edu/offices/international-students/training-cpt) now carries an “Important Note” that in August 2026 SEVP issued two Broadcast Messages impacting CPT, directing students with questions to meet with International Programs/Career Services staff about their individual situation — no detail on pause vs honour, nothing on existing approvals; moved out of ‘clear’ (previously had zero guidance reference as of 15 Sept)"
+    },
+    {
+     "name": "University of Maryland, Baltimore",
+     "note": "newly found 8 Oct via the .edu sweep — a separate SEVP-certified campus from the already-tracked College Park entry; OIS's own page links both Aug broadcast messages, says it is 'reviewing the guidance and evaluating whether any changes...may be necessary,' no pause announced; explicitly says existing CPT holders 'should continue to follow the terms of their approved authorization' unless notified otherwise"
+    }
+   ]
+  },
+  {
+   "key": "leads",
+   "label": "Reported by students — not yet verified",
+   "severity": "unknown",
+   "sub": "Community reports (mainly 1point3acres). A lead, not a confirmation, until an official page backs it.",
+   "schools": []
+  },
+  {
+   "key": "clear",
+   "label": "No public restriction found",
+   "severity": "clear",
+   "sub": "Absence of a notice, not confirmation of no change.",
+   "schools": [
+    {
+     "name": "Dartmouth",
+     "note": "re-verified 29 Oct via WebSearch snippet (ovis-intl.dartmouth.edu's CPT page 503'd to direct fetch again, a durable dead link since 18 Sept) — standard eligibility language only, no reference to the August guidance"
+    },
+    {
+     "name": "Emory",
+     "note": "re-checked 22 Oct via WebSearch snippet of isss.emory.edu (login-wall/content-mismatch persists on direct fetch) — unchanged, standard degree-requirement/enrolled-class/thesis eligibility language only, no reference to the August guidance"
+    },
+    {
+     "name": "U Chicago",
+     "note": "re-checked 25 Oct via WebSearch snippet of OIA's own CPT page (internationalaffairs.uchicago.edu) — unchanged, no reference to the August guidance"
+    },
+    {
+     "name": "Pomona",
+     "note": "re-checked 25 Oct via WebSearch snippet of its own CPT page (pomona.edu) — unchanged, no notice; standard eligibility content only"
+    },
+    {
+     "name": "Williams",
+     "note": "re-verified 22 Oct via WebSearch snippet (direct fetch durably 403's since 18 Sept) — standard eligibility/hours-limit/employer-specific language only, no reference to the August guidance"
+    },
+    {
+     "name": "Amherst",
+     "note": "re-verified 25 Oct via WebSearch snippet of its own CPT page — unchanged, no reference to the August guidance; the director's 30 Sept Amherst Student warning that the open curriculum could leave it unable to authorize any CPT if the guidance stands still holds as forward risk only"
+    },
+    {
+     "name": "Swarthmore",
+     "note": "re-verified 22 Oct via WebSearch snippet (direct fetch/curl a durable dead end since 18 Sept) — standard OPT/CPT eligibility content only (own dedicated CPT page did not resurface in this search), no reference to the August guidance"
+    },
+    {
+     "name": "Wellesley",
+     "note": "re-verified 22 Oct via WebSearch snippet (direct fetch chain dead-ends at a login-walled intranet, durable since 18 Sept) — standard major-relatedness/Slater-office eligibility content only, no reference to the August guidance"
+    },
+    {
+     "name": "Middlebury",
+     "note": "re-verified 22 Oct directly on ISSS's own CPT page (middlebury.edu, marked \"Updated 09/30/2026\") — no restriction or broadcast-message language; content unchanged"
+    },
+    {
+     "name": "Ohio State",
+     "note": "re-verified 29 Oct directly on OIA's own CPT page (oia.osu.edu) — unchanged, standard SEVP definition only, no reference to the August guidance; page's banner notes an unrelated Sept 14 preliminary injunction, not a CPT development"
+    },
+    {
+     "name": "Bowdoin",
+     "note": "re-verified 29 Oct directly on its own International Student Employment page (bowdoin.edu) — unchanged, standard eligibility content only, no reference to the August guidance"
+    },
+    {
+     "name": "Harvey Mudd",
+     "note": "re-verified 29 Oct directly on its own International Students page (hmc.edu) — unchanged, CPT described as required for the major or where credit is granted; no reference to the August guidance"
+    },
+    {
+     "name": "Caltech",
+     "note": "re-verified 29 Oct directly on International Offices' own F-1 employment page (international.caltech.edu) — unchanged, no restriction or broadcast-message language"
+    },
+    {
+     "name": "Barnard",
+     "note": "re-checked 29 Oct on its own International Student Services page — unchanged: no internship degree requirement, CPT runs through a 1-credit independent study, no reference to the August guidance; a recurring JNS/press claim that Barnard itself paused CPT review remains unverified against Barnard's own page or Barnard/Columbia student press"
+    },
+    {
+     "name": "Rice",
+     "note": "re-checked 29 Oct directly on OISS's own page (oiss.rice.edu/fscholar) — unchanged, only the standard major-relatedness/tutorial-requirement language, no reference to the August guidance"
+    },
+    {
+     "name": "Notre Dame",
+     "note": "re-checked 29 Oct via WebSearch snippet of ISSA's own pages (issa.nd.edu) — unchanged, policy varies by college (e.g. Mendoza Business allows CPT via BAUG 37000) but no reference to the August guidance anywhere"
+    },
+    {
+     "name": "Vassar",
+     "note": "re-checked 29 Oct via WebSearch snippet of the Office of International Services' own CPT page (offices.vassar.edu) — unchanged, standard major-relatedness/hours content only, no reference to the August guidance"
+    },
+    {
+     "name": "Washington & Lee",
+     "note": "re-checked 29 Oct via WebSearch snippet of its own jobs-and-internships page (wlu.edu/center-for-international-education) — unchanged, standard credit-or-major-requirement description, no reference to the August guidance"
+    },
+    {
+     "name": "Colgate",
+     "note": "re-checked 29 Oct via WebSearch snippet of OISS's own pages (colgate.edu) — unchanged, standard first-year-eligibility/adviser-recommendation content only, no reference to the August guidance"
+    },
+    {
+     "name": "University of Florida",
+     "note": "re-checked 29 Oct via WebSearch snippet of UFIC's own ISS CPT page (internationalcenter.ufl.edu) — unchanged, standard 'integral part of the curriculum'/cooperative-agreement language only, no reference to the August guidance"
+    },
+    {
+     "name": "University of Richmond",
+     "note": "re-tried 22 Oct — global.richmond.edu's own International Student Employment page 503'd again to direct WebFetch (a recurring failure since mid-Oct); re-verified instead via WebSearch snippet, same standard CPT-guidelines content as before, no reference to the August guidance"
+    },
+    {
+     "name": "Northeastern",
+     "note": "re-verified 22 Oct via WebSearch snippet of OGS's own CPT page (direct fetch 503'd this run) — unchanged: only standard eligibility language, no reference to the August guidance"
+    },
+    {
+     "name": "University of Georgia",
+     "note": "re-verified 23 Oct on the UGA Career Center's own International Student Employment FAQ (career.uga.edu) — unchanged: standard process only, no reference to the August guidance"
+    },
+    {
+     "name": "Holy Cross",
+     "note": "re-verified 23 Oct directly on Office of International Students' own page (holycross.edu) — unchanged: standard major-related eligibility only, no reference to the August guidance"
+    },
+    {
+     "name": "Macalester",
+     "note": "re-verified 23 Oct directly on International Student Programs' own employment page (macalester.edu/isp) — unchanged: standard major-related CPT process only, no reference to the August guidance"
+    },
+    {
+     "name": "Case Western Reserve",
+     "note": "re-verified 25 Oct via WebSearch snippet of Case School of Engineering's own co-op page (case.edu) — unchanged: standard CPT process via the VISA Office, no reference to the August guidance"
+    },
+    {
+     "name": "Mount Holyoke",
+     "note": "re-verified 25 Oct via WebSearch snippet (offices.mtholyoke.edu CPT URL remains a dead end, unchanged since 17 Oct) — same standard major-related CPT content (COLL 211f/practicum course requirement), no guidance reference"
+    },
+    {
+     "name": "Bryn Mawr",
+     "note": "re-verified 25 Oct — Impact Center's own international-student-guide CPT page (brynmawr.edu) describes only the standard eligibility and application process, no reference to the August guidance"
+    },
+    {
+     "name": "Wake Forest",
+     "note": "re-verified 25 Oct on the Center for Immigration Services and Support's own CPT page (iss.wfu.edu/student-employment/cpt/) — unchanged, standard eligibility and certification-course process only, no reference to the August guidance"
+    },
+    {
+     "name": "Soka University of America",
+     "note": "re-verified 25 Oct via WebSearch snippet of the Career Development & Internships Office's own CPT page (soka.edu/career) — unchanged, standard FAQ eligibility content only, no reference to the August guidance"
+    },
+    {
+     "name": "Trinity College (CT)",
+     "note": "re-verified 25 Oct via WebSearch snippet of OISS's own employment page (trincoll.edu/oiss) — unchanged, standard major-relatedness/credit eligibility content only, no reference to the August guidance"
+    },
+    {
+     "name": "Dickinson",
+     "note": "re-verified 25 Oct via WebSearch snippet of its International Student Work Permission page (dickinson.edu) — unchanged, standard major-related CPT eligibility content only, no reference to the August guidance"
+    },
+    {
+     "name": "Furman",
+     "note": "re-verified 30 Oct directly on the Center for Inclusive Communities' own CPT page (furman.edu) — unchanged, standard major-related eligibility process only, no reference to the August guidance"
+    },
+    {
+     "name": "Kenyon",
+     "note": "re-verified 30 Oct directly on the Center for Global Engagement's own student-work page (kenyon.edu) — unchanged, standard major-related CPT process via EXPL 205/206, no reference to the August guidance"
+    },
+    {
+     "name": "Connecticut College",
+     "note": "re-verified 30 Oct directly on its own international-student handbook employment page (conncoll.edu) — unchanged, standard major-related CPT process only, no reference to the August guidance"
+    },
+    {
+     "name": "Wabash",
+     "note": "re-checked 30 Oct directly — F-1 Employment Options page (wabash.edu) covers the standard CPT process only, no reference to the August guidance"
+    },
+    {
+     "name": "Wheaton (IL)",
+     "note": "re-checked 20 Oct via curl after isss.wheaton.edu 403'd to WebFetch again — its Curricular Practical Training page still allows either required-by-curriculum OR major-related-with-credit CPT (the pre-guidance standard), no reference to the August guidance"
+    },
+    {
+     "name": "Berea College",
+     "note": "re-verified 23 Oct on the catalog's current path (berea.smartcatalogiq.com/en/current/tools/policies-and-procedures/international-students-f-1-status/curricular-practical-training-cpt/) — unchanged: standard eligibility/authorization process only, no reference to the August guidance"
+    },
+    {
+     "name": "UC Santa Barbara",
+     "note": "moved from unstated 26 Sept; re-confirmed again 25 Oct via WebSearch snippet of OISS's own page (oiss.ucsb.edu/curricular-practical-training) — still no 'paused' language, still only the standard internship-course/cooperative-agreement process. Unconfirmed elsewhere (no press coverage of a UCSB resumption) — still treated as a tentative reversal, not a settled counter-trend; keep re-checking"
+    },
+    {
+     "name": "Haverford",
+     "note": "re-verified 22 Oct — own CPT page still 403's to direct fetch (durable block since Sept), but a fresh WebSearch snippet of the same URL (haverford.edu/international-student-support/employment/curricular-practical-training) again returns full standard eligibility content (major, hours, employer/date limits), no reference to the August guidance"
+    },
+    {
+     "name": "Bucknell",
+     "note": "re-verified 23 Oct directly on bucknell.edu's own International Student & Scholar Services 'Current Students' page (life-bucknell/.../international-student-scholar-services/current-students) — unchanged, standard eligibility/hours/timing only, no reference to the August guidance; the login-walled international.bucknell.edu CPT portal stays blocked"
+    },
+    {
+     "name": "Tulane",
+     "note": "moved from unstated 28 Oct — oiss.tulane.edu's own CPT page no longer carries the 'not approving CPT applications beyond Fall 2026' pause found 23 Oct; eligibility now reads as the standard pre-guidance test (required of all students in the program, OR required academic credit through a specific course), with only a general 'currently under increased scrutiny' caution and no restriction/pause language anywhere on the page; no dated change-log entry found and unconfirmed elsewhere — treated as a tentative reversal, not a settled counter-trend; keep re-checking"
+    },
+    {
+     "name": "Claremont McKenna",
+     "note": "checked every run — 31 Oct 00:11 UTC: cmc.edu's own page is still the same permissive how-to-apply page, no restriction language, no reference to the August guidance; the same Student Life article (9 Oct), quoting the International Student Services assistant dean on 'carefully evaluating CPT requests under updated federal guidance,' remains the only acknowledgment found anywhere at CMC; nothing on existing approvals, so tier unchanged."
+    }
+   ]
+  },
+  {
+   "key": "unresolved",
+   "label": "Unresolved",
+   "severity": "unknown",
+   "sub": "Checked repeatedly without a readable public position. Re-checked weekly; absence of a notice here means we could not confirm either way.",
+   "schools": [
+    {
+     "name": "Bates",
+     "note": "no public CPT page found — ten distinct URL paths tried since 11 Sept, all 404, and its student paper carries no CPT coverage; re-checked weekly"
+    },
+    {
+     "name": "Colby",
+     "note": "no public CPT page — the international-student employment process appears to sit behind the myColby portal; re-checked weekly"
+    },
+    {
+     "name": "UVA",
+     "note": "ISSP's own pages have refused direct reads since 10 Sept; search snippets consistently describe non-required course-credit CPT suspended, mandatory CPT continuing and existing I-20 CPT honoured to its end date — unconfirmed, so untiered; re-checked weekly"
+    },
+    {
+     "name": "Lafayette",
+     "note": "parked; re-tried 30 Oct 00:12 UTC — a fresh domain search again surfaced only the Intercultural Development advising/workshop pages (naming staff contact Janine Block) and registrar/economics pages; no eligibility or policy text found; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Denison",
+     "note": "parked; re-tried 30 Oct 00:12 UTC — a fresh domain search again resurfaced the same Career Support for International Students page, the general International Students landing page and the still-unreachable my.iss.denison.edu FuseAction portal; no eligibility/policy text found; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Franklin & Marshall",
+     "note": "parked; re-tried 25 Oct 00:09 UTC — a fresh fandm.edu domain search again surfaced only the generic International Student Services landing page and course catalogs/schedules, no CPT-specific text found anywhere on fandm.edu; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Scripps",
+     "note": "parked; re-tried 30 Oct 00:12 UTC — same old OPT-guidelines PDF (mentions CPT only via the 12-month-CPT-forfeits-OPT rule) and general international-student/catalog pages surfaced; real ISSS content still sits behind the CAS-walled inside.scrippscollege.edu portal; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Spelman",
+     "note": "parked; re-tried 25 Oct 00:09 UTC — a fresh domain search again surfaces only the general International Student Services page and its downloadable 'CPT Application' form by name, no eligibility or policy text found on spelman.edu; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Trinity University (TX)",
+     "note": "parked; re-tried 25 Oct 00:09 UTC — a trinity.edu domain search again surfaced only course bulletins and academic-department pages (incl. the Experiential Learning EXL-INT course designation), no CPT-specific policy text found anywhere on trinity.edu; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Union College",
+     "note": "parked; re-tried 25 Oct 00:09 UTC — a union.edu domain search resurfaced only the same dated (2018) CPT-vs-OPT mind-map PDF and economics/psychology department pages with no eligibility or policy text, no new CPT policy text found; re-tried at most once a day, in the 00:00 UTC run"
+    },
+    {
+     "name": "Hillsdale",
+     "note": "parked; re-tried 30 Oct 00:12 UTC — a fresh domain search again surfaced only catalog pages on internship/practicum credit rules (faculty sponsor, 3-week minimum), still no ISSS office or CPT-specific page found anywhere on hillsdale.edu; re-tried at most once a day, in the 00:00 UTC run"
+    }
+   ]
+  }
+ ],
+ "unchecked": {
+  "lac": [],
+  "national": []
+ },
+ "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions is set for 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
+ "runs": [
+  {
+   "date": "2026-10-31 06:11 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Tufts, Florida International, University of La Verne and Cal State Fullerton (all 'unstated'), unchanged. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-31 00:11 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. 00:00 UTC parked-backlog window retried Franklin & Marshall, Spelman, Trinity University (TX) and Union College, all four stayed parked. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-30 18:11 UTC",
+   "summary": "University of Alabama newly found restricted via the .edu sweep — Capstone International Center page cites SEVP broadcast messages 2608-01/2608-02, CPT limited since 31 Aug to training core/essential to the curriculum; existing-approval treatment not addressed. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Pittsburgh, Smith, UT Southwestern and UNLV (all 'unstated'), unchanged; Pittsburgh, Smith and UT Southwestern's own pages 503'd to direct fetch again, re-confirmed via search snippet. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-30 12:21 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Carnegie Mellon and Illinois Institute of Technology ('unstated', unchanged); University of Arizona also unchanged, with a WebSearch AI summary fabricating an 'existing CPT stays valid' sentence for a third time, again disproved by direct fetch; Smith's page 503'd twice, left unchanged. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-30 06:12 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Furman, Kenyon, Connecticut College and Wabash (all 'clear'), unchanged. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-30 00:12 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Parked backlog (Lafayette, Denison, Scripps, Hillsdale) retried, all four stayed parked. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-29 18:16 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Vassar, Washington & Lee, Colgate and University of Florida (all 'clear'), unchanged. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-29 12:33 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Dartmouth, Barnard, Rice and Notre Dame (all 'clear'), unchanged; a recurring unconfirmed press claim that Barnard itself paused CPT review still could not be verified against Barnard's own page or student press. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-29 06:10 UTC",
+   "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the pending CPT lawsuit (AAU v. DHS) remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified Ohio State, Bowdoin, Harvey Mudd and Caltech (all 'clear'), unchanged. No cancellations, no counter-trend."
+  },
+  {
+   "date": "2026-10-29 00:10 UTC",
+   "summary": "Illinois State newly confirmed restricted via the .edu sweep — CPT authorized only where required for all students under a cooperative agreement; existing-approval treatment not addressed. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged; AAU v. DHS lawsuit unchanged, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Parked backlog (Franklin & Marshall, Spelman, Trinity University (TX), Union College) retried, all stayed parked."
+  }
+ ]
+}

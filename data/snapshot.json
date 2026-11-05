@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-04T18:13:10Z",
+  "updatedAt": "2026-11-05T00:10:00Z",
   "updatedBy": "scheduled run",
-  "runDate": "2026-11-04",
-  "headline": "No school changed tier this run. DHS's two tripwire pages could not be read this run — the network blocked both a direct fetch and a browser-agent retry — so their status is carried over, not re-confirmed; the Tufts tripwire and Claremont McKenna were readable and unchanged. The 6 Nov AAU v. DHS preliminary-injunction hearing is still two days away, no ruling; Princeton's own CPT page (unreadable since 23 Oct) is reported by its student paper to have been taken down and marked \"under construction.\"",
+  "runDate": "2026-11-05",
+  "headline": "No school changed tier this run. DHS's two own tripwire pages were blocked again — a second consecutive run unreadable, this time a flat 403 rather than the prior run's network-level \"Access Denied\" — so their status is carried over, not re-confirmed; the Tufts tripwire and Claremont McKenna were readable and unchanged. The AAU v. DHS preliminary-injunction hearing before Judge Kobick is now one day away (6 Nov, 3pm), still no ruling.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "watch",
-      "detail": "BLOCKED this run (4 Nov 18:13 UTC) — both a direct fetch and a browser-agent retry got an \"Access Denied\" response from the network edge, not from the page; could not confirm or refute content this run. Last actually read 4 Nov 12:15 UTC: unchanged, \"Last updated: August 24, 2026,\" no lawsuit mention, cancellation section pre-start-date only. Treat as an outage, not a tripwire move, until it's readable again."
+      "detail": "BLOCKED again this run (5 Nov 00:10 UTC) — direct fetch got a flat 403, a second straight run unreadable (prior run got a network-edge \"Access Denied\"). Last actually read 4 Nov 12:15 UTC: unchanged, \"Last updated: August 24, 2026,\" no lawsuit mention, cancellation section pre-start-date only. Treat as an outage, not a tripwire move, until it's readable again."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 4 Nov 18:13 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+      "detail": "Re-confirmed 5 Nov 00:10 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "DHS's own CPT-guidance tripwire page BLOCKED this run (same network-level denial as the Help Hub page, 4 Nov 18:13 UTC) — not re-confirmed; last read 4 Nov 12:15 UTC still only said SEVP \"plans to release draft guidance,\" no date. A fresh lawsuit-status search again failed to independently confirm the hearing (results were unrelated cases — Doe v. Trump, a Chamber of Commerce v. DHS H-1B matter); the 6 Nov 2026 preliminary-injunction hearing before Judge Kobick stays sourced to Carnegie Mellon's, the University of Oklahoma's and NAFSA's own pages, still two days out, no ruling. CPT remains guidance, not a rule."
+      "detail": "DHS's own CPT-guidance tripwire page BLOCKED again this run (flat 403, 5 Nov 00:10 UTC, same outage pattern as the Help Hub page) — not re-confirmed; last read 4 Nov 12:15 UTC still only said SEVP \"plans to release draft guidance,\" no date. A lawsuit-status search this run confirmed, via NAFSA's own page, the preliminary-injunction hearing before Judge Kobick is set for 6 Nov 2026 at 3:00pm — one day out, no ruling yet. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 4 Nov 18:13 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 5 Nov 00:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -202,7 +202,7 @@
         },
         {
           "name": "Stanford",
-          "note": "re-verified 28 Oct directly on Bechtel International Center's own page — unchanged: CPT paused, until further notice, for all applications not required for degree completion; existing-approval treatment not addressed (page only notes that CPT edit requests can be submitted for dates not yet expired)"
+          "note": "re-verified 5 Nov directly on Bechtel's own dedicated pause announcement (bechtel.stanford.edu/news/non-required-cpt-paused-stanford, posted 1 Sept) — unchanged: non-required CPT paused effective immediately; existing-approval treatment not addressed"
         },
         {
           "name": "Princeton",
@@ -549,7 +549,7 @@
         },
         {
           "name": "Dickinson",
-          "note": "re-verified 25 Oct via WebSearch snippet of its International Student Work Permission page (dickinson.edu) — unchanged, standard major-related CPT eligibility content only, no reference to the August guidance; re-attempted 3 Nov, direct fetch 503'd"
+          "note": "re-attempted 5 Nov via WebSearch snippet (direct fetch not retried) — unchanged, standard major-related CPT eligibility content only, no reference to the August guidance"
         },
         {
           "name": "Furman",
@@ -625,7 +625,7 @@
         },
         {
           "name": "Franklin & Marshall",
-          "note": "parked; re-tried 2 Nov 00:09 UTC — a fresh fandm.edu domain search again surfaced only the generic International Student Services landing page and course catalogs, no CPT-specific text found anywhere on fandm.edu; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 5 Nov 00:10 UTC — a fresh fandm.edu domain search again surfaced only the International Student Services landing page and course catalogs, no CPT-specific text found; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Scripps",
@@ -633,15 +633,15 @@
         },
         {
           "name": "Spelman",
-          "note": "parked; re-tried 2 Nov 00:09 UTC — a fresh domain search again surfaces only the Gordon-Zeto Center for Global Education page and related academic pages, no eligibility or policy text found on spelman.edu; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 5 Nov 00:10 UTC — a fresh domain search again surfaced only the Gordon-Zeto Center page (lists a CPT Application form by name but no eligibility/policy text) and related academic pages; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Trinity University (TX)",
-          "note": "parked; re-tried 2 Nov 00:09 UTC — a trinity.edu domain search again surfaced only orientation and academic-department pages, no CPT-specific policy text found anywhere on trinity.edu; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 5 Nov 00:10 UTC — a trinity.edu domain search again surfaced only orientation and course-catalog pages, no CPT-specific policy text found; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Union College",
-          "note": "parked; re-tried 2 Nov 00:09 UTC — a union.edu domain search again surfaced only academic catalogs and the economics-department OPT note, no CPT policy text found; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 5 Nov 00:10 UTC — a union.edu domain search again surfaced only the same undated CPT-vs-OPT mind-map PDF (unreadable) and academic catalogs, no new policy text found; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Hillsdale",
@@ -656,6 +656,10 @@
   },
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions is set for 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
+    {
+      "date": "2026-11-05 00:10 UTC",
+      "summary": "No school changed tier. Both DHS tripwire pages 403'd again, a second straight blocked run; Tufts and Claremont McKenna were readable, unchanged. The AAU v. DHS hearing before Judge Kobick is one day out (6 Nov, 3pm), still no ruling. Parked backlog (F&M, Spelman, Trinity TX, Union) found nothing new. No cancellations, no counter-trend."
+    },
     {
       "date": "2026-11-04 18:13 UTC",
       "summary": "No school changed tier. DHS's two own tripwire pages were blocked to both direct fetch and a browser-agent retry this run (network-level \"Access Denied\"), so their content is carried over rather than re-confirmed; Tufts and Claremont McKenna were readable and unchanged. Princeton's own CPT page, unreadable since 23 Oct, is now reported by the Daily Princetonian to have been taken down and marked \"under construction.\" The 6 Nov AAU v. DHS hearing is still two days out, no ruling; a fresh lawsuit-status search again turned up only unrelated cases. Rotation checked Sewanee, Stanford, Princeton and Purdue; Stanford and Purdue's pages were unreadable or inconclusive this run. No cancellations, no counter-trend."
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-02 18:25 UTC",
       "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the AAU v. DHS lawsuit remains at the same stage, 6 Nov hearing before Judge Kobick, no ruling. Claremont McKenna unchanged. Rotation re-verified Holy Cross, Macalester, Berea College and Bucknell (all 'clear'), unchanged. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-02 12:14 UTC",
-      "summary": "No school changed tier and no new school surfaced. DHS tripwires (SEVIS Help Hub, CPT Guidance page, Tufts) unchanged on direct fetch; the AAU v. DHS lawsuit remains at the same stage, 6 Nov hearing, no ruling. Claremont McKenna unchanged. Rotation re-verified St. Olaf, Lehigh, RPI and Florida State (all 'unstated', unchanged). No cancellations, no counter-trend."
     }
   ]
 }

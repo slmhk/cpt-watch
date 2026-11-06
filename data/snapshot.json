@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-06T00:10:58Z",
+  "updatedAt": "2026-11-06T06:10:34Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-11-06",
-  "headline": "No school changed tier. Both DHS tripwire pages were readable again this run, direct fetch succeeding for the first time in five runs — content unchanged (still dated 24 Aug, still only 'plans to release draft guidance,' no lawsuit mention). Tufts and Claremont McKenna also unchanged. The AAU v. DHS preliminary-injunction hearing before Judge Kobick is today, 6 Nov 3pm US Eastern — still no ruling as of this run.",
+  "headline": "No school changed tier. Both DHS tripwire pages, Tufts and Claremont McKenna were re-confirmed unchanged this run. The AAU v. DHS preliminary-injunction hearing before Judge Kobick is today, 6 Nov 2026, 3pm US Eastern — still no ruling (too early in the day as of this run).",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Readable again 6 Nov 00:10 UTC via direct fetch, ending a five-run outage — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name (not by BCM number in the page text), no lawsuit mention."
+      "detail": "Re-confirmed 6 Nov 06:10 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 6 Nov 00:10 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+      "detail": "Re-confirmed 6 Nov 06:10 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "DHS's own CPT-guidance tripwire page also readable again 6 Nov 00:10 UTC, ending the same five-run outage — unchanged: SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date. Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520 (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick is TODAY, 6 Nov 2026, 3pm US Eastern — this run's search found no ruling yet (too early; hearing hasn't happened at time of this run). CPT remains guidance, not a rule."
+      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 6 Nov 06:10 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date. Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520 (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick is TODAY, 6 Nov 2026, 3pm US Eastern — this run's search (06:10 UTC / 1:10am ET) found no ruling yet, too early in the day for the hearing to have occurred. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 6 Nov 00:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 6 Nov 06:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -274,7 +274,7 @@
         },
         {
           "name": "University of Pittsburgh",
-          "note": "re-verified 30 Oct via WebSearch snippet of OIS's own CPT page (ois.pitt.edu; direct WebFetch 503'd twice this run, a durable failure since 24 Oct) — unchanged: OIS has paused CPT processing while working out a path forward with University Counsel and the Provost's office, citing the August 2026 DHS guidance; treatment of existing approvals not addressed"
+          "note": "re-verified 6 Nov via WebSearch snippet of OIS's own CPT page (ois.pitt.edu; direct fetch not retried, durable 503 failure since 24 Oct) — unchanged: OIS has paused CPT processing while working out a path forward with University Counsel and the Provost's office, citing the August 2026 DHS guidance; treatment of existing approvals not addressed"
         },
         {
           "name": "Sewanee (University of the South)",
@@ -318,7 +318,7 @@
         },
         {
           "name": "Smith College",
-          "note": "re-verified 30 Oct via WebSearch snippet of its own CPT page (direct fetch 503'd twice this run, a durable failure since 24 Oct) — unchanged: \"CPT will not be available to undergraduate students... until further notice,\" pointing to OPT as an alternative; grad/SSW students unaffected; no guidance cited by name; existing-approval treatment not addressed"
+          "note": "re-verified 6 Nov via WebSearch snippet (own Praxis-funding and CPT pages 503'd to direct fetch again) — a newer Lazarus Center Praxis page (~20 Oct) broadens the prior undergrad-only pause: Smith will stop issuing CPT for Fall 2026 under the DHS directives, barring CPT for Academic Internship (IDP 117), Special Studies or Concentration-requirement placements, pointing to Pre-Completion OPT instead; existing-approval treatment still not addressed"
         },
         {
           "name": "Carnegie Mellon",
@@ -334,11 +334,11 @@
         },
         {
           "name": "UT Southwestern Medical Center",
-          "note": "re-verified 30 Oct via WebSearch snippet of OIA's own CPT-guidances page (utsouthwestern.edu; direct fetch 503'd twice this run) — unchanged: effective 27 Aug, will not approve new CPT unless explicitly required of every student in the degree program ('if a student can complete the degree and graduate without participating in the proposed practical training experience, federal guidance indicates that OIA may not authorize CPT'); existing-approval treatment not addressed"
+          "note": "re-verified 6 Nov via WebSearch snippet of OIA's own CPT-guidances page (utsouthwestern.edu; direct fetch not retried, durable 503 failure) — unchanged: effective 27 Aug, will not approve new CPT unless explicitly required of every student in the degree program ('if a student can complete the degree and graduate without participating in the proposed practical training experience, federal guidance indicates that OIA may not authorize CPT'); existing-approval treatment not addressed"
         },
         {
           "name": "UNLV",
-          "note": "re-verified 30 Oct directly on UNLV's own CPT-guidance announcement page (unlv.edu/announcement/unlv-global/update-ds-rules-and-curricular-practical-training-cpt-guidance) — unchanged: cites the 12 and 24 Aug SEVP guidance by date (not BCM number), DSOs 'may authorize CPT only when the practical training is a required component of the academic program,' elective courses do not establish eligibility; existing-approval treatment not addressed"
+          "note": "re-verified 6 Nov directly on UNLV's own CPT-guidance announcement page (unlv.edu/announcement/unlv-global/update-ds-rules-and-curricular-practical-training-cpt-guidance) — unchanged: cites the 12 and 24 Aug SEVP guidance by date (not BCM number), DSOs 'may authorize CPT only when the practical training is a required component of the academic program,' elective courses do not establish eligibility; existing-approval treatment not addressed"
         },
         {
           "name": "University of Washington Tacoma",
@@ -657,6 +657,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions is set for 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-11-06 06:10 UTC",
+      "summary": "No school changed tier. Both DHS tripwire pages, Tufts and Claremont McKenna re-confirmed unchanged. Rotation re-verified Pittsburgh, UT Southwestern and UNLV (all 'unstated', unchanged); Smith College's note refined with a newer Praxis-funding page describing a broader Fall 2026 CPT stop, still 'unstated'. The AAU v. DHS hearing before Judge Kobick is today, 6 Nov 3pm US Eastern — still no ruling, too early in the day. No cancellations, no counter-trend."
+    },
+    {
       "date": "2026-11-06 00:10 UTC",
       "summary": "No school changed tier. Both DHS tripwire pages were readable again on direct fetch, ending a five-run outage — unchanged content, still dated 24 Aug, still no lawsuit mention. Tufts and Claremont McKenna unchanged. Parked-backlog retry (Lafayette, Denison, Scripps, Hillsdale) found nothing new. The AAU v. DHS hearing before Judge Kobick is today, 6 Nov 3pm US Eastern — still no ruling. No cancellations, no counter-trend."
     },
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-04 00:09 UTC",
       "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the AAU v. DHS preliminary-injunction hearing before Judge Kobick is now two days out (6 Nov), still no ruling. Claremont McKenna unchanged. 00:00 UTC parked-backlog window retried Franklin & Marshall, Spelman, Trinity University (TX) and Union College, all four stayed parked. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-03 18:12 UTC",
-      "summary": "No school changed tier and no new school surfaced. DHS SEVIS Help Hub, DHS CPT Guidance page and Tufts tripwires unchanged on direct fetch; the AAU v. DHS preliminary-injunction hearing before Judge Kobick is still three days out (6 Nov), still no ruling. Claremont McKenna unchanged. Rotation re-verified Mount Holyoke, Trinity College (CT) and UC Santa Barbara directly (all 'clear', unchanged, and now fetchable again after weeks of dead ends); Dickinson's page 503'd this run, left unchanged. No cancellations, no counter-trend."
     }
   ]
 }

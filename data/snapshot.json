@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-07T00:09:29Z",
+  "updatedAt": "2026-11-07T06:09:45Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-11-07",
-  "headline": "No school changed tier this run. The AAU v. DHS preliminary-injunction hearing before Judge Kobick took place yesterday, 6 Nov 2026, 3pm US Eastern — still no ruling found as of this run (00:10 UTC / 7:10pm ET, a few hours after the hearing). Tripwires otherwise unchanged.",
+  "headline": "UC Berkeley moves from 'restricted, posture unstated' to 'restricted, existing honoured': its own dedicated suspension announcement (not its general CPT page) says students who already held a Course Credit CPT I-20 before the 13 Aug pause were not affected and could continue or begin that opportunity. No ruling yet on the AAU v. DHS hearing held 6 Nov. Tripwires otherwise unchanged.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Re-confirmed 7 Nov 00:10 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
+      "detail": "Re-confirmed 7 Nov 06:10 UTC via direct fetch (corrected to the dedicated curricular-practical-training-cpt sub-page, not the general student-employment-overview page) — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 7 Nov 00:10 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+      "detail": "Re-confirmed 7 Nov 06:10 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 7 Nov 00:10 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date. Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520 (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place yesterday, 6 Nov 2026, 3pm US Eastern — this run's search (00:10 UTC / 7:10pm ET, a few hours after the hearing) found no ruling yet, including a direct attempt on the Presidents' Alliance's own CPT-litigation page. CPT remains guidance, not a rule."
+      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 7 Nov 06:10 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date. Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520 (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026, 3pm US Eastern — this run's search found no ruling yet. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 7 Nov 00:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 7 Nov 06:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -183,6 +183,10 @@
         {
           "name": "UC Irvine",
           "note": "moved from unstated 27 Oct on UCI's own Immigration Policy Updates timeline (ic.uci.edu/resources-2/immigration-policy-updates) — when the pause began 17 Aug, the page stated students 'currently participating in CPT are not affected'; that pause itself ended 22 Sept, replaced by a narrower required-for-all-students/thesis/cooperative-agreement standard for new requests; nothing posted since revokes the already-granted-CPT protection"
+        },
+        {
+          "name": "UC Berkeley",
+          "note": "moved from unstated 7 Nov — not the general CPT page (which stays silent on existing approvals) but Berkeley International Office's own dedicated announcement (internationaloffice.berkeley.edu/news/suspension-course-credit-cpt, dated 24 Aug): students 'whose course credit CPT applications have already been fully processed and who have already received a CPT I-20 from BIO were not affected by this pause' and could continue or begin that opportunity. Course Credit CPT itself remains suspended for new applications; degree-required CPT continues."
         }
       ]
     },
@@ -198,7 +202,7 @@
         },
         {
           "name": "University of Texas at Dallas",
-          "note": "re-verified 31 Oct directly on ISSO's own CPT page (isso.utdallas.edu) — unchanged: CPT approved only for internship courses specified as required in the student's degree catalog, no case-by-case exceptions; the page addresses only GPA-based cancellation, not a guidance-driven review of existing approvals"
+          "note": "re-verified 7 Nov directly on ISSO's own CPT page (isso.utdallas.edu) — unchanged: CPT approved only for internship courses specified as required in the student's degree catalog, no case-by-case exceptions; the page addresses only GPA-based cancellation, not a guidance-driven review of existing approvals"
         },
         {
           "name": "Stanford",
@@ -210,7 +214,7 @@
         },
         {
           "name": "Brown",
-          "note": "re-verified 31 Oct directly on ISSS's own dedicated CPT update page (isss.brown.edu/news/2026-09-02/cpt-update) — unchanged: 'only able to process and approve requests where a practical training experience is integral to an established curriculum and required for all students in the program'; pending requests get individual DSO contact; existing-approval treatment not addressed"
+          "note": "re-verified 7 Nov directly on ISSS's own dedicated CPT update page (isss.brown.edu/news/2026-09-02/cpt-update) — unchanged: 'only able to process and approve requests where a practical training experience is integral to an established curriculum and required for all students in the program'; pending requests get individual DSO contact; existing-approval treatment not addressed"
         },
         {
           "name": "Purdue",
@@ -219,10 +223,6 @@
         {
           "name": "Northwestern",
           "note": "re-attempted 31 Oct — the 26 Oct Daily Northwestern article (OISS \"no longer approve[s]\" CPT for experiential-learning internships outside a required program; Medill, SESP exceptions still run) 403'd to direct re-fetch this run; own OISS CPT page still unreachable; content unchanged from the 26 Oct read, treatment of existing approvals still not addressed"
-        },
-        {
-          "name": "UC Berkeley",
-          "note": "Course Credit CPT paused 26 Aug; degree-required CPT continues. Re-verified 31 Oct directly on Berkeley International Office's own CPT page (internationaloffice.berkeley.edu/students/employment/cpt) — 'BIO has suspended, until further notice, all applications for Course Credit CPT'; no resumption, existing-approval treatment not addressed"
         },
         {
           "name": "Boston University",
@@ -366,7 +366,7 @@
         },
         {
           "name": "Florida International University",
-          "note": "re-verified 31 Oct — the 27 Aug director's-message announcement page (isss.fiu.edu/announcements) still carries the restriction (24 Aug SEVP guidance cited, CPT barred for elective/optional coursework); ISSS's own main CPT page, fetched directly this run, covers only standard eligibility and doesn't mention the guidance either way; page says nothing about students who already hold CPT authorization"
+          "note": "re-verified 7 Nov — the 27 Aug director's-message announcement page (isss.fiu.edu/announcements) still carries the restriction (24 Aug SEVP guidance cited, CPT barred for elective/optional coursework); ISSS's own main CPT page covers only standard eligibility and doesn't mention the guidance either way; page says nothing about students who already hold CPT authorization"
         },
         {
           "name": "University of La Verne",
@@ -657,6 +657,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions was held 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page; no ruling found yet as of the 7 Nov 00:10 UTC run. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-11-07 06:10 UTC",
+      "summary": "UC Berkeley moved from 'unstated' to 'honored': its own dedicated suspension announcement (not the general CPT page) says students who already had a Course Credit CPT I-20 before the 13 Aug pause were unaffected and could continue or begin that opportunity. DHS tripwires, Tufts and Claremont McKenna unchanged. No ruling yet on the 6 Nov AAU v. DHS hearing. Rotation re-verified UT Dallas, Brown and FIU unchanged. No cancellations, no counter-trend."
+    },
+    {
       "date": "2026-11-07 00:10 UTC",
       "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged. The AAU v. DHS preliminary-injunction hearing before Judge Kobick took place yesterday, 6 Nov 3pm US Eastern — still no ruling found as of this run, including a direct check of the Presidents' Alliance's own litigation page. Parked-backlog retry (Spelman, Trinity University (TX), Union College, Lafayette) found nothing new. No cancellations, no counter-trend."
     },
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-05 00:10 UTC",
       "summary": "No school changed tier. Both DHS tripwire pages 403'd again, a second straight blocked run; Tufts and Claremont McKenna were readable, unchanged. The AAU v. DHS hearing before Judge Kobick is one day out (6 Nov, 3pm), still no ruling. Parked backlog (F&M, Spelman, Trinity TX, Union) found nothing new. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-04 18:13 UTC",
-      "summary": "No school changed tier. DHS's two own tripwire pages were blocked to both direct fetch and a browser-agent retry this run (network-level \"Access Denied\"), so their content is carried over rather than re-confirmed; Tufts and Claremont McKenna were readable and unchanged. Princeton's own CPT page, unreadable since 23 Oct, is now reported by the Daily Princetonian to have been taken down and marked \"under construction.\" The 6 Nov AAU v. DHS hearing is still two days out, no ruling; a fresh lawsuit-status search again turned up only unrelated cases. Rotation checked Sewanee, Stanford, Princeton and Purdue; Stanford and Purdue's pages were unreadable or inconclusive this run. No cancellations, no counter-trend."
     }
   ]
 }

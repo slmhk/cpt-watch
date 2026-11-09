@@ -526,3 +526,5 @@ PRINCETON — davisic.princeton.edu/immigration/current-students/curricular-prac
 UW TACOMA — tacoma.uw.edu/oga/isss-opt-cpt (a combined OPT/CPT page, different from the previously tried isss-cpt path) 503'd to direct WebFetch 9 Nov 06:17 UTC, same durable block; a UW-wide careers.uw.edu blog post (9 Oct) remains the only readable source for this campus's posture.
 
 JOHNS HOPKINS — ois.jhu.edu/students/current-f-1-students/f-1-training-and-employment/curricular-practical-training/ 403'd again 9 Nov 06:17 UTC, unchanged durable Cloudflare block since mid-Sept; continue via WebSearch snippet only.
+
+WHEATON (IL) — isss.wheaton.edu's FuseAction CPT sub-page, which previously 403'd to WebFetch and needed a curl workaround (17 Sept finding), loaded cleanly via plain direct WebFetch 9 Nov 18:13 UTC with no curl needed. Content unchanged either way; note the FuseAction/ColdFusion-portal WebFetch block may not be permanent — try plain WebFetch first before reaching for curl on similar portals (e.g. Bucknell's international.bucknell.edu).

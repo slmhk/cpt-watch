@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-09T18:13:04Z",
+  "updatedAt": "2026-11-10T00:10:15Z",
   "updatedBy": "scheduled run",
-  "runDate": "2026-11-09",
-  "headline": "No school changed tier this run. Tripwires unchanged; still no ruling on the AAU v. DHS preliminary-injunction hearing held 6 Nov before Judge Kobick, now three days past.",
+  "runDate": "2026-11-10",
+  "headline": "Wellesley moves to restricted: its Career Education office's own FAQ (dated 25 Sept) says new federal guidance forced a pause on further CPT authorizations; existing-approval treatment not stated. Tripwires unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now four days past.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Re-confirmed 9 Nov 18:13 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
+      "detail": "Re-confirmed 10 Nov 00:10 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 9 Nov 18:13 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+      "detail": "Re-confirmed 10 Nov 00:10 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 9 Nov 18:13 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date, page itself flags its content \"may be outdated.\" Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520-JEK (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026, 3pm US Eastern — this run's search again found no ruling yet, three days after the hearing. CPT remains guidance, not a rule."
+      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 10 Nov 00:10 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date, page itself flags its content \"may be outdated.\" Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520-JEK (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026 — this run's search again found no ruling yet, four days after the hearing. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 9 Nov 18:13 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 10 Nov 00:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -387,6 +387,10 @@
         {
           "name": "Ohio State",
           "note": "moved from 'clear' 6 Nov — OIA's own Immigration Updates page (oia.osu.edu) cites the 24 Aug SEVP guidance by date: CPT 'may be authorized only when the practical training is an integral and required part of an established curriculum'; OIA 'can only approve CPT for students whose academic program requires an internship as a mandatory requirement' for graduation; existing-approval treatment not addressed. The main CPT eligibility page itself does not carry this language, only a separate 14 Sept court-injunction banner (unrelated duration-of-status rule, not CPT)"
+        },
+        {
+          "name": "Wellesley",
+          "note": "moved from 'clear' 10 Nov — Career Education's own FAQ page (careereducation.wellesley.edu/resources/resources-international-students, dated 25 Sept) says 'the new federal guidance requires a pause on the issuance of further CPT authorizations at this time'; other Wellesley pages (Slater/Grants) still describe standard CPT via Slater, not yet reconciled with this notice; existing-approval treatment not addressed"
         }
       ]
     },
@@ -453,11 +457,7 @@
         },
         {
           "name": "Swarthmore",
-          "note": "re-verified 1 Nov via WebSearch snippet (direct fetch/curl a durable dead end since 18 Sept) — standard OPT/CPT eligibility content only (own dedicated CPT page did not resurface in this search), no reference to the August guidance"
-        },
-        {
-          "name": "Wellesley",
-          "note": "re-verified 1 Nov via WebSearch snippet (direct fetch chain dead-ends at a login-walled intranet, durable since 18 Sept) — standard major-relatedness/Slater-office eligibility content only, no reference to the August guidance"
+          "note": "re-verified 10 Nov via WebSearch snippet (direct fetch/curl a durable dead end since 18 Sept) — ISC's own OPT/employment pages describe standard CPT eligibility only (two-term enrollment, 12-month full-time cap), own dedicated CPT page did not resurface, no reference to the August guidance"
         },
         {
           "name": "Middlebury",
@@ -505,11 +505,11 @@
         },
         {
           "name": "University of Richmond",
-          "note": "re-verified 2 Nov via WebSearch snippet of global.richmond.edu's own International Student Employment page — unchanged, standard CPT-guidelines content only, no reference to the August guidance"
+          "note": "re-verified 10 Nov via WebSearch snippet of global.richmond.edu's own International Student Employment page (direct fetch 503'd) — unchanged, standard CPT-guidelines content only, no reference to the August guidance"
         },
         {
           "name": "Northeastern",
-          "note": "re-verified 2 Nov via WebSearch snippet of OGS's own CPT page (international.northeastern.edu) — unchanged: only standard eligibility language, no reference to the August guidance"
+          "note": "re-verified 10 Nov via WebSearch snippet of OGS's own CPT page (international.northeastern.edu, direct fetch 503'd) — unchanged: only standard eligibility/process language, no reference to the August guidance"
         },
         {
           "name": "University of Georgia",
@@ -593,7 +593,7 @@
         },
         {
           "name": "Claremont McKenna",
-          "note": "checked every run — 9 Nov 12:14 UTC: cmc.edu's own 'How to apply for CPT' page unchanged, no restriction language, no reference to the August guidance beyond the already-logged Student Life quote (assistant dean 'carefully evaluating' requests under updated guidance); same tsl.news piece already on file, nothing newer; tier unchanged."
+          "note": "checked every run — 10 Nov 00:10 UTC: cmc.edu's own 'How to apply for CPT' page unchanged, no restriction language, no reference to the August guidance beyond the already-logged Student Life quote (assistant dean 'carefully evaluating' requests under updated guidance); same tsl.news piece already on file, nothing newer; tier unchanged."
         }
       ]
     },
@@ -637,11 +637,11 @@
         },
         {
           "name": "Trinity University (TX)",
-          "note": "parked; re-tried 7 Nov 00:10 UTC — a fresh trinity.edu domain search again surfaced only International Student Orientation and Center for International Engagement pages, no CPT-specific policy text found; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 10 Nov 00:10 UTC — a fresh trinity.edu domain search again surfaced only course bulletins and academic-department pages, no ISSS/CPT-specific page found; re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Union College",
-          "note": "parked; re-tried 7 Nov 00:10 UTC — a fresh search again surfaced only the same undated (~2017) CPT-vs-OPT mind-map PDF and international-programs/catalog pages, no new policy text found; re-tried at most once a day, in the 00:00 UTC run"
+          "note": "parked; re-tried 10 Nov 00:10 UTC — a fresh search again surfaced only academic-catalog pages and an Economics STEM-OPT note, no CPT-specific policy text found (the undated CPT-vs-OPT mind-map PDF remains the only substantive document, still unreadable); re-tried at most once a day, in the 00:00 UTC run"
         },
         {
           "name": "Hillsdale",
@@ -656,6 +656,10 @@
   },
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions was held 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page; no ruling found yet as of the 7 Nov 00:10 UTC run. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
+    {
+      "date": "2026-11-10 00:10 UTC",
+      "summary": "Wellesley moved from 'clear' to restricted — its own Career Education FAQ (dated 25 Sept) says new federal guidance paused further CPT authorizations; existing-approval treatment not stated. DHS tripwires, Tufts and Claremont McKenna unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, four days past. Rotation re-verified Swarthmore, Richmond and Northeastern unchanged. No cancellations, no counter-trend."
+    },
     {
       "date": "2026-11-09 18:13 UTC",
       "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged. Still no ruling on the 6 Nov AAU v. DHS hearing, now three days past. Rotation re-verified Middlebury, Wheaton (IL), Emory and Williams — all unchanged, 'clear.' No cancellations, no counter-trend."
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-07 18:12 UTC",
       "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged; no newer CMC press coverage this run. Still no ruling on the 6 Nov AAU v. DHS hearing, a day and a half later. Rotation re-verified UCSB, Tulane, Boston College and UConn — all unchanged; a search-engine AI summary falsely claimed a new Tulane CPT cap, disproved on Tulane's own page via direct fetch. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-07 12:11 UTC",
-      "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged (a second Student Life piece on CMC surfaced, same quote already on file). Still no ruling on the 6 Nov AAU v. DHS hearing. Rotation re-verified Northwestern, Boston University, University of La Verne and Cal State Fullerton — all unchanged, 'unstated.' No cancellations, no counter-trend."
     }
   ]
 }

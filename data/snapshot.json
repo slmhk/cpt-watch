@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-10T18:12:02Z",
+  "updatedAt": "2026-11-11T00:09:27Z",
   "updatedBy": "scheduled run",
-  "runDate": "2026-11-10",
-  "headline": "No school changed tier this run; Wellesley's move to restricted (10 Nov) remains the most recent change. Tripwires unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now four days past.",
+  "runDate": "2026-11-11",
+  "headline": "Case Western Reserve moved from clear to restricted (its VISA Office paused new CPT since 8 Sept 2026, existing-approval treatment unaddressed) and Haverford newly acknowledges the August guidance, saying it is reviewing its authorization process. Tripwires unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now five days past.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Re-confirmed 10 Nov 18:12 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
+      "detail": "Re-confirmed 11 Nov 00:09 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 10 Nov 18:12 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+      "detail": "Re-confirmed 11 Nov 00:09 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 10 Nov 18:12 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date, page itself flags its content \"may be outdated.\" Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520-JEK (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026 — this run's search again found no ruling yet, four days after the hearing. CPT remains guidance, not a rule."
+      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 11 Nov 00:09 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date, page itself flags its content \"may be outdated.\" Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520-JEK (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026 — this run's search again found no ruling yet, five days after the hearing. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 10 Nov 18:12 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 11 Nov 00:09 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -199,6 +199,10 @@
         {
           "name": "Tufts",
           "note": "re-confirmed 5 Nov via direct fetch of its own I-Center CPT page — unchanged: non-required CPT not processed; page says nothing either way about students who already hold CPT authorisation"
+        },
+        {
+          "name": "Case Western Reserve",
+          "note": "moved from 'clear' 11 Nov — VISA Office's own F-1 employment page (case.edu/visa) says new CPT applications paused since 8 Sept 2026; its CPT section is 'currently being updated'; existing-approval treatment not addressed"
         },
         {
           "name": "University of Texas at Dallas",
@@ -415,6 +419,10 @@
         {
           "name": "University of Maryland, Baltimore",
           "note": "newly found 8 Oct via the .edu sweep — a separate SEVP-certified campus from the already-tracked College Park entry; OIS's own page links both Aug broadcast messages, says it is 'reviewing the guidance and evaluating whether any changes...may be necessary,' no pause announced; explicitly says existing CPT holders 'should continue to follow the terms of their approved authorization' unless notified otherwise"
+        },
+        {
+          "name": "Haverford",
+          "note": "moved from 'clear' 11 Nov — its own CPT page (haverford.edu) cites SEVP's 24 Aug 2026 guidance, saying Haverford 'is currently reviewing its internal authorization process for CPT'; no pause stated, no detail on existing approvals"
         }
       ]
     },
@@ -524,10 +532,6 @@
           "note": "re-verified 10 Nov directly on International Student Programs' own employment page (macalester.edu/isp) — unchanged: standard major-related CPT process only, no reference to the August guidance"
         },
         {
-          "name": "Case Western Reserve",
-          "note": "re-verified 3 Nov directly on Case School of Engineering's own co-op FAQ page (case.edu) — unchanged: standard CPT process via the VISA Office, no reference to the August guidance"
-        },
-        {
           "name": "Mount Holyoke",
           "note": "re-verified 3 Nov via direct fetch of the McCulloch Center's own CPT page (offices.mtholyoke.edu/global/international_students/j1_cpt, fetchable again after weeks of dead ends) — unchanged, standard major-declared/COLL 211f practicum-course content only, no reference to the August guidance"
         },
@@ -578,10 +582,6 @@
         {
           "name": "UC Santa Barbara",
           "note": "moved from unstated 26 Sept; re-confirmed 7 Nov via OISS's own page (oiss.ucsb.edu/curricular-practical-training) — still no 'paused' language, still only the standard internship-course/cooperative-agreement process. Unconfirmed elsewhere (no press coverage of a UCSB resumption) — still treated as a tentative reversal, not a settled counter-trend; keep re-checking"
-        },
-        {
-          "name": "Haverford",
-          "note": "re-verified 2 Nov via WebSearch snippet of its own CPT page (haverford.edu/international-student-support/employment/curricular-practical-training) — unchanged, standard eligibility content (major, hours, employer/date limits), no reference to the August guidance"
         },
         {
           "name": "Bucknell",
@@ -657,6 +657,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions was held 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page; no ruling found yet as of the 7 Nov 00:10 UTC run. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-11-11 00:09 UTC",
+      "summary": "Case Western Reserve moved from 'clear' to restricted — its VISA Office paused new CPT since 8 Sept 2026, existing approvals unaddressed. Haverford moved from 'clear' to 'acknowledged,' newly citing the August guidance under internal review. DHS tripwires, Tufts and Claremont McKenna unchanged; still no ruling on the 6 Nov hearing, five days past. No cancellations, no counter-trend."
+    },
+    {
       "date": "2026-11-10 18:12 UTC",
       "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged. Still no ruling on the 6 Nov AAU v. DHS hearing, now four days past. Rotation re-verified University of Georgia, Holy Cross, Macalester and Berea College — all unchanged, 'clear.' No cancellations, no counter-trend."
     },
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-08 18:09 UTC",
       "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged. Still no ruling on the 6 Nov AAU v. DHS hearing, now two days past. Rotation re-verified Washington University in St. Louis and UT Austin (unchanged); Johns Hopkins and UW Tacoma's own pages stayed blocked. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-08 12:10 UTC",
-      "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged. Still no ruling on the 6 Nov AAU v. DHS hearing, now two days past. Rotation re-verified Colgate, University of Florida, University of Oregon and Hamilton College — all unchanged ('clear'/'clear'/'unstated'/'unstated'). No cancellations, no counter-trend."
     }
   ]
 }

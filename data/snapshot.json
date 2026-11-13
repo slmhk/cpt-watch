@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-13T00:12:32Z",
+  "updatedAt": "2026-11-13T06:11:24Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-11-13",
-  "headline": "Brown's own ISSS CPT page now says CPT for F-1 undergraduates is 'indefinitely suspended' — broader than its August pause on non-required internships alone, now also covering optional professional tracks, independent study and semester-away programs; existing-approval treatment still not stated. DHS and Tufts tripwires, and Claremont McKenna, re-confirmed unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now seven days past. No new cancellations, no counter-trend.",
+  "headline": "Brown's own ISSS CPT page (dated 9 Nov) still says CPT for F-1 undergraduates is 'indefinitely suspended,' covering optional professional tracks, independent study and semester-away programs; existing-approval treatment remains unstated. DHS and Tufts tripwires, Claremont McKenna, and a four-school rotation (Bowdoin, Harvey Mudd, Caltech, Barnard) re-confirmed unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now seven days past. No new cancellations, no counter-trend.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Re-confirmed 13 Nov 00:12 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention; a new SEVP tipline for DSOs who feel pressured into noncompliant attestations is the only addition, unrelated to CPT substance."
+      "detail": "Re-confirmed 13 Nov 06:11 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no lawsuit mention."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 13 Nov 00:12 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
+      "detail": "Re-confirmed 13 Nov 06:11 UTC via direct fetch — unchanged, still carries \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "watch",
-      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 13 Nov 00:12 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date, page itself flags its content \"may be outdated,\" no lawsuit mention. Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520-JEK (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026 — this run's search again found no ruling yet, seven days after the hearing. CPT remains guidance, not a rule."
+      "detail": "DHS's own CPT-guidance tripwire page re-confirmed unchanged 13 Nov 06:11 UTC via direct fetch — SEVP \"plans to release draft guidance that clarifies previous CPT-focused guidance documents,\" still no date, page itself flags its content \"may be outdated,\" no lawsuit mention. Lawsuit: Association of American Universities et al. v. DHS, No. 1:26-cv-14520-JEK (D. Mass.); the preliminary-injunction/stay-of-agency-action hearing before Judge Kobick took place 6 Nov 2026 — this run's search again found no ruling yet, seven days after the hearing. CPT remains guidance, not a rule."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 13 Nov 00:12 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 13 Nov 06:11 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -473,19 +473,19 @@
         },
         {
           "name": "Bowdoin",
-          "note": "re-verified 6 Nov directly on its own International Student Employment page (bowdoin.edu) — unchanged, standard eligibility content only, no reference to the August guidance"
+          "note": "re-verified 13 Nov directly on its own International Student Employment page (bowdoin.edu) — unchanged, standard eligibility content only, no reference to the August guidance"
         },
         {
           "name": "Harvey Mudd",
-          "note": "re-verified 6 Nov directly on its own International Students page (hmc.edu) — unchanged, CPT described as required for the major or where credit is granted; no reference to the August guidance"
+          "note": "re-verified 13 Nov directly on its own International Students page (hmc.edu) — unchanged, CPT described as required for the major or where credit is granted; no reference to the August guidance"
         },
         {
           "name": "Caltech",
-          "note": "re-verified 6 Nov directly on International Offices' own F-1 employment page (international.caltech.edu) — unchanged, no restriction or broadcast-message language"
+          "note": "re-verified 13 Nov directly on International Offices' own F-1 employment page (international.caltech.edu) — unchanged, no restriction or broadcast-message language"
         },
         {
           "name": "Barnard",
-          "note": "re-checked 6 Nov directly on its own International Students page (barnard.edu/international-students/current-full-degree-international-students) — unchanged: no internship degree requirement, CPT runs through a 1-credit independent study, no reference to the August guidance; the recurring JNS/press claim that Barnard paused CPT review remains unverified against Barnard's own page or student press."
+          "note": "re-checked 13 Nov directly on its own International Students page (barnard.edu/international-students/current-full-degree-international-students) — unchanged: no internship degree requirement, CPT runs through a 1-credit independent study, no reference to the August guidance; the recurring JNS/press claim that Barnard paused CPT review remains unverified against Barnard's own page or student press."
         },
         {
           "name": "Rice",
@@ -593,7 +593,7 @@
         },
         {
           "name": "Claremont McKenna",
-          "note": "checked every run — 13 Nov 00:12 UTC: a cmc.edu/tsl.news search again surfaced only the same 'How to apply for CPT' page and SIE FAQ, nothing newer; direct fetch skipped since nothing looked new; tier unchanged."
+          "note": "checked every run — 13 Nov 06:11 UTC: a cmc.edu/tsl.news search again surfaced only the same 'How to apply for CPT' page and SIE FAQ, nothing newer; direct fetch skipped since nothing looked new; tier unchanged."
         }
       ]
     },
@@ -657,6 +657,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive, with an emergency injunction motion filed the same night seeking to block enforcement while the case proceeds; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.); pending, no ruling yet (NAFSA held a member town hall on the case 7 Oct). A hearing on the plaintiffs' preliminary-injunction/stay-of-agency-action motions was held 6 Nov 2026, per Carnegie Mellon's own OIE litigation-update page and independently corroborated on the University of Oklahoma's own ISS page; no ruling found yet as of the 7 Nov 00:10 UTC run. No third broadcast message. DHS's stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the new standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-11-13 06:11 UTC",
+      "summary": "No school changed tier. DHS and Tufts tripwires, Claremont McKenna, and the CPT guidance/Federal Register tripwire re-confirmed unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now seven days past. Rotation re-verified Bowdoin, Harvey Mudd, Caltech and Barnard — all unchanged, 'clear.' No cancellations, no counter-trend."
+    },
+    {
       "date": "2026-11-13 00:12 UTC",
       "summary": "Brown's own CPT page (updated 9 Nov) escalated from pausing non-required CPT to indefinitely suspending all undergraduate CPT, including optional professional tracks and semester-away programs; existing-approval treatment still not stated. DHS and Tufts tripwires, and Claremont McKenna, re-confirmed unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now seven days past. Rotation re-verified Ohio State, UT Dallas and Northwestern unchanged. No cancellations, no counter-trend."
     },
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-11 00:09 UTC",
       "summary": "Case Western Reserve moved from 'clear' to restricted — its VISA Office paused new CPT since 8 Sept 2026, existing approvals unaddressed. Haverford moved from 'clear' to 'acknowledged,' newly citing the August guidance under internal review. DHS tripwires, Tufts and Claremont McKenna unchanged; still no ruling on the 6 Nov hearing, five days past. No cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-10 18:12 UTC",
-      "summary": "No school changed tier. DHS tripwires, Tufts and Claremont McKenna re-confirmed unchanged. Still no ruling on the 6 Nov AAU v. DHS hearing, now four days past. Rotation re-verified University of Georgia, Holy Cross, Macalester and Berea College — all unchanged, 'clear.' No cancellations, no counter-trend."
     }
   ]
 }

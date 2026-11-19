@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-19T00:09:58Z",
+  "updatedAt": "2026-11-19T06:10:13Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-11-19",
-  "headline": "No school changed tier this run. UIUC's own ISSS blog (17 Nov) is the first school to spell out what it is doing during the injunction without reverting — resuming only the same narrower CPT categories it already allowed (curriculum-integral, tied to a required class, or thesis-related), with existing-approval treatment still unaddressed. Buffalo, Alabama and UT Dallas remain the only three full reversions; Columbia, U Washington, UC San Diego and Boston University continue to acknowledge the ruling without changing how CPT is processed. DHS's own CPT pages still make no mention of it. No new retroactive cancellations; Davidson, MIT, Skidmore and USF remain the only confirmed interruptions of already-granted CPT.",
+  "headline": "No school changed tier this run. Michigan and UC Irvine's own pages (18 Nov) acknowledge the 17 Nov injunction but say they are still reviewing it with no change to CPT processing yet — joining Columbia, U Washington, UC San Diego and Boston University in that six-school cautious posture. Buffalo, Alabama and UT Dallas remain the only three full reversions. DHS's own CPT pages and Tufts still make no mention of the ruling. No new retroactive cancellations; Davidson, MIT, Skidmore and USF remain the only confirmed interruptions of already-granted CPT.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Re-confirmed 19 Nov 00:09 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no mention of the 17 Nov court ruling; no language on students who already hold CPT authorization beyond standard SEVIS cancellation/editing rules."
+      "detail": "Re-confirmed 19 Nov 06:10 UTC via direct fetch — unchanged: \"Last updated: August 24, 2026,\" links the two August broadcast messages by name, no mention of the 17 Nov court ruling; no language on students who already hold CPT authorization beyond standard SEVIS cancellation/editing rules."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 19 Nov 00:09 UTC via direct fetch — unchanged, still carries \"due to recent updates to guidelines\" the I-Center cannot process CPT requests for non-required internships; no mention of the 17 Nov court ruling; no new language on already-authorised students."
+      "detail": "Re-confirmed 19 Nov 06:10 UTC via direct fetch — unchanged, still carries \"due to recent updates to guidelines\" the I-Center cannot process CPT requests for non-required internships; no mention of the 17 Nov court ruling; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "tripped",
-      "detail": "RULING, 17 Nov 2026: US District Judge Julia Kobick (D. Mass.) granted the plaintiffs' motion for a preliminary injunction and stay of agency action in Association of American Universities et al. v. DHS, No. 1:26-cv-14520 — barring DHS from enforcing the Aug 12/24 SEVP CPT guidance, finding it likely arbitrary and capricious under the Administrative Procedure Act. Not a final ruling; DHS may appeal and has declined to comment. Three schools have fully reverted on their own pages (Buffalo, Alabama, UT Dallas); Columbia, U Washington, UC San Diego and Boston University continue to acknowledge the ruling without changing processing; UIUC's own 17 Nov ISSS blog, re-checked 19 Nov, instead details that it is resuming only the narrower CPT categories it already allowed (curriculum-integral, required-class, thesis-related) while the injunction stands — a middle path, not a reversion. DHS's own SEVIS Help Hub and CPT-guidance tripwire pages, re-confirmed 19 Nov, still have not been updated to reflect the ruling; a Federal Register/appeal search again found no CPT-specific rulemaking and no confirmed DHS appeal filing yet."
+      "detail": "RULING, 17 Nov 2026: US District Judge Julia Kobick (D. Mass.) granted the plaintiffs' motion for a preliminary injunction and stay of agency action in Association of American Universities et al. v. DHS, No. 1:26-cv-14520 — barring DHS from enforcing the Aug 12/24 SEVP CPT guidance, finding it likely arbitrary and capricious under the Administrative Procedure Act. Not a final ruling; DHS may appeal and has declined to comment. Three schools have fully reverted on their own pages (Buffalo, Alabama, UT Dallas); Columbia, U Washington, UC San Diego, Boston University, Michigan and UC Irvine all now acknowledge the ruling but say they are still reviewing it with no change to CPT processing yet; UIUC's own 17 Nov ISSS blog instead details resuming only the narrower CPT categories it already allowed — a middle path, not a reversion. DHS's own SEVIS Help Hub and CPT-guidance tripwire pages, re-confirmed 19 Nov, still have not been updated to reflect the ruling; a Federal Register/appeal search again found no CPT-specific rulemaking and no confirmed DHS appeal filing yet."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 19 Nov 00:09 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 19 Nov 06:10 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -94,7 +94,7 @@
         },
         {
           "name": "U Michigan",
-          "note": "28 Aug, verified 8 Sept on the International Center site — CPT approved only where mandatory for all students in the degree programme; previously approved CPT may continue"
+          "note": "28 Aug, verified 8 Sept — CPT approved only where mandatory for all students; previously approved CPT may continue. 18 Nov: International Center's own injunction post says it's reviewing and will issue updated guidance, meanwhile new non-required CPT requests should wait; joins Columbia/UW/UCSD/BU/UCI in acknowledging without changing processing yet"
         },
         {
           "name": "U Penn",
@@ -178,7 +178,7 @@
         },
         {
           "name": "UC Irvine",
-          "note": "moved from unstated 27 Oct on UCI's own Immigration Policy Updates timeline (ic.uci.edu/resources-2/immigration-policy-updates) — when the pause began 17 Aug, the page stated students 'currently participating in CPT are not affected'; that pause itself ended 22 Sept, replaced by a narrower required-for-all-students/thesis/cooperative-agreement standard for new requests; nothing posted since revokes the already-granted-CPT protection"
+          "note": "moved from unstated 27 Oct on UCI's own Immigration Policy Updates timeline (ic.uci.edu/resources-2/immigration-policy-updates); nothing has revoked the already-granted-CPT protection stated there. 18 Nov: same page's new entry acknowledges the 17 Nov injunction, reviewing with counsel, 'no immediate changes...until our review is complete' — joins Columbia/UW/UCSD/BU/Michigan in acknowledging without changing processing yet"
         },
         {
           "name": "UC Berkeley",
@@ -465,7 +465,7 @@
         },
         {
           "name": "Harvey Mudd",
-          "note": "re-verified 13 Nov directly on its own International Students page (hmc.edu) — unchanged, CPT described as required for the major or where credit is granted; no reference to the August guidance"
+          "note": "re-verified 19 Nov directly on its own International Students page (hmc.edu) — unchanged, CPT described as required for the major or where credit is granted; no reference to the August guidance"
         },
         {
           "name": "Caltech",
@@ -473,7 +473,7 @@
         },
         {
           "name": "Barnard",
-          "note": "re-checked 13 Nov directly on its own International Students page (barnard.edu/international-students/current-full-degree-international-students) — unchanged: no internship degree requirement, CPT runs through a 1-credit independent study, no reference to the August guidance; the recurring JNS/press claim that Barnard paused CPT review remains unverified against Barnard's own page or student press."
+          "note": "re-checked 19 Nov directly on its own International Students page (barnard.edu/international-students/current-full-degree-international-students) — unchanged: no internship degree requirement, CPT runs through a 1-credit independent study, no reference to the August guidance; the recurring JNS/press claim that Barnard paused CPT review remains unverified against Barnard's own page or student press."
         },
         {
           "name": "Rice",
@@ -569,7 +569,7 @@
         },
         {
           "name": "UC Santa Barbara",
-          "note": "moved from unstated 26 Sept; re-confirmed 13 Nov directly via OISS's own page (oiss.ucsb.edu/curricular-practical-training) — still no 'paused' language, still only the standard internship-course/cooperative-agreement process. Unconfirmed elsewhere (no press coverage of a UCSB resumption) — still treated as a tentative reversal, not a settled counter-trend; keep re-checking"
+          "note": "moved from unstated 26 Sept; re-confirmed 19 Nov directly via OISS's own page (oiss.ucsb.edu/curricular-practical-training) — still no 'paused' language, still only the standard internship-course/cooperative-agreement process. Unconfirmed elsewhere (no press coverage of a UCSB resumption) — still treated as a tentative reversal, not a settled counter-trend; keep re-checking"
         },
         {
           "name": "Bucknell",
@@ -577,7 +577,7 @@
         },
         {
           "name": "Tulane",
-          "note": "re-verified 13 Nov — oiss.tulane.edu's own CPT page still no pause/restriction language or August-guidance citation, only the standing 'currently under increased scrutiny' caution; a search-engine AI summary this run again falsely claimed a Fall-2026 CPT cap, not supported by Tulane's own page on direct fetch, a repeat of the same fabrication seen 7 Nov — unconfirmed elsewhere — still a tentative reversal, not a settled counter-trend; keep re-checking"
+          "note": "re-verified 19 Nov — oiss.tulane.edu's own CPT page still no pause/restriction language or August-guidance citation, only the standing 'currently under increased scrutiny' caution; unconfirmed elsewhere — still a tentative reversal, not a settled counter-trend; keep re-checking"
         },
         {
           "name": "University at Buffalo",
@@ -657,6 +657,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.). After a 6 Nov hearing, US District Judge Julia Kobick ruled 17 Nov 2026, granting a preliminary injunction and stay of agency action barring DHS from enforcing the Aug 12/24 BCMs as likely arbitrary and capricious under the APA. Not a final ruling; DHS may appeal and has declined to comment. Schools are reacting unevenly to the ruling rather than uniformly reverting — three (Buffalo, Alabama, UT Dallas) have fully reverted to pre-August standards on their own pages as of 18 Nov, several more (U Washington, UC San Diego, Boston University, and now Columbia) are reviewing or have only acknowledged the ruling with no change yet, and most official pages checked so far (DHS's own tripwire pages included) have not yet been updated to reflect it. No third broadcast message. DHS's prior stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the pre-injunction standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-11-19 06:10 UTC",
+      "summary": "No school changed tier. Michigan and UC Irvine's own 18 Nov pages acknowledge the 17 Nov injunction but say they're still reviewing, no change yet — joining Columbia, U Washington, UC San Diego and Boston University in that six-school cautious posture. DHS, Tufts and the Federal Register/appeal tripwires, and Claremont McKenna, unchanged. Rotation re-verified Tulane, UC Santa Barbara, Barnard and Harvey Mudd — all clear, unchanged. No new cancellations."
+    },
+    {
       "date": "2026-11-19 00:09 UTC",
       "summary": "No school changed tier. UIUC's own ISSS blog (17 Nov post) is the first school to detail what it's doing during the injunction without reverting: resuming only the narrower CPT categories it already allowed (curriculum-integral, required class, thesis-related); existing-approval treatment still not addressed. Rotation re-verified FIU, La Verne, Cal State Fullerton (direct fetch recovered after a durable 503 since 25 Oct) and Ohio State — all unchanged, no ruling mention. DHS and Tufts tripwires, and Claremont McKenna, unchanged; no confirmed DHS appeal or CPT Federal Register rulemaking. No new cancellations."
     },
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-17 00:11 UTC",
       "summary": "No school changed tier. DHS, Tufts and the CPT-guidance/Federal Register tripwires, and Claremont McKenna, re-confirmed unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now eleven days past. Rotation re-verified Stanford, Purdue (direct fetch recovered after four straight 503s), Harvard and Minnesota — all unchanged. No new cancellations, no counter-trend."
-    },
-    {
-      "date": "2026-11-16 18:10 UTC",
-      "summary": "No school changed tier. DHS, Tufts and the CPT-guidance/Federal Register tripwires, and Claremont McKenna, re-confirmed unchanged; still no ruling on the 6 Nov AAU v. DHS hearing, now ten days past. Rotation re-verified Case Western Reserve, Colorado College, University of Chicago and Pomona — all unchanged. No new cancellations, no counter-trend."
     }
   ]
 }

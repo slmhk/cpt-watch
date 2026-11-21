@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-21T00:08:00Z",
+  "updatedAt": "2026-11-21T06:09:00Z",
   "updatedBy": "scheduled run",
   "runDate": "2026-11-21",
-  "headline": "Barnard moves from 'no restriction found' to 'restricted, posture unstated': the Columbia Daily Spectator (20 Nov) reports Barnard 'has yet to update its decision on CPT status' since the 17 Nov injunction, the first student-press corroboration of an earlier press claim that Barnard had paused CPT review — though Barnard's own page still shows no restriction. Columbia's own reported resumption of elective-CPT review remains unconfirmed by a direct read of its page. DHS, Tufts and Claremont McKenna tripwires unchanged, still no mention of the ruling. No new retroactive cancellations; Davidson, MIT, Skidmore and USF remain the only confirmed interruptions of already-granted CPT.",
+  "headline": "Middlebury's own ISSS page reveals a previously-undisclosed CPT pause, now lifted: a new 17 Nov banner says the Winter Term 2027 CPT application is 'NOW OPEN...as a result of the court ruling' — the fifth school, after Buffalo, Alabama, UT Dallas and UC Berkeley, confirmed resuming CPT processing since the 17 Nov injunction, though existing-approval treatment is still not addressed. DHS, Tufts and Claremont McKenna tripwires unchanged. Columbia's reported resumption of elective-CPT review remains unconfirmed by a direct read of its own page. No new retroactive cancellations; Davidson, MIT, Skidmore and USF remain the only confirmed interruptions of already-granted CPT.",
   "tripwires": [
     {
       "name": "DHS SEVIS Help Hub CPT page",
       "status": "quiet",
-      "detail": "Re-confirmed 21 Nov 00:08 UTC — unchanged: \"Last updated: August 24, 2026,\" names the two August broadcast messages (\"Guidance for DSOs regarding CPT\" and \"Reminder of Liability for DSOs Regarding CPT Authorization\"), no mention of the 17 Nov court ruling; no language on students who already hold CPT authorization beyond standard SEVIS cancellation/editing rules."
+      "detail": "Re-confirmed 21 Nov 06:09 UTC — unchanged: \"Last updated: August 24, 2026,\" names the two August broadcast messages (\"Guidance for DSOs regarding CPT\" and \"Reminder of Liability for DSOs Regarding CPT Authorization\"), no mention of the 17 Nov court ruling; no language on students who already hold CPT authorization beyond standard SEVIS cancellation/editing rules."
     },
     {
       "name": "Tufts I-Center CPT page",
       "status": "watch",
-      "detail": "Re-confirmed 21 Nov 00:08 UTC — unchanged, still says \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no mention of the 17 Nov court ruling; no new language on already-authorised students."
+      "detail": "Re-confirmed 21 Nov 06:09 UTC — unchanged, still says \"the I-Center is unable to process CPT requests for non-required internships at this time\"; no mention of the 17 Nov court ruling; no new language on already-authorised students."
     },
     {
       "name": "Federal Register rulemaking on CPT",
       "status": "tripped",
-      "detail": "RULING, 17 Nov 2026: US District Judge Julia Kobick (D. Mass.) granted the plaintiffs' motion for a preliminary injunction and stay of agency action in Association of American Universities et al. v. DHS, No. 1:26-cv-14520 — barring DHS from enforcing the Aug 12/24 SEVP CPT guidance, finding it likely arbitrary and capricious under the Administrative Procedure Act; per Dartmouth's own page, the stay bars enforcement \"both prospectively and with respect to conduct and approvals that occurred prior to the issuance of the broadcasts.\" Not a final ruling; DHS may appeal and has declined to comment. Four schools have fully reverted on their own pages: Buffalo, Alabama, UT Dallas and UC Berkeley. Penn's ISSS Executive Director separately told the Daily Pennsylvanian (18 Nov email) that ISSS 'will not apply' the mandatory-for-all requirement while the court's order stands — a step toward reversal — but Penn's own page (dateModified 18 Nov) still only says 'Penn is covered by the court's order' with no processing change described, so not counted as a fifth reversion yet. Columbia, U Washington, UC San Diego, Boston University, Michigan, UC Irvine report no processing change yet; a search-engine paraphrase of Columbia's own isso.columbia.edu page (direct fetch 403'd again this run, as did Michigan's injunction post) still suggests Columbia 'will resume consideration of applications for elective CPT' — unconfirmed by a verbatim read, re-verify next run. The Harvard Crimson (19 Nov) separately reports Harvard 'has not updated its CPT guidance' since the ruling. UIUC and Washington University in St. Louis describe more active, narrower resumption paths short of full reversion (WashU pending a new CPT-eligible course list due 30 Nov). William & Mary and U Washington are the latest to acknowledge the ruling without changing processing (18:12 UTC re-check), joining the six-plus-school cautious group. DHS's own SEVIS Help Hub and CPT-guidance tripwire pages, re-confirmed 21 Nov 00:08 UTC, still not updated to reflect the ruling, and the CPT-guidance page still only says SEVP 'plans to release' draft guidance; no confirmed DHS appeal filing of the CPT ruling yet; still only four full reversions (Buffalo, Alabama, UT Dallas, Berkeley)."
+      "detail": "RULING, 17 Nov 2026: US District Judge Julia Kobick (D. Mass.) granted the plaintiffs' motion for a preliminary injunction and stay of agency action in Association of American Universities et al. v. DHS, No. 1:26-cv-14520 — barring DHS from enforcing the Aug 12/24 SEVP CPT guidance, finding it likely arbitrary and capricious under the Administrative Procedure Act; per Dartmouth's own page, the stay bars enforcement \"both prospectively and with respect to conduct and approvals that occurred prior to the issuance of the broadcasts.\" Not a final ruling; DHS may appeal and has declined to comment. Five schools have now fully reverted on their own pages: Buffalo, Alabama, UT Dallas, UC Berkeley and, newly this run, Middlebury — whose ISSS page carries a 17 Nov banner saying Winter Term 2027 CPT applications are 'NOW OPEN...as a result of the court ruling,' the first evidence Middlebury had any CPT pause at all (it was previously 'clear', with no restriction ever found; the original pause's cause and dates are not stated). Penn's ISSS Executive Director separately told the Daily Pennsylvanian (18 Nov email) that ISSS 'will not apply' the mandatory-for-all requirement while the court's order stands — a step toward reversal — but Penn's own page (dateModified 18 Nov) still only says 'Penn is covered by the court's order' with no processing change described, so not counted as a reversion yet. Columbia, U Washington, UC San Diego, Boston University, Michigan, UC Irvine report no processing change yet; a search-engine paraphrase of Columbia's own isso.columbia.edu pages (three distinct URLs now 403'd to direct fetch, including a content page tried this run) still suggests Columbia 'will resume consideration of applications for elective CPT' — unconfirmed by a verbatim read, re-verify next run. The Harvard Crimson (19 Nov) separately reports Harvard 'has not updated its CPT guidance' since the ruling. UIUC and Washington University in St. Louis describe more active, narrower resumption paths short of full reversion (WashU pending a new CPT-eligible course list due 30 Nov). William & Mary and U Washington acknowledge the ruling without changing processing, joining the six-plus-school cautious group. DHS's own SEVIS Help Hub and CPT-guidance tripwire pages, re-confirmed 21 Nov 06:09 UTC, still not updated to reflect the ruling, and the CPT-guidance page still only says SEVP 'plans to release' draft guidance; no confirmed DHS appeal filing of the CPT ruling yet; now five full reversions (Buffalo, Alabama, UT Dallas, Berkeley, Middlebury)."
     },
     {
       "name": "Retroactive cancellation spreading",
       "status": "tripped",
-      "detail": "Still tripped, re-checked 21 Nov 00:08 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
+      "detail": "Still tripped, re-checked 21 Nov 06:09 UTC — no school newly moved into 'cancels' this run. Davidson, MIT, Skidmore and University of South Florida remain the only confirmed interruptions of already-granted CPT."
     }
   ],
   "tiers": [
@@ -433,7 +433,7 @@
         },
         {
           "name": "Emory",
-          "note": "re-checked 15 Nov — isss.emory.edu/students/employment/cpt.html 404'd to direct fetch (wrong path); re-verified via WebSearch snippet of Emory's own program pages instead, unchanged, standard degree-requirement/enrolled-class/thesis eligibility language only, no reference to the August guidance"
+          "note": "re-checked 21 Nov — isss.emory.edu/students/cpt (a corrected URL) direct-fetched as a generic nav page with no visible CPT text; re-verified via WebSearch snippet of Emory's own program pages instead, unchanged, standard degree-requirement/enrolled-class/thesis eligibility language only, no reference to the August guidance"
         },
         {
           "name": "U Chicago",
@@ -445,7 +445,7 @@
         },
         {
           "name": "Williams",
-          "note": "re-attempted 15 Nov — iss.williams.edu/employment-taxes/cpt/ 403'd to direct fetch again, a continuing durable block since 18 Sept; re-verified via WebSearch snippet instead — unchanged, standard eligibility/hours-limit/employer-specific language only, no reference to the August guidance"
+          "note": "re-attempted 21 Nov — iss.williams.edu/employment-taxes/cpt/ 403'd to direct fetch again, a continuing durable block since 18 Sept; re-verified via WebSearch snippet instead — unchanged, standard eligibility/hours-limit/employer-specific language only, no reference to the August guidance"
         },
         {
           "name": "Amherst",
@@ -457,7 +457,7 @@
         },
         {
           "name": "Middlebury",
-          "note": "re-verified 15 Nov directly on ISSS's own CPT page (middlebury.edu, page itself dated 'updated on 09/30/2026') — unchanged, no restriction or broadcast-message language"
+          "note": "re-verified 21 Nov on ISSS's own page — new 17 Nov banner: Winter 2027 CPT applications 'NOW OPEN...as a result of the court ruling,' implying a prior pause now lifted; fifth school to resume post-injunction; existing-approval treatment unstated"
         },
         {
           "name": "Bowdoin",
@@ -541,7 +541,7 @@
         },
         {
           "name": "Furman",
-          "note": "re-attempted 15 Nov — direct fetch of furman.edu's own CPT page hit a bot-check interstitial ('please wait while your request is being verified') for the first time; re-verified via WebSearch snippet instead — unchanged, standard major-related eligibility process only, no reference to the August guidance"
+          "note": "re-verified 21 Nov directly on the Thriving Communities Initiatives CPT page (furman.edu) — fetch succeeded, a recovery from the bot-check interstitial seen 15 Nov; unchanged, standard one-year eligibility and major-relatedness content only, no reference to the August guidance"
         },
         {
           "name": "Kenyon",
@@ -593,7 +593,7 @@
         },
         {
           "name": "Claremont McKenna",
-          "note": "checked every run — 21 Nov 00:08 UTC: direct fetch of CMC's own 'How to apply for CPT' page confirms unchanged, standard eligibility content only, no mention of the August guidance or the 17 Nov ruling; tier unchanged."
+          "note": "checked every run — 21 Nov 06:09 UTC: a fresh cmc.edu/tsl.news search again surfaced only the same 'How to apply for CPT' page and SIE FAQ, nothing new; direct fetch skipped since nothing looked new; tier unchanged."
         }
       ]
     },
@@ -657,6 +657,10 @@
   "context": "First CPT-specific litigation: on 5 Oct a coalition (AAU, Presidents' Alliance on Higher Education and Immigration, NAFSA, AICUM) sued DHS in federal court in Massachusetts over the Aug 12/24 BCMs, calling them procedurally invalid and impermissibly retroactive; case is Association of American Universities et al. v. U.S. Department of Homeland Security et al., No. 1:26-cv-14520 (D. Mass.). After a 6 Nov hearing, US District Judge Julia Kobick ruled 17 Nov 2026, granting a preliminary injunction and stay of agency action barring DHS from enforcing the Aug 12/24 BCMs as likely arbitrary and capricious under the APA. Not a final ruling; DHS may appeal and has declined to comment. Schools are reacting unevenly to the ruling rather than uniformly reverting — four (Buffalo, Alabama, UT Dallas, UC Berkeley) have fully reverted to pre-August standards on their own pages as of 20 Nov, several more (U Washington, UC San Diego, Boston University, Columbia, Michigan, UC Irvine, Penn) are reviewing or have only acknowledged the ruling with no change yet, and most official pages checked so far (DHS's own tripwire pages included) have not yet been updated to reflect it. No third broadcast message. DHS's prior stated position: 'nothing about these regulations has changed.' ICE is auditing schools, with SEVP decertification as the stated risk. Immigration attorneys flag a retroactive-scrutiny risk — past CPT revisited at the OPT, STEM-OPT or H-1B stage. The common institutional reading of the pre-injunction standard: integral to the curriculum, required of all students in the programme for degree completion, a documented cooperative agreement with the employer, and DSO authorisation before training begins.",
   "runs": [
     {
+      "date": "2026-11-21 06:09 UTC",
+      "summary": "Middlebury's own ISSS page revealed a previously-undisclosed CPT pause, now lifted: a new 17 Nov banner says Winter Term 2027 CPT applications are 'NOW OPEN...as a result of the court ruling' — a fifth school, after Buffalo, Alabama, UT Dallas and UC Berkeley, confirmed resuming CPT processing post-injunction. Columbia's reported resumption remains unconfirmed (a third isso.columbia.edu URL also blocked). DHS, Tufts, Claremont McKenna unchanged. Rotation re-verified Emory, Williams and Furman — unchanged. No new cancellations."
+    },
+    {
       "date": "2026-11-21 00:08 UTC",
       "summary": "Barnard moved from 'clear' to 'unstated': Columbia Daily Spectator (20 Nov) reports Barnard 'has yet to update its decision on CPT status' post-injunction, corroborating an earlier press claim of a paused CPT review. Columbia's own resumption remains unconfirmed. DHS, Tufts, Claremont McKenna unchanged. Rotation re-verified UW Tacoma, South Carolina, Oklahoma, Dartmouth — unchanged. No new cancellations."
     },
@@ -691,10 +695,6 @@
     {
       "date": "2026-11-19 00:09 UTC",
       "summary": "No school changed tier. UIUC's own ISSS blog (17 Nov post) is the first school to detail what it's doing during the injunction without reverting: resuming only the narrower CPT categories it already allowed (curriculum-integral, required class, thesis-related); existing-approval treatment still not addressed. Rotation re-verified FIU, La Verne, Cal State Fullerton (direct fetch recovered after a durable 503 since 25 Oct) and Ohio State — all unchanged, no ruling mention. DHS and Tufts tripwires, and Claremont McKenna, unchanged; no confirmed DHS appeal or CPT Federal Register rulemaking. No new cancellations."
-    },
-    {
-      "date": "2026-11-18 18:10 UTC",
-      "summary": "No school changed tier. Columbia's own 17 Nov ISSO post acknowledges the 17 Nov injunction but says ISSO is only 'preparing guidance' on what it means — no change yet, joining U Washington, UC San Diego and Boston University in that cautious posture. Rotation re-verified Brown, Northwestern, Boston College and UConn — all unchanged, no ruling mention on any of their own pages. DHS and Tufts tripwires, and Claremont McKenna, unchanged; no confirmed DHS appeal or CPT Federal Register rulemaking. No new cancellations."
     }
   ]
 }

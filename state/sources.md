@@ -1,6 +1,8 @@
 # SOURCES — what works, what is blocked, how to search each source
 (The research run may add or prune entries here as it learns; this file is meant to evolve.)
 
+TECHNIQUE — Notre Dame's main CPT policy page is issa.nd.edu/students/employment/curricular-practical-training/ (confirmed 26 Nov via an ISSA CPT info-session page's own link text), distinct from issa.nd.edu/immigration-updates/ (general immigration-news feed, no CPT content as of 26 Nov) and the 2019-dated CPT-checklist PDF some searches surface. That curricular-practical-training/ URL hadn't appeared in a WebSearch result yet this run (only in a WebFetch result), so a direct fetch of it 404'd — WebFetch's provenance check seems to require the URL from an actual WebSearch hit, not just any page text; search for it by name next time (e.g. "Notre Dame ISSA curricular practical training") before fetching it directly.
+
 VERIFICATION STANDARD: a school is "verified" restricted or clear only by the school's own page (ISSS/OISS/announcement blog — e.g. UIUC's is blogs.illinois.edu/view/8569, not isss.illinois.edu) or the school's student newspaper. Aggregator/agency/coaching sites (collegedunia, shiksha, yocket, leverageedu, education-agency zhihu posts) are NOT verification — keep the lead a lead and cite them only as the pointer. When promoting, read the official text for the honour/cancel posture so the school lands in the right tier first time.
 
 LEADING INDICATORS (students report DSO emails days before official pages change; every hit is a LEAD to verify, never a confirmation):
